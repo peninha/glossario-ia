@@ -1,5 +1,12 @@
 # Glossário de Inteligência Artificial
 # Estrutura YAML organizada por categorias com termos em ordem alfabética
+# Metadados
+metadata:
+  version: "1.0.0"
+  created: "2025-01-27"
+  language: "pt-BR"
+  authors: Pena
+  description: "Glossário abrangente de termos de Inteligência Artificial organizado por categorias temáticas"
 
 categories:
   - id: conceitos-fundamentais
@@ -27,7 +34,7 @@ categories:
         title_pt: Aprendizado Não Supervisionado
         title_en: Unsupervised Learning
         definition_pt: >
-          Busca padrões, estruturas ou agrupamentos em [dados](#dados) sem rótulos ou exemplos específicos. Exemplos: agrupar clientes similares, detectar anomalias, reduzir dimensionalidade de dados.
+          Busca padrões, estruturas ou agrupamentos em [dados](#dados) sem rótulos. Exemplos: agrupar clientes similares.
         tags: ["machine-learning", "aprendizado", "clustering"]
         
       - id: aprendizado-por-reforco
@@ -35,7 +42,7 @@ categories:
         title_pt: Aprendizado por Reforço
         title_en: Reinforcement Learning
         definition_pt: >
-          Método onde um [agente](#agente) aprende através de tentativa e erro, recebendo recompensas ou penalidades baseadas em suas ações. O agente interage com um [ambiente](#ambiente) e aprende a maximizar recompensas ao longo do tempo. Exemplos: jogos (AlphaGo, Dota 2), robótica, sistemas de recomendação adaptativos.
+          Método onde um [agente](#agente) aprende através de tentativa e erro, recebendo recompensas ou penalidades baseadas em suas ações. O agente interage com um [ambiente](#ambiente) e aprende a maximizar recompensas ao longo do tempo.
         tags: ["machine-learning", "aprendizado", "reforco"]
         
       - id: aprendizado-profundo
@@ -939,12 +946,4 @@ categories:
           Processos automatizados com IA que tomam decisões, aprendem com [dados](#dados) e se adaptam ao contexto, integrando sistemas de forma dinâmica e responsiva entre sistemas de IA e humanos.
         tags: ["processos", "adaptacao", "dinamismo"]
 
-# Metadados
-metadata:
-  version: "1.0.0"
-  created: "2025-01-27"
-  total_terms: 154
-  total_categories: 7
-  language: "pt-BR"
-  authors: ["AI Assistant"]
-  description: "Glossário abrangente de termos de Inteligência Artificial organizado por categorias temáticas"
+

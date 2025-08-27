@@ -204,9 +204,9 @@ Escolha uma das formas de explorar o conteúdo:
 
 Este é um projeto em constante evolução! Contribuições são bem-vindas:
 
-- [:material-github: Repositório no GitHub](https://github.com/seu-usuario/glossario-ia)
-- [:material-pencil: Sugerir melhorias](https://github.com/seu-usuario/glossario-ia/issues)
-- [:material-book-plus: Propor novos termos](https://github.com/seu-usuario/glossario-ia/issues)
+- [:material-github: Repositório no GitHub](https://github.com/peninha/glossario-ia)
+- [:material-pencil: Sugerir melhorias](https://github.com/peninha/glossario-ia/issues)
+- [:material-book-plus: Propor novos termos](https://github.com/peninha/glossario-ia/issues)
 
 ---
 
@@ -330,15 +330,15 @@ Este projeto é disponibilizado sob licença aberta. Você pode:
 
 Contribuições são muito bem-vindas! Você pode:
 
-1. **Reportar erros** via [GitHub Issues](https://github.com/seu-usuario/glossario-ia/issues)
+1. **Reportar erros** via [GitHub Issues](https://github.com/peninha/glossario-ia/issues)
 2. **Sugerir novos termos** com definições
 3. **Melhorar definições existentes**
 4. **Corrigir links ou formatação**
 
 ## 📧 Contato
 
-- GitHub: [@seu-usuario](https://github.com/seu-usuario)
-- Issues: [Reportar problema](https://github.com/seu-usuario/glossario-ia/issues)
+- GitHub: [@peninha](https://github.com/peninha)
+- Issues: [Reportar problema](https://github.com/peninha/glossario-ia/issues)
 
 ---
 
