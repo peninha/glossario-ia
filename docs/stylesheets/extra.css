@@ -1,0 +1,67 @@
+/* Estilos customizados para o Glossário de IA */
+
+/* Cards de termos */
+.grid.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.grid.cards li {
+    background: var(--md-default-bg-color);
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    list-style: none;
+    transition: all 0.2s ease;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.grid.cards li:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
+}
+
+.grid.cards li p {
+    margin-bottom: 0.8rem;
+    line-height: 1.6;
+}
+
+/* Tags de termos */
+.tags {
+    margin: 0.5rem 0;
+}
+
+.tags code {
+    background: var(--md-accent-bg-color);
+    color: var(--md-accent-fg-color);
+    padding: 0.1rem 0.3rem;
+    border-radius: 0.2rem;
+    font-size: 0.8rem;
+}
+
+/* Navegação de breadcrumbs */
+.breadcrumbs {
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    color: var(--md-default-fg-color--light);
+}
+
+/* Definições de termos */
+.definition {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: 1rem 0;
+}
+
+/* Links internos destacados */
+a[href^="#"] {
+    color: var(--md-accent-fg-color);
+    text-decoration: none;
+    border-bottom: 1px dotted;
+}
+
+a[href^="#"]:hover {
+    border-bottom: 1px solid;
+}

@@ -1,0 +1,950 @@
+# Glossário de Inteligência Artificial
+# Estrutura YAML organizada por categorias com termos em ordem alfabética
+
+categories:
+  - id: conceitos-fundamentais
+    title: Conceitos Fundamentais de IA
+    description: Conceitos básicos e fundamentais para compreender Inteligência Artificial
+    terms:
+      - id: algoritmo
+        slug: algoritmo
+        title_pt: Algoritmo
+        title_en: Algorithm
+        definition_pt: >
+          Conjunto de instruções ou regras que o computador segue para resolver um problema ou executar uma tarefa.
+        tags: ["conceitos-basicos", "computacao"]
+        
+      - id: aprendizado-maquina
+        slug: aprendizado-maquina
+        title_pt: Aprendizado de Máquina
+        title_en: Machine Learning
+        definition_pt: >
+          Subárea da IA em que os computadores "aprendem" a partir de [dados](#dados), sem serem explicitamente programados para cada tarefa.
+        tags: ["machine-learning", "aprendizado"]
+        
+      - id: aprendizado-nao-supervisionado
+        slug: aprendizado-nao-supervisionado
+        title_pt: Aprendizado Não Supervisionado
+        title_en: Unsupervised Learning
+        definition_pt: >
+          Busca padrões, estruturas ou agrupamentos em [dados](#dados) sem rótulos ou exemplos específicos. Exemplos: agrupar clientes similares, detectar anomalias, reduzir dimensionalidade de dados.
+        tags: ["machine-learning", "aprendizado", "clustering"]
+        
+      - id: aprendizado-por-reforco
+        slug: aprendizado-por-reforco
+        title_pt: Aprendizado por Reforço
+        title_en: Reinforcement Learning
+        definition_pt: >
+          Método onde um [agente](#agente) aprende através de tentativa e erro, recebendo recompensas ou penalidades baseadas em suas ações. O agente interage com um [ambiente](#ambiente) e aprende a maximizar recompensas ao longo do tempo. Exemplos: jogos (AlphaGo, Dota 2), robótica, sistemas de recomendação adaptativos.
+        tags: ["machine-learning", "aprendizado", "reforco"]
+        
+      - id: aprendizado-profundo
+        slug: aprendizado-profundo
+        title_pt: Aprendizado Profundo
+        title_en: Deep Learning
+        definition_pt: >
+          Subárea do [machine learning](#aprendizado-maquina) que utiliza [redes neurais artificiais](#redes-neurais-artificiais) com múltiplas camadas para aprender representações hierárquicas e complexas de dados, permitindo tarefas como reconhecimento de imagens e [processamento de linguagem natural](#processamento-linguagem-natural).
+        tags: ["deep-learning", "redes-neurais"]
+        
+      - id: aprendizado-supervisionado
+        slug: aprendizado-supervisionado
+        title_pt: Aprendizado Supervisionado
+        title_en: Supervised Learning
+        definition_pt: >
+          Usa [dados](#dados) rotulados (já identificados previamente) para ensinar o [modelo](#modelo) a realizar uma tarefa.
+        tags: ["machine-learning", "aprendizado", "supervisionado"]
+        
+      - id: classificacao
+        slug: classificacao
+        title_pt: Classificação
+        title_en: Classification
+        definition_pt: >
+          Tarefa em que o [modelo](#modelo) aprende a colocar [dados](#dados) em categorias ou classes específicas. Exemplos: identificar se um email é spam ou não spam, classificar imagens como gato ou cachorro, categorizar sentimentos como positivo, negativo ou neutro.
+        tags: ["machine-learning", "classificacao", "tarefas"]
+        
+      - id: dados
+        slug: dados
+        title_pt: Dados
+        title_en: Data
+        definition_pt: >
+          A matéria-prima da IA. Quanto mais numerosos, variados e de qualidade forem os dados, melhor tende a ser o desempenho do [modelo](#modelo).
+        tags: ["dados", "conceitos-basicos"]
+        
+      - id: generalizacao
+        slug: generalizacao
+        title_pt: Generalização
+        title_en: Generalization
+        definition_pt: >
+          Capacidade do [modelo](#modelo) de aplicar o que aprendeu no [treinamento](#treinamento) para situações novas, diferentes dos exemplos originais.
+        tags: ["machine-learning", "avaliacao"]
+        
+      - id: inferencia
+        slug: inferencia
+        title_pt: Inferência
+        title_en: Inference
+        definition_pt: >
+          Etapa em que o [modelo](#modelo) já treinado aplica o que aprendeu para analisar novos [dados](#dados) e dar respostas ou previsões.
+        tags: ["machine-learning", "inferencia"]
+        
+      - id: inteligencia-artificial
+        slug: inteligencia-artificial
+        title_pt: Inteligência Artificial
+        title_en: Artificial Intelligence
+        aliases: ["IA", "AI"]
+        definition_pt: >
+          Campo da ciência da computação que busca criar sistemas capazes de realizar tarefas que normalmente exigem inteligência humana, como reconhecer imagens, compreender linguagem ou tomar decisões.
+        tags: ["conceitos-basicos", "ia"]
+        
+      - id: modelo
+        slug: modelo
+        title_pt: Modelo
+        title_en: Model
+        definition_pt: >
+          Uma Inteligência Artificial específica, implementada/configurada para uso.
+        tags: ["machine-learning", "conceitos-basicos"]
+        
+      - id: parametro
+        slug: parametro
+        title_pt: Parâmetro
+        title_en: Parameter
+        definition_pt: >
+          Variável ajustável em um [modelo](#modelo) de IA que é otimizada durante o [treinamento](#treinamento) para melhorar o desempenho e a precisão das previsões.
+        tags: ["machine-learning", "parametros"]
+        
+      - id: pesos-e-vieses
+        slug: pesos-e-vieses
+        title_pt: Pesos e Vieses
+        title_en: Weights and Biases
+        aliases: ["W&B"]
+        definition_pt: >
+          [Parâmetros](#parametro) ajustáveis em [modelos](#modelo) de IA: os **pesos (weights)** multiplicam entradas/ativação nas camadas, enquanto os **vieses (biases)** deslocam a função de ativação, permitindo ajustes finos. Juntos, determinam como o modelo transforma entradas em saídas durante [treinamento](#treinamento) e [inferência](#inferencia).
+        tags: ["machine-learning", "parametros", "redes-neurais"]
+        
+      - id: processamento-linguagem-natural
+        slug: processamento-linguagem-natural
+        title_pt: Processamento de Linguagem Natural
+        title_en: Natural Language Processing
+        aliases: ["PLN", "NLP"]
+        definition_pt: >
+          Campo da IA que desenvolve sistemas capazes de entender, interpretar e gerar linguagem humana. Inclui tarefas como tradução automática, análise de sentimentos, chatbots, sumarização de textos e compreensão de perguntas.
+        tags: ["nlp", "linguagem", "texto"]
+        
+      - id: regressao
+        slug: regressao
+        title_pt: Regressão
+        title_en: Regression
+        definition_pt: >
+          Tarefa em que o [modelo](#modelo) aprende a prever valores numéricos contínuos. Exemplos: prever o preço de uma casa baseado em suas características, estimar a temperatura de amanhã, calcular o tempo de entrega de um produto.
+        tags: ["machine-learning", "regressao", "tarefas"]
+        
+      - id: redes-neurais-artificiais
+        slug: redes-neurais-artificiais
+        title_pt: Redes Neurais Artificiais
+        title_en: Artificial Neural Networks
+        definition_pt: >
+          [Modelos](#modelo) inspirados no cérebro humano, compostos por "neurônios artificiais" conectados, capazes de reconhecer padrões complexos em [dados](#dados).
+        tags: ["redes-neurais", "deep-learning"]
+        
+      - id: sobreajuste
+        slug: sobreajuste
+        title_pt: Sobreajuste
+        title_en: Overfitting
+        definition_pt: >
+          Quando o [modelo](#modelo) "decorou" demais os [dados](#dados) de treino e não consegue lidar bem com exemplos novos.
+        tags: ["machine-learning", "avaliacao", "problemas"]
+        
+      - id: subajuste
+        slug: subajuste
+        title_pt: Subajuste
+        title_en: Underfitting
+        definition_pt: >
+          Quando o [modelo](#modelo) é simples ou pouco treinado e não consegue nem aprender direito os [dados](#dados) de treino.
+        tags: ["machine-learning", "avaliacao", "problemas"]
+        
+      - id: treinamento
+        slug: treinamento
+        title_pt: Treinamento
+        title_en: Training
+        definition_pt: >
+          Processo de ajustar os [parâmetros](#parametro) de um [modelo](#modelo) de IA até que ele aprenda a realizar bem determinada tarefa.
+        tags: ["machine-learning", "treinamento"]
+        
+      - id: vies-e-variancia
+        slug: vies-e-variancia
+        title_pt: Viés e Variância
+        title_en: Bias and Variance
+        definition_pt: >
+          Duas fontes de erro em [modelos](#modelo): viés é simplificação exagerada, variância é excesso de sensibilidade aos [dados](#dados). O ideal é equilibrar ambos.
+        tags: ["machine-learning", "avaliacao", "estatistica"]
+        
+      - id: visao-computacional
+        slug: visao-computacional
+        title_pt: Visão Computacional
+        title_en: Computer Vision
+        definition_pt: >
+          Campo da IA que permite que computadores "vejam" e interpretem imagens e vídeos, realizando tarefas como reconhecimento de objetos, detecção de faces, segmentação de imagens e análise de movimento. Fundamental para aplicações como carros autônomos, sistemas de segurança e diagnóstico médico.
+        tags: ["computer-vision", "visao", "imagens"]
+
+  - id: ia-generativa
+    title: Conceitos Relacionados à IA Generativa
+    description: Conceitos específicos da inteligência artificial generativa e modelos de linguagem
+    terms:
+      - id: ajuste-fino
+        slug: ajuste-fino
+        title_pt: Ajuste Fino
+        title_en: Fine-Tuning
+        definition_pt: >
+          Etapa em que o [modelo](#modelo) é refinado com [dados](#dados) específicos, adaptando-o a tarefas ou contextos particulares.
+        tags: ["fine-tuning", "treinamento", "especializacao"]
+        
+      - id: ajuste-por-instrucao
+        slug: ajuste-por-instrucao
+        title_pt: Ajuste por Instrução
+        title_en: Instruction Tuning
+        definition_pt: >
+          Técnica para treinar [modelos](#modelo) a seguirem melhor instruções dadas em linguagem natural.
+        tags: ["instruction-tuning", "treinamento", "instrucoes"]
+        
+      - id: alucinacao
+        slug: alucinacao
+        title_pt: Alucinação
+        title_en: Hallucination
+        definition_pt: >
+          Quando um [modelo](#modelo) generativo cria informações falsas ou inventadas que parecem plausíveis.
+        tags: ["problemas", "qualidade", "veracidade"]
+        
+      - id: aprendizado-por-reforco-com-feedback-humano
+        slug: aprendizado-por-reforco-com-feedback-humano
+        title_pt: Aprendizado por Reforço com Feedback Humano
+        title_en: Reinforcement Learning from Human Feedback
+        aliases: ["RLHF"]
+        definition_pt: >
+          Método de alinhar [modelos](#modelo) generativos às preferências humanas, usando reforço baseado em feedback de avaliadores.
+        tags: ["rlhf", "alinhamento", "feedback-humano"]
+        
+      - id: dados-sinteticos
+        slug: dados-sinteticos
+        title_pt: Dados Sintéticos
+        title_en: Synthetic Data
+        definition_pt: >
+          [Dados](#dados) gerados artificialmente a partir de [modelos](#modelo) de IA, diferentes de dados gerados por humanos.
+        tags: ["dados", "sinteticos", "geracao"]
+        
+      - id: destilacao
+        slug: destilacao
+        title_pt: Destilação
+        title_en: Distillation
+        definition_pt: >
+          Técnica que treina uma IA aluna menor a imitar uma IA professor maior, usando os [dados sintéticos](#dados-sinteticos) gerados pela IA professor. Resultado: [modelo](#modelo) mais leve e rápido, com boa parte do desempenho preservado.
+        tags: ["otimizacao", "compressao", "destilacao"]
+        
+      - id: embeddings
+        slug: embeddings
+        title_pt: Vetorização Semântica
+        title_en: Embeddings
+        definition_pt: >
+          Representação matemática de palavras, frases ou documentos em vetores, permitindo que [modelos](#modelo) entendam relações semânticas entre eles.
+        tags: ["embeddings", "vetores", "semantica"]
+        
+      - id: gans
+        slug: gans
+        title_pt: Redes Adversárias Generativas
+        title_en: Generative Adversarial Networks
+        aliases: ["GANs"]
+        definition_pt: >
+          [Modelos](#modelo) que usam duas [redes neurais](#redes-neurais-artificiais) em competição (gerador e discriminador) para criar conteúdos melhores.
+        tags: ["gans", "geracao", "adversarial"]
+        
+      - id: ia-generativa
+        slug: ia-generativa
+        title_pt: IA Generativa
+        title_en: Generative AI
+        definition_pt: >
+          Área da IA voltada para a criação de novos conteúdos — textos, imagens, sons, vídeos — a partir de padrões aprendidos em grandes volumes de [dados](#dados).
+        tags: ["geracao", "conteudo", "criacao"]
+        
+      - id: janela-de-contexto
+        slug: janela-de-contexto
+        title_pt: Janela de Contexto
+        title_en: Context Window
+        definition_pt: >
+          Limite máximo de [tokens](#token) (palavras, caracteres) que um [modelo de linguagem](#modelos-de-linguagem) pode processar em uma única interação. Determina quanto texto o modelo "lembra" durante a conversa e afeta diretamente o custo computacional e a qualidade das respostas.
+        tags: ["contexto", "limitacoes", "memoria"]
+        
+      - id: mixture-of-experts
+        slug: mixture-of-experts
+        title_pt: Mistura de Especialistas
+        title_en: Mixture of Experts
+        aliases: ["MoE"]
+        definition_pt: >
+          Arquitetura em que vários "especialistas" (sub-redes) coexistem e um roteador escolhe apenas alguns para cada entrada/[token](#token). Isso permite um [modelo](#modelo) grande (com muitos [parâmetros](#parametro)) rodar com um custo de computação menor.
+        tags: ["arquitetura", "eficiencia", "especializacao"]
+        
+      - id: modelos-de-difusao
+        slug: modelos-de-difusao
+        title_pt: Modelos de Difusão
+        title_en: Diffusion Models
+        definition_pt: >
+          [Modelos](#modelo) de IA usados na geração de imagens, que criam figuras a partir de ruído, refinando-as progressivamente até se tornarem claras. Recentemente, modelos de difusão começaram a ser usados para geração de texto também.
+        tags: ["difusao", "geracao", "imagens"]
+        
+      - id: modelos-de-linguagem
+        slug: modelos-de-linguagem
+        title_pt: Modelos de Linguagem
+        title_en: Language Models
+        aliases: ["LMs"]
+        definition_pt: >
+          [Modelos](#modelo) capazes de compreender e gerar texto em linguagem natural.
+        tags: ["nlp", "linguagem", "texto"]
+        
+      - id: modelos-de-linguagem-grande-porte
+        slug: modelos-de-linguagem-grande-porte
+        title_pt: Modelos de Linguagem de Grande Porte
+        title_en: Large Language Models
+        aliases: ["LLMs"]
+        definition_pt: >
+          [Modelos de linguagem](#modelos-de-linguagem) com bilhões de [parâmetros](#parametro), capazes de compreender e gerar texto em linguagem natural com alta qualidade. Exemplos: GPT-4, Claude, LLaMA. Requerem infraestrutura computacional significativa para [treinamento](#treinamento) e [inferência](#inferencia).
+        tags: ["llms", "linguagem", "grande-escala"]
+        
+      - id: modelos-de-linguagem-pequeno-porte
+        slug: modelos-de-linguagem-pequeno-porte
+        title_pt: Modelos de Linguagem de Pequeno Porte
+        title_en: Small Language Models
+        aliases: ["SLMs"]
+        definition_pt: >
+          [Modelos de linguagem](#modelos-de-linguagem) com menos [parâmetros](#parametro) (milhões a poucos bilhões), otimizados para eficiência computacional e execução em dispositivos com recursos limitados. Equilibram qualidade e velocidade para aplicações específicas.
+        tags: ["slms", "eficiencia", "dispositivos-limitados"]
+        
+      - id: modelos-de-raciocinio
+        slug: modelos-de-raciocinio
+        title_pt: Modelos de Raciocínio
+        title_en: Reasoning Models
+        definition_pt: >
+          [Modelos de linguagem](#modelos-de-linguagem) que podem realizar tarefas de raciocínio complexo por meio de técnicas como [cadeia-de-pensamento](#cadeia-de-pensamento) e [auto-reflexão](#auto-reflexao) que produzem uma série de [tokens](#token) internos, que são então usados para gerar a resposta final. O modelo utiliza mais tempo de computação para gerar respostas mais precisas para tarefas complexas.
+        tags: ["raciocinio", "pensamento", "complexidade"]
+        
+      - id: modelos-multimodais
+        slug: modelos-multimodais
+        title_pt: Modelos Multimodais
+        title_en: Multimodal Models
+        definition_pt: >
+          Sistemas de IA capazes de processar e gerar múltiplos tipos de [dados](#dados) simultaneamente (texto, imagem, áudio, vídeo). Permitem tarefas como descrição de imagens, geração de conteúdo baseado em diferentes mídias e compreensão contextual rica.
+        tags: ["multimodal", "multiplos-tipos", "integracao"]
+        
+      - id: prompt
+        slug: prompt
+        title_pt: Prompt
+        title_en: Prompt
+        definition_pt: >
+          A entrada (pergunta, instrução ou comando) que o usuário fornece para que o [modelo](#modelo) generativo produza uma resposta.
+        tags: ["entrada", "instrucao", "comando"]
+        
+      - id: quantizacao
+        slug: quantizacao
+        title_pt: Quantização
+        title_en: Quantization
+        definition_pt: >
+          Reduz a precisão numérica de [pesos](#pesos-e-vieses)/ativações (ex.: 16→8→4 bits) para economizar **memória, custo e tempo de [inferência](#inferencia)**. Pequena perda de acurácia é comum.
+        tags: ["otimizacao", "compressao", "eficiencia"]
+        
+      - id: rag
+        slug: rag
+        title_pt: Geração Aumentada por Recuperação
+        title_en: Retrieval-Augmented Generation
+        aliases: ["RAG"]
+        definition_pt: >
+          Técnica que combina geração de texto com recuperação de informações em bases externas (ex.: documentos, web, bancos de dados), aumentando a precisão das respostas.
+        tags: ["rag", "recuperacao", "precisao"]
+        
+      - id: speech-to-text
+        slug: speech-to-text
+        title_pt: Speech to Text
+        title_en: Speech to Text
+        aliases: ["STT"]
+        definition_pt: >
+          Tecnologia que converte fala humana em texto escrito, permitindo que sistemas de IA compreendam comandos de voz, transcrevam conversas e facilitem a interação por voz. Base da tecnologia de reconhecimento de fala.
+        tags: ["fala", "texto", "reconhecimento"]
+        
+      - id: text-to-speech
+        slug: text-to-speech
+        title_pt: Text to Speech
+        title_en: Text to Speech
+        aliases: ["TTS"]
+        definition_pt: >
+          Tecnologia que converte texto escrito em fala natural, permitindo que sistemas de IA "falem" com entonação, ritmo e pronúncia humanas. Usada em assistentes virtuais, audiobooks e acessibilidade.
+        tags: ["texto", "fala", "sintese"]
+        
+      - id: token
+        slug: token
+        title_pt: Token
+        title_en: Token
+        definition_pt: >
+          Unidade mínima em que o texto é dividido para processamento. Pode ser uma palavra, parte dela ou até um caractere.
+        tags: ["processamento", "unidade", "texto"]
+        
+      - id: transformer
+        slug: transformer
+        title_pt: Transformer
+        title_en: Transformer
+        definition_pt: >
+          Arquitetura de [rede neural](#redes-neurais-artificiais) que revolucionou a [IA generativa](#ia-generativa), permitindo o processamento eficiente de sequências longas de [dados](#dados).
+        tags: ["arquitetura", "revolucao", "sequencias"]
+        
+      - id: treinamento-previo
+        slug: treinamento-previo
+        title_pt: Treinamento Prévio
+        title_en: Pretraining
+        definition_pt: >
+          Fase inicial em que o [modelo](#modelo) aprende padrões gerais da linguagem ou de imagens a partir de enormes conjuntos de [dados](#dados).
+        tags: ["pretraining", "fase-inicial", "padroes"]
+
+  - id: agentes-ia
+    title: Agentes de IA
+    description: Conceitos relacionados a sistemas de IA que atuam como agentes autônomos
+    terms:
+      - id: acoes
+        slug: acoes
+        title_pt: Ações
+        title_en: Actions
+        definition_pt: >
+          O que o [agente](#agente) pode fazer: responder em texto, clicar/navegar, chamar ferramentas (APIs), executar código, mover atuadores (no caso de robôs).
+        tags: ["agentes", "capacidades", "interacao"]
+        
+      - id: agente-autonomo
+        slug: agente-autonomo
+        title_pt: Agente Autônomo
+        title_en: Autonomous Agent
+        definition_pt: >
+          Sistema de IA que opera independentemente com mínima supervisão humana, tomando decisões e executando [ações](#acoes) baseadas em seus [objetivos](#objetivo) e percepções do [ambiente](#ambiente). Pode aprender e adaptar-se a mudanças, mas mantém limites de segurança e conformidade definidos por humanos.
+        tags: ["autonomia", "independencia", "adaptacao"]
+        
+      - id: agente
+        slug: agente
+        title_pt: Agente
+        title_en: AI Agent
+        definition_pt: >
+          Sistema que percebe o [ambiente](#ambiente), decide e age para atingir [objetivos](#objetivo). Pode ser puramente digital (bot, assistente) ou físico (robô). Opera no ciclo *perceber → decidir → agir*.
+        tags: ["agentes", "ciclo", "decisao"]
+        
+      - id: ambiente
+        slug: ambiente
+        title_pt: Ambiente
+        title_en: Environment
+        definition_pt: >
+          O contexto onde o [agente](#agente) atua (tudo que está "fora" dele). Pode ser totalmente ou parcialmente observável, determinístico ou estocástico, estático ou dinâmico.
+        tags: ["contexto", "observabilidade", "dinamismo"]
+        
+      - id: autonomia-e-supervisao-humana
+        slug: autonomia-e-supervisao-humana
+        title_pt: Autonomia e Supervisão Humana
+        title_en: Human-in-the-Loop
+        aliases: ["HITL"]
+        definition_pt: >
+          Definição de níveis de autonomia, checkpoints de aprovação, trilhas de auditoria e limites de escopo para segurança, conformidade e alinhamento com [objetivos](#objetivo) humanos.
+        tags: ["supervisao", "controle", "seguranca"]
+        
+      - id: enxame
+        slug: enxame
+        title_pt: Enxame
+        title_en: Swarm
+        definition_pt: >
+          Abordagem multiagente inspirada em inteligência de enxame (formigas, abelhas, cardumes), em que muitos [agentes](#agente) simples cooperam com regras locais para resolver problemas. Utiliza mecanismos como votação, leilão de tarefas, sinais/"feromônios" virtuais e difusão de mensagens para convergência.
+        tags: ["swarm", "cooperacao", "emergencia"]
+        
+      - id: estado
+        slug: estado
+        title_pt: Estado
+        title_en: State
+        definition_pt: >
+          Representação do que é relevante no momento para decidir. Pode ser o próprio contexto de um [LLM](#modelos-de-linguagem-grande-porte), uma memória de curto prazo ou um "estado oculto" quando parte do [ambiente](#ambiente) não é observável.
+        tags: ["representacao", "decisao", "memoria"]
+        
+      - id: exploracao-vs-aproveitamento
+        slug: exploracao-vs-aproveitamento
+        title_pt: Exploração vs. Aproveitamento
+        title_en: Exploration vs. Exploitation
+        definition_pt: >
+          Dilema fundamental em [aprendizado por reforço](#aprendizado-por-reforco): explorar novas [ações](#acoes) para descobrir melhores [recompensas](#recompensa) ou aproveitar o conhecimento atual para maximizar o retorno conhecido.
+        tags: ["dilema", "exploracao", "aproveitamento"]
+        
+      - id: ferramentas
+        slug: ferramentas
+        title_pt: Ferramentas
+        title_en: Tools
+        definition_pt: >
+          Conectores e interfaces externas que um [agente](#agente) pode acionar para ampliar suas capacidades: calculadora, navegação e busca web, [RAG](#rag)/bases de conhecimento, planilhas e bancos de dados, interpretador/execução de código, automações e serviços de terceiros, além de atuadores físicos (robótica).
+        tags: ["extensoes", "capacidades", "integracao"]
+        
+      - id: memoria-e-contexto
+        slug: memoria-e-contexto
+        title_pt: Memória e Contexto
+        title_en: Memory and Context
+        definition_pt: >
+          Mecanismos para manter continuidade: [janela de contexto](#janela-de-contexto) (curto prazo), memória vetorial/BD (longo prazo) e logs. Ajudam a não "recomeçar do zero" a cada passo.
+        tags: ["continuidade", "persistencia", "historia"]
+        
+      - id: objetivo
+        slug: objetivo
+        title_pt: Objetivo
+        title_en: Goal
+        definition_pt: >
+          Define o que o [agente](#agente) busca e orienta suas decisões e [ações](#acoes). Exemplos: "responder ao cliente", "navegar até um destino", "resolver um problema matemático". O objetivo serve como bússola para o comportamento do agente.
+        tags: ["meta", "orientacao", "proposito"]
+        
+      - id: observacoes
+        slug: observacoes
+        title_pt: Observações
+        title_en: Observations
+        aliases: ["Percepção"]
+        definition_pt: >
+          Informações que o [agente](#agente) recebe do [ambiente](#ambiente): texto de usuários, páginas web, leituras de sensores, respostas de APIs etc. Servem de base para decidir a próxima [ação](#acoes).
+        tags: ["entrada", "percepcao", "informacao"]
+        
+      - id: orquestracao
+        slug: orquestracao
+        title_pt: Orquestração
+        title_en: Orchestration
+        aliases: ["Planner-Executor", "Críticos", "Supervisores"]
+        definition_pt: >
+          Coordenação de múltiplos [agentes](#agente) ou componentes com papéis especializados: planejadores que definem estratégias, executores que realizam [ações](#acoes), críticos que avaliam resultados e supervisores que mantêm controle geral.
+        tags: ["coordenacao", "especializacao", "controle"]
+        
+      - id: persona-ou-papel
+        slug: persona-ou-papel
+        title_pt: Persona ou Papel
+        title_en: Role
+        definition_pt: >
+          Configuração que define estilo, tom, personalidade e características de um [agente](#agente). (ex.: "tutor paciente", "analista jurídico cauteloso").
+        tags: ["personalidade", "caracteristicas", "comportamento"]
+        
+      - id: planejamento
+        slug: planejamento
+        title_pt: Planejamento
+        title_en: Planning
+        definition_pt: >
+          Escolha de sequências de [ações](#acoes) para alcançar [objetivos](#objetivo).
+        tags: ["estrategia", "sequencia", "alcance"]
+        
+      - id: politica
+        slug: politica
+        title_pt: Política
+        title_en: Policy
+        definition_pt: >
+          Regra que mapeia [estados](#estado)/[observações](#observacoes) em [ações](#acoes). Pode ser uma [rede neural](#redes-neurais-artificiais) treinada, um conjunto de regras ou um [prompt](#prompt) que orienta decisões de um [LLM](#modelos-de-linguagem-grande-porte)-agente.
+        tags: ["mapeamento", "decisao", "comportamento"]
+        
+      - id: recompensa
+        slug: recompensa
+        title_pt: Recompensa
+        title_en: Reward
+        definition_pt: >
+          Sinal (geralmente numérico) que indica sucesso parcial ou total — comum em [aprendizado por reforço](#aprendizado-por-reforco). Exemplo: nota ao concluir uma tarefa.
+        tags: ["feedback", "sucesso", "avaliacao"]
+        
+      - id: sistemas-multiagentes
+        slug: sistemas-multiagentes
+        title_pt: Sistemas Multiagentes
+        title_en: Multi-Agent Systems
+        aliases: ["MAS"]
+        definition_pt: >
+          Vários [agentes](#agente) cooperando com papéis complementares (ex.: pesquisador, redator, revisor). Exigem protocolos de comunicação e estratégias de coordenação.
+        tags: ["cooperacao", "coordenacao", "comunicacao"]
+
+  - id: escopo-ias
+    title: Escopo das IAs
+    description: Classificação dos diferentes níveis e tipos de inteligência artificial
+    terms:
+      - id: inteligencia-artificial-geral
+        slug: inteligencia-artificial-geral
+        title_pt: Inteligência Artificial Geral
+        title_en: Artificial General Intelligence
+        aliases: ["IAG", "AGI"]
+        definition_pt: >
+          Sistema capaz de desempenhar uma ampla variedade de tarefas, em nível comparável ao humano, com raciocínio, [planejamento](#planejamento) e adaptação a contextos novos. Conceito ainda em debate e sem consenso. Uma definição possível é de um "sistema capaz de executar qualquer tarefa cognitiva em um nível pelo menos equivalente a qualquer ser humano".
+        tags: ["agi", "generalidade", "debate"]
+        
+      - id: inteligencia-artificial-restrita
+        slug: inteligencia-artificial-restrita
+        title_pt: Inteligência Artificial Restrita
+        title_en: Artificial Narrow Intelligence
+        aliases: ["IAR", "ANI", "IA estreita", "IA fraca"]
+        definition_pt: >
+          Sistemas especializados em tarefas específicas. Excelentes dentro de um domínio, mas não generalizam sozinhos para outros. Exemplos: filtros de spam, recomendação de conteúdo, reconhecimento de fala, jogar xadrez, condução assistida.
+        tags: ["especializacao", "limitacao", "dominio"]
+        
+      - id: inteligencia-artificial-superior
+        slug: inteligencia-artificial-superior
+        title_pt: Inteligência Artificial Superior
+        title_en: Artificial Super Intelligence
+        aliases: ["IAS", "ASI"]
+        definition_pt: >
+          Sistemas que excedem amplamente o desempenho humano em praticamente todas as tarefas cognitivas relevantes. Podem realizar auto-aperfeiçoamento e apresentar capacidades estratégicas elevadas. Trazem desafios de [alinhamento](#alinhamento-em-ia), governança e segurança substanciais.
+        tags: ["superioridade", "auto-aperfeicoamento", "desafios"]
+
+  - id: etica-seguranca-governanca
+    title: Conceitos Éticos, de Segurança e de Governança
+    description: Princípios, práticas e regulamentações para uso responsável de IA
+    terms:
+      - id: alinhamento-em-ia
+        slug: alinhamento-em-ia
+        title_pt: Alinhamento em IA
+        title_en: AI Alignment
+        definition_pt: >
+          Área de pesquisa que busca garantir que sistemas de IA, mesmo aqueles super inteligentes, ajam de forma alinhada aos valores e [objetivos](#objetivo) humanos.
+        tags: ["alinhamento", "valores", "pesquisa"]
+        
+      - id: anonimizacao
+        slug: anonimizacao
+        title_pt: Anonimização
+        title_en: Anonymization
+        definition_pt: >
+          Processo de remover ou alterar informações identificáveis de [dados](#dados) para proteger a identidade dos indivíduos, garantindo a privacidade em tráfego, análises e armazenamento.
+        tags: ["privacidade", "protecao", "identidade"]
+        
+      - id: aprendizado-federado
+        slug: aprendizado-federado
+        title_pt: Aprendizado Federado
+        title_en: Federated Learning
+        definition_pt: >
+          [Treinamento](#treinamento) de IA descentralizado para preservar a privacidade dos [dados](#dados) (ver [anonimização](#anonimizacao)).
+        tags: ["descentralizacao", "privacidade", "federado"]
+        
+      - id: ataques-de-prompt
+        slug: ataques-de-prompt
+        title_pt: Ataques de Prompt
+        title_en: Prompt Injection
+        definition_pt: >
+          Técnicas que induzem o [modelo](#modelo) a ignorar instruções/limites e gerar saídas indesejadas.
+        tags: ["ataques", "seguranca", "manipulacao"]
+        
+      - id: conformidade
+        slug: conformidade
+        title_pt: Conformidade
+        title_en: Compliance
+        definition_pt: >
+          Adequação de sistemas de IA a marcos regulatórios, normas técnicas e políticas internas. Inclui avaliações de risco/impacto, classificações por nível de risco e requisitos de documentação.
+        tags: ["regulamentacao", "adequacao", "normas"]
+        
+      - id: deriva-de-dados
+        slug: deriva-de-dados
+        title_pt: Deriva de Dados
+        title_en: Data Drift
+        definition_pt: >
+          Mudanças na distribuição dos [dados](#dados) de entrada ao longo do tempo que podem degradar o desempenho do [modelo](#modelo). Exige [monitoramento contínuo](#monitoramento-continuo) e estratégias de adaptação.
+        tags: ["degradacao", "mudanca", "adaptacao"]
+        
+      - id: deriva-de-modelo
+        slug: deriva-de-modelo
+        title_pt: Deriva de Modelo
+        title_en: Model Drift
+        definition_pt: >
+          Degradação do desempenho do [modelo](#modelo) devido a mudanças no [ambiente](#ambiente) ou nos [dados](#dados). Requer [treinamento](#treinamento) periódico para manutenção da qualidade.
+        tags: ["degradacao", "manutencao", "qualidade"]
+        
+      - id: exemplos-adversariais
+        slug: exemplos-adversariais
+        title_pt: Exemplos Adversariais
+        title_en: Adversarial Examples
+        definition_pt: >
+          Perturbações sutis em entradas (texto/imagem/áudio) que levam o [modelo](#modelo) ao erro. Defesas: *adversarial training*, regularização e detecção de anomalias.
+        tags: ["perturbacoes", "erro", "defesas"]
+        
+      - id: explicabilidade
+        slug: explicabilidade
+        title_pt: Explicabilidade
+        title_en: Explainability
+        aliases: ["XAI"]
+        definition_pt: >
+          Capacidade de um [modelo](#modelo) em explicar, de maneira confiável, como chegou a uma determinada decisão.
+        tags: ["transparencia", "explicacao", "decisao"]
+        
+      - id: gestao-de-incidentes
+        slug: gestao-de-incidentes
+        title_pt: Gestão de Incidentes
+        title_en: Incident Management
+        definition_pt: >
+          Processos estruturados para identificar, responder e resolver problemas em sistemas de IA, incluindo protocolos de escalação, comunicação e recuperação.
+        tags: ["incidentes", "resposta", "recuperacao"]
+        
+      - id: guard-rails
+        slug: guard-rails
+        title_pt: Guard Rails
+        title_en: Guardrails
+        definition_pt: >
+          Conjuntos de restrições e limites implementados em sistemas de IA para possibilitar operações seguras e éticas.
+        tags: ["restricoes", "limites", "seguranca"]
+        
+      - id: guidelines
+        slug: guidelines
+        title_pt: Guidelines
+        title_en: Guidelines
+        definition_pt: >
+          Diretrizes que orientam o desenvolvimento e uso responsável de sistemas de IA.
+        tags: ["diretrizes", "orientacao", "responsabilidade"]
+        
+      - id: ia-etica
+        slug: ia-etica
+        title_pt: IA Ética
+        title_en: Ethical AI
+        definition_pt: >
+          O mesmo que [IA Responsável](#ia-responsavel), mas com um foco maior na ética.
+        tags: ["etica", "responsabilidade", "principios"]
+        
+      - id: ia-responsavel
+        slug: ia-responsavel
+        title_pt: IA Responsável
+        title_en: Responsible AI
+        definition_pt: >
+          Conjunto de princípios e práticas para projetar, treinar, avaliar e operar sistemas de IA de forma segura, ética e justa.
+        tags: ["responsabilidade", "principios", "praticas"]
+        
+      - id: interpretabilidade
+        slug: interpretabilidade
+        title_pt: Interpretabilidade
+        title_en: Interpretability
+        definition_pt: >
+          Área de pesquisa que busca compreender os mecanismos internos de um [modelo](#modelo) que geram uma determinada saída ou decisão.
+        tags: ["compreensao", "mecanismos", "pesquisa"]
+        
+      - id: jailbreak
+        slug: jailbreak
+        title_pt: Jailbreak
+        title_en: Jailbreak
+        definition_pt: >
+          Técnica que induz o [modelo](#modelo) a ignorar restrições e agir livremente, possivelmente de maneira maliciosa ou insegura.
+        tags: ["restricoes", "manipulacao", "inseguranca"]
+        
+      - id: marcacao-de-conteudo-sintetico
+        slug: marcacao-de-conteudo-sintetico
+        title_pt: Marcação de Conteúdo Sintético
+        title_en: Synthetic Content Marking
+        definition_pt: >
+          Técnicas para indicar que um conteúdo foi gerado por IA (ex.: marcas d'água, assinaturas criptográficas, padrões de proveniência). Auxiliam no combate a *deepfakes* e desinformação.
+        tags: ["marcacao", "identificacao", "desinformacao"]
+        
+      - id: moderacao-de-conteudo
+        slug: moderacao-de-conteudo
+        title_pt: Moderação de Conteúdo
+        title_en: Content Moderation
+        definition_pt: >
+          Sistemas e processos para identificar, filtrar e remover conteúdo inadequado, nocivo ou que violam políticas de uso.
+        tags: ["filtragem", "politicas", "adequacao"]
+        
+      - id: monitoramento-continuo
+        slug: monitoramento-continuo
+        title_pt: Monitoramento Contínuo
+        title_en: Continuous Monitoring
+        definition_pt: >
+          Acompanhamento sistemático do desempenho e comportamento dos sistemas de IA em produção, incluindo métricas, alertas e detecção de anomalias.
+        tags: ["acompanhamento", "metricas", "producao"]
+        
+      - id: observabilidade-de-ia
+        slug: observabilidade-de-ia
+        title_pt: Observabilidade de IA
+        title_en: AI Observability
+        definition_pt: >
+          Monitoramento em tempo real sobre o comportamento de sistemas de IA, facilitando a detecção de anomalias.
+        tags: ["tempo-real", "comportamento", "anomalias"]
+        
+      - id: regulacao-de-ia
+        slug: regulacao-de-ia
+        title_pt: Regulação de IA
+        title_en: AI Regulation
+        definition_pt: >
+          Marco legal e normativo que estabelece regras para o desenvolvimento, uso e comercialização de sistemas de IA. Define responsabilidades, limites e requisitos de segurança para diferentes aplicações.
+        tags: ["legal", "regras", "responsabilidades"]
+        
+      - id: responsabilizacao-algoritmica
+        slug: responsabilizacao-algoritmica
+        title_pt: Responsabilização Algorítmica
+        title_en: Algorithmic Accountability
+        definition_pt: >
+          Responsabilidade pelos impactos das decisões automatizadas.
+        tags: ["responsabilidade", "impactos", "decisoes"]
+        
+      - id: robustez
+        slug: robustez
+        title_pt: Robustez
+        title_en: Robustness
+        definition_pt: >
+          Capacidade de um sistema de IA de manter desempenho confiável mesmo em condições adversas ou com [dados](#dados) inesperados. Inclui resistência a falhas, ruído e variações nos dados de entrada.
+        tags: ["confiabilidade", "resistencia", "estabilidade"]
+        
+      - id: seguranca-de-ia-safety
+        slug: seguranca-de-ia-safety
+        title_pt: Segurança de IA
+        title_en: AI Safety
+        definition_pt: >
+          Área focada em garantir que sistemas de IA funcionem de forma segura e alinhada aos valores humanos. Aborda riscos como [alinhamento](#alinhamento-em-ia) incorreto, comportamento inesperado e capacidades emergentes que podem representar ameaças à humanidade.
+        tags: ["seguranca", "valores-humanos", "riscos"]
+        
+      - id: seguranca-de-ia-security
+        slug: seguranca-de-ia-security
+        title_pt: Segurança de IA
+        title_en: AI Security
+        definition_pt: >
+          Proteção de sistemas de IA contra ataques, vazamentos de [dados](#dados) e uso malicioso. Inclui resistência a [ataques de prompt](#ataques-de-prompt), defesa contra [exemplos adversariais](#exemplos-adversariais) e prevenção de [jailbreaks](#jailbreak).
+        tags: ["protecao", "ataques", "prevencao"]
+        
+      - id: vies-e-equidade
+        slug: vies-e-equidade
+        title_pt: Viés e Equidade
+        title_en: Bias and Fairness
+        definition_pt: >
+          Identificação e mitigação de preconceitos nos [modelos](#modelo) de IA.
+        tags: ["preconceitos", "mitigacao", "equidade"]
+
+  - id: habilidades-praticas
+    title: Habilidades e Práticas para Profissionais de IA
+    description: Competências e técnicas essenciais para trabalhar efetivamente com IA
+    terms:
+      - id: auto-consistencia
+        slug: auto-consistencia
+        title_pt: Auto-consistência
+        title_en: Self-Consistency
+        definition_pt: >
+          Executar múltiplas amostragens e escolher a resposta mais consistente/consensual. Reduz [alucinações](#alucinacao) e melhora raciocínio em problemas abertos.
+        tags: ["consistencia", "consenso", "qualidade"]
+        
+      - id: auto-reflexao
+        slug: auto-reflexao
+        title_pt: Auto-reflexão
+        title_en: Self-Reflection
+        definition_pt: >
+          Padrão onde o [modelo](#modelo) analisa a própria saída, identifica falhas e propõe correções ("critique, depois revise"). Aumenta qualidade em tarefas complexas.
+        tags: ["reflexao", "autocritica", "melhoria"]
+        
+      - id: cadeia-de-pensamento
+        slug: cadeia-de-pensamento
+        title_pt: Cadeia-de-Pensamento
+        title_en: Chain-of-Thought
+        aliases: ["CoT"]
+        definition_pt: >
+          Estratégias para induzir passos de raciocínio durante a geração de texto, com o objetivo de melhorar a qualidade das respostas.
+        tags: ["raciocinio", "passos", "qualidade"]
+        
+      - id: decomposicao-de-tarefas
+        slug: decomposicao-de-tarefas
+        title_pt: Decomposição de Tarefas
+        title_en: Task Decomposition
+        definition_pt: >
+          Quebrar [objetivos](#objetivo) amplos em etapas mensuráveis (ex.: checklists).
+        tags: ["quebra", "etapas", "organizacao"]
+        
+      - id: design-de-guard-rails
+        slug: design-de-guard-rails
+        title_pt: Design de Guard-Rails
+        title_en: Guard-Rails Design
+        definition_pt: >
+          Arquitetar políticas, classificadores e checagens (pré/pós) para manter o sistema dentro de limites de segurança, [conformidade](#conformidade) e tom de marca.
+        tags: ["arquitetura", "politicas", "limites"]
+        
+      - id: engenharia-de-contexto
+        slug: engenharia-de-contexto
+        title_pt: Engenharia de Contexto
+        title_en: Context Engineering
+        definition_pt: >
+          Gestão da [janela de contexto](#janela-de-contexto): seleção, compressão e ordenação de informações relevantes; uso de *prefill*, *system prompts*, anotações e memória para aumentar qualidade e consistência.
+        tags: ["gestao", "contexto", "qualidade"]
+        
+      - id: engenharia-de-prompt
+        slug: engenharia-de-prompt
+        title_pt: Engenharia de Prompt
+        title_en: Prompt Engineering
+        definition_pt: >
+          Técnicas para criar [prompts](#prompt) eficazes: papéis, [objetivos](#objetivo) claros, restrições, exemplos, formatos de saída e critérios de qualidade/teste.
+        tags: ["tecnicas", "eficacia", "criterios"]
+        
+      - id: fusion-skills
+        slug: fusion-skills
+        title_pt: Fusion Skills
+        title_en: Fusion Skills
+        definition_pt: >
+          Combinação integrada de expertise humana (domínio, criatividade, julgamento) com capacidades da IA (geração, busca, análise). O profissional alterna papéis: orquestra, critica e complementa a IA.
+        tags: ["integracao", "expertise", "complementaridade"]
+        
+      - id: red-teaming-de-ia
+        slug: red-teaming-de-ia
+        title_pt: Red Teaming de IA
+        title_en: AI Red Teaming
+        definition_pt: >
+          Testes ofensivos controlados para descobrir falhas, vieses e caminhos de abuso ([ataques de prompt](#ataques-de-prompt), [jailbreak](#jailbreak), fuga de [dados](#dados)), com planos de correção.
+        tags: ["testes", "falhas", "abuso"]
+        
+      - id: vibe-coding
+        slug: vibe-coding
+        title_pt: Vibe Coding
+        title_en: Vibe Coding
+        definition_pt: >
+          Prática exploratória de criar programas/apps/sites/etc. utilizando IA sem a necessidade de conhecimentos prévios de programação, priorizando fluxo criativo, testes curtos e aprendizagem pelo fazer.
+        tags: ["exploracao", "criatividade", "aprendizagem"]
+        
+      - id: zero-shot-e-few-shot
+        slug: zero-shot-e-few-shot
+        title_pt: Zero-shot e Few-shot
+        title_en: Zero-shot and Few-shot
+        definition_pt: >
+          Formas de orientar o [modelo](#modelo) sem (zero) ou com poucos exemplos (few). Úteis para ensinar formato, estilo e critérios de avaliação dentro do próprio [prompt](#prompt).
+        tags: ["orientacao", "exemplos", "avaliacao"]
+
+  - id: infraestrutura-processos
+    title: Infraestrutura e Processos
+    description: Tecnologias e metodologias para implementação e operação de sistemas de IA
+    terms:
+      - id: api
+        slug: api
+        title_pt: API
+        title_en: Application Programming Interface
+        definition_pt: >
+          Interface que permite que programas se comuniquem entre si.
+        tags: ["interface", "comunicacao", "integracao"]
+        
+      - id: computacao-de-borda
+        slug: computacao-de-borda
+        title_pt: Computação de Borda
+        title_en: Edge Computing
+        definition_pt: >
+          Execução de [modelos](#modelo) **próxima da fonte dos [dados](#dados)** (celulares, IoT, veículos), reduzindo latência e custo de tráfego e aumentando privacidade. Impõe restrições de memória/energia; por isso, usa-se [quantização](#quantizacao), [destilação](#destilacao) e operadores otimizados (NPUs, DSPs).
+        tags: ["borda", "latencia", "privacidade"]
+        
+      - id: mcp
+        slug: mcp
+        title_pt: MCP
+        title_en: Model Context Protocol
+        definition_pt: >
+          Protocolo que permite que [agentes](#agente) de IA se comuniquem entre si e com outros sistemas.
+        tags: ["protocolo", "comunicacao", "agentes"]
+        
+      - id: orquestracao-de-ia
+        slug: orquestracao-de-ia
+        title_pt: Orquestração de IA
+        title_en: AI Orchestration
+        definition_pt: >
+          Criar sinergia entre humanos e automação inteligente, coordenando sistemas, [modelos](#modelo) e fluxos de trabalho de forma colaborativa. Vai além de tarefas — integra processos com inteligência adaptativa.
+        tags: ["sinergia", "coordenacao", "inteligencia-adaptativa"]
+        
+      - id: pipeline-de-dados
+        slug: pipeline-de-dados
+        title_pt: Pipeline de Dados
+        title_en: Data Pipeline
+        definition_pt: >
+          Cadeia de processamento e preparação de [dados](#dados) para alimentar [modelos](#modelo) de IA.
+        tags: ["processamento", "preparacao", "cadeia"]
+        
+      - id: workflows-inteligentes
+        slug: workflows-inteligentes
+        title_pt: Workflows Inteligentes
+        title_en: Intelligent Workflows
+        definition_pt: >
+          Processos automatizados com IA que tomam decisões, aprendem com [dados](#dados) e se adaptam ao contexto, integrando sistemas de forma dinâmica e responsiva entre sistemas de IA e humanos.
+        tags: ["processos", "adaptacao", "dinamismo"]
+
+# Metadados
+metadata:
+  version: "1.0.0"
+  created: "2025-01-27"
+  total_terms: 154
+  total_categories: 7
+  language: "pt-BR"
+  authors: ["AI Assistant"]
+  description: "Glossário abrangente de termos de Inteligência Artificial organizado por categorias temáticas"

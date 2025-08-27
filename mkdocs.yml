@@ -1,0 +1,112 @@
+site_name: Glossário de Inteligência Artificial
+site_description: Glossário abrangente de termos de IA organizado por categorias temáticas
+site_author: Pena
+site_url: https://glossario-ia.github.io
+
+# Repositório
+repo_name: glossario-ia
+repo_url: https://github.com/peninha/glossario-ia
+edit_uri: edit/main/docs/
+
+# Tema
+theme:
+  name: material
+  language: pt
+  palette:
+    # Modo claro
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Mudar para modo escuro
+    # Modo escuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Mudar para modo claro
+  
+  features:
+    - navigation.expand
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.action.edit
+    - content.action.view
+    - toc.follow
+
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil
+    view: material/eye
+
+# Extensões do Markdown
+markdown_extensions:
+  - toc:
+      permalink: true
+      title: Nesta página
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - footnotes
+  - tables
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+# Plugins
+plugins:
+  - search:
+      lang: pt
+
+# Navegação
+nav:
+  - Início: index.md
+  - Categorias:
+    - Conceitos Fundamentais: conceitos-fundamentais/index.md
+    - IA Generativa: ia-generativa/index.md
+    - Agentes de IA: agentes-ia/index.md
+    - Escopo das IAs: escopo-ias/index.md
+    - Ética, Segurança e Governança: etica-seguranca-governanca/index.md
+    - Habilidades e Práticas: habilidades-praticas/index.md
+    - Infraestrutura e Processos: infraestrutura-processos/index.md
+  - Por Ordem Alfabética: alfabetico.md
+  - Tags: tags.md
+  - Sobre: sobre.md
+
+# CSS customizado
+extra_css:
+  - stylesheets/extra.css
+
+# JavaScript customizado
+extra_javascript:
+  - javascripts/extra.js
+
+# Configurações extras
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/peninha/glossario-ia
+  analytics:
+    provider: google
+    property: G-CQX3BCTCG2 # Substitua pelo seu Google Analytics ID
+
+# Copyright
+copyright: Copyright &copy; 2025 - Glossário de IA
