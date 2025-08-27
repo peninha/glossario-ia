@@ -1,2 +1,2 @@
 # glossario-ia
-Glossário mais abrangente de IA em língua portuguesa
+Glossário mais abrangente sobre Inteligência Artificial em língua portuguesa
