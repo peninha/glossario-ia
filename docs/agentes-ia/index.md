@@ -12,17 +12,17 @@ Conceitos relacionados a sistemas de IA que atuam como agentes autônomos
 
     O que o [agente](../agentes-ia/agente.md) pode fazer: responder em texto, clicar/navegar, chamar ferramentas (APIs), executar código, mover atuadores (no caso de robôs).
 
+- **[Agente](agente.md)**
+
+    *Agent*
+
+    Sistema que percebe o [ambiente](../agentes-ia/ambiente.md), decide e age para atingir [objetivos](../agentes-ia/objetivo.md). Pode ser puramente digital (bot, assistente) ou físico (robô). Opera no ciclo *perceber → decidir → agir*.
+
 - **[Agente Autônomo](agente-autonomo.md)**
 
     *Autonomous Agent*
 
     Sistema de IA que opera independentemente com mínima supervisão humana, tomando decisões e executando [ações](../agentes-ia/acoes.md) baseadas em seus [objetivos](../agentes-ia/objetivo.md) e percepções do [ambiente](../agentes-ia/ambiente.md). Pode aprender e adaptar-se a mudanças, mas mantém limites de segurança e conformidade definidos por humanos.
-
-- **[Agente](agente.md)**
-
-    *AI Agent*
-
-    Sistema que percebe o [ambiente](../agentes-ia/ambiente.md), decide e age para atingir [objetivos](../agentes-ia/objetivo.md). Pode ser puramente digital (bot, assistente) ou físico (robô). Opera no ciclo *perceber → decidir → agir*.
 
 - **[Ambiente](ambiente.md)**
 

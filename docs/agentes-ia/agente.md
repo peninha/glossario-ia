@@ -1,6 +1,6 @@
 # Agente
 
-**AI Agent**
+**Agent**
 
 Sistema que percebe o [ambiente](../agentes-ia/ambiente.md), decide e age para atingir [objetivos](../agentes-ia/objetivo.md). Pode ser puramente digital (bot, assistente) ou físico (robô). Opera no ciclo *perceber → decidir → agir*.
 

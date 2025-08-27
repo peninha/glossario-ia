@@ -33,15 +33,15 @@ Este projeto é disponibilizado sob licença aberta. Você pode:
 
 Contribuições são muito bem-vindas! Você pode:
 
-1. **Reportar erros** via [GitHub Issues](https://github.com/seu-usuario/glossario-ia/issues)
+1. **Reportar erros** via [GitHub Issues](https://github.com/peninha/glossario-ia/issues)
 2. **Sugerir novos termos** com definições
 3. **Melhorar definições existentes**
 4. **Corrigir links ou formatação**
 
 ## 📧 Contato
 
-- GitHub: [@seu-usuario](https://github.com/seu-usuario)
-- Issues: [Reportar problema](https://github.com/seu-usuario/glossario-ia/issues)
+- GitHub: [@peninha](https://github.com/peninha)
+- Issues: [Reportar problema](https://github.com/peninha/glossario-ia/issues)
 
 ---
 

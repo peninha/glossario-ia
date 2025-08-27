@@ -416,7 +416,15 @@ categories:
         definition_pt: >
           O que o [agente](#agente) pode fazer: responder em texto, clicar/navegar, chamar ferramentas (APIs), executar código, mover atuadores (no caso de robôs).
         tags: ["agentes", "capacidades", "interacao"]
-        
+      
+      - id: agente
+        slug: agente
+        title_pt: Agente
+        title_en: Agent
+        definition_pt: >
+          Sistema que percebe o [ambiente](#ambiente), decide e age para atingir [objetivos](#objetivo). Pode ser puramente digital (bot, assistente) ou físico (robô). Opera no ciclo *perceber → decidir → agir*.
+        tags: ["agentes", "ciclo", "decisao"]
+      
       - id: agente-autonomo
         slug: agente-autonomo
         title_pt: Agente Autônomo
@@ -424,14 +432,6 @@ categories:
         definition_pt: >
           Sistema de IA que opera independentemente com mínima supervisão humana, tomando decisões e executando [ações](#acoes) baseadas em seus [objetivos](#objetivo) e percepções do [ambiente](#ambiente). Pode aprender e adaptar-se a mudanças, mas mantém limites de segurança e conformidade definidos por humanos.
         tags: ["autonomia", "independencia", "adaptacao"]
-        
-      - id: agente
-        slug: agente
-        title_pt: Agente
-        title_en: AI Agent
-        definition_pt: >
-          Sistema que percebe o [ambiente](#ambiente), decide e age para atingir [objetivos](#objetivo). Pode ser puramente digital (bot, assistente) ou físico (robô). Opera no ciclo *perceber → decidir → agir*.
-        tags: ["agentes", "ciclo", "decisao"]
         
       - id: ambiente
         slug: ambiente

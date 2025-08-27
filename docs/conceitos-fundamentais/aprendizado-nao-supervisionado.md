@@ -2,7 +2,7 @@
 
 **Unsupervised Learning**
 
-Busca padrões, estruturas ou agrupamentos em [dados](../conceitos-fundamentais/dados.md) sem rótulos ou exemplos específicos. Exemplos: agrupar clientes similares, detectar anomalias, reduzir dimensionalidade de dados.
+Busca padrões, estruturas ou agrupamentos em [dados](../conceitos-fundamentais/dados.md) sem rótulos. Exemplos: agrupar clientes similares.
 
 
 **Tags:** `machine-learning` · `aprendizado` · `clustering`

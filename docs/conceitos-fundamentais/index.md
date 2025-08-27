@@ -22,13 +22,13 @@ Conceitos básicos e fundamentais para compreender Inteligência Artificial
 
     *Unsupervised Learning*
 
-    Busca padrões, estruturas ou agrupamentos em [dados](../conceitos-fundamentais/dados.md) sem rótulos ou exemplos específicos. Exemplos: agrupar clientes similares, detectar anomalias, reduzir dimensionalidade de dados.
+    Busca padrões, estruturas ou agrupamentos em [dados](../conceitos-fundamentais/dados.md) sem rótulos. Exemplos: agrupar clientes similares.
 
 - **[Aprendizado por Reforço](aprendizado-por-reforco.md)**
 
     *Reinforcement Learning*
 
-    Método onde um [agente](../agentes-ia/agente.md) aprende através de tentativa e erro, recebendo recompensas ou penalidades baseadas em suas ações. O agente interage com um [ambiente](../agentes-ia/ambiente.md) e aprende a maximizar recompensas ao longo do tempo. Exemplos: jogos (AlphaGo, Dota 2), robótica, sistemas de recomendação adaptativos.
+    Método onde um [agente](../agentes-ia/agente.md) aprende através de tentativa e erro, recebendo recompensas ou penalidades baseadas em suas ações. O agente interage com um [ambiente](../agentes-ia/ambiente.md) e aprende a maximizar recompensas ao longo do tempo.
 
 - **[Aprendizado Profundo](aprendizado-profundo.md)**
 

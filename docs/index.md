@@ -91,9 +91,9 @@ Tecnologias e metodologias para implementação e operação de sistemas de IA
 
 Este é um projeto em constante evolução! Contribuições são bem-vindas:
 
-- [:material-github: Repositório no GitHub](https://github.com/seu-usuario/glossario-ia)
-- [:material-pencil: Sugerir melhorias](https://github.com/seu-usuario/glossario-ia/issues)
-- [:material-book-plus: Propor novos termos](https://github.com/seu-usuario/glossario-ia/issues)
+- [:material-github: Repositório no GitHub](https://github.com/peninha/glossario-ia)
+- [:material-pencil: Sugerir melhorias](https://github.com/peninha/glossario-ia/issues)
+- [:material-book-plus: Propor novos termos](https://github.com/peninha/glossario-ia/issues)
 
 ---
 

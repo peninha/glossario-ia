@@ -39,7 +39,7 @@ Explore termos por tags temáticas:
 
 **3 termos:**
 
-- **[Agente](agentes-ia/agente.md)** *(Agentes de IA)* — AI Agent
+- **[Agente](agentes-ia/agente.md)** *(Agentes de IA)* — Agent
 - **[Ações](agentes-ia/acoes.md)** *(Agentes de IA)* — Actions
 - **[MCP](infraestrutura-processos/mcp.md)** *(Infraestrutura e Processos)* — Model Context Protocol
 
@@ -162,7 +162,7 @@ Explore termos por tags temáticas:
 
 **1 termos:**
 
-- **[Agente](agentes-ia/agente.md)** *(Agentes de IA)* — AI Agent
+- **[Agente](agentes-ia/agente.md)** *(Agentes de IA)* — Agent
 
 ## Classificacao
 
@@ -339,7 +339,7 @@ Explore termos por tags temáticas:
 
 **4 termos:**
 
-- **[Agente](agentes-ia/agente.md)** *(Agentes de IA)* — AI Agent
+- **[Agente](agentes-ia/agente.md)** *(Agentes de IA)* — Agent
 - **[Estado](agentes-ia/estado.md)** *(Agentes de IA)* — State
 - **[Explicabilidade](etica-seguranca-governanca/explicabilidade.md)** *(Conceitos Éticos, de Segurança e de Governança)* — Explainability
 - **[Política](agentes-ia/politica.md)** *(Agentes de IA)* — Policy

@@ -4,7 +4,7 @@ Todos os termos do glossário em ordem alfabética:
 
 ## A
 
-- **[Agente](agentes-ia/agente.md)** *(Agentes de IA)* — AI Agent
+- **[Agente](agentes-ia/agente.md)** *(Agentes de IA)* — Agent
 - **[Agente Autônomo](agentes-ia/agente-autonomo.md)** *(Agentes de IA)* — Autonomous Agent
 - **[Ajuste Fino](ia-generativa/ajuste-fino.md)** *(Conceitos Relacionados à IA Generativa)* — Fine-Tuning
 - **[Ajuste por Instrução](ia-generativa/ajuste-por-instrucao.md)** *(Conceitos Relacionados à IA Generativa)* — Instruction Tuning

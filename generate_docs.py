@@ -4,6 +4,9 @@ Gerador de documentação para o Glossário de IA
 Converte o arquivo glossario.yaml em páginas Markdown para MkDocs
 """
 
+# TODO:
+# - [ ] Refinar a lista de Tags
+
 import yaml
 import os
 from pathlib import Path
