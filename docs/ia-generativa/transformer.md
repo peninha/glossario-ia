@@ -5,7 +5,7 @@
 Arquitetura de [rede neural](../conceitos-fundamentais/redes-neurais-artificiais.md) que revolucionou a [IA generativa](../ia-generativa/ia-generativa.md), permitindo o processamento eficiente de sequências longas de [dados](../conceitos-fundamentais/dados.md).
 
 
-**Tags:** `arquitetura` · `revolucao` · `sequencias`
+**Tags:** [`deep-learning`](../tags.md#deep-learning)
 
 ---
 

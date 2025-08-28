@@ -5,7 +5,7 @@
 Escolha de sequências de [ações](../agentes-ia/acoes.md) para alcançar [objetivos](../agentes-ia/objetivo.md).
 
 
-**Tags:** `estrategia` · `sequencia` · `alcance`
+**Tags:** [`agents`](../tags.md#agents)
 
 ---
 

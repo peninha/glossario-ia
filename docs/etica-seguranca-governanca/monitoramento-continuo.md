@@ -5,7 +5,7 @@
 Acompanhamento sistemático do desempenho e comportamento dos sistemas de IA em produção, incluindo métricas, alertas e detecção de anomalias.
 
 
-**Tags:** `acompanhamento` · `metricas` · `producao`
+**Tags:** [`safety`](../tags.md#safety) · [`training`](../tags.md#training)
 
 ---
 

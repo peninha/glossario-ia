@@ -5,7 +5,7 @@
 Arquitetar políticas, classificadores e checagens (pré/pós) para manter o sistema dentro de limites de segurança, [conformidade](../etica-seguranca-governanca/conformidade.md) e tom de marca.
 
 
-**Tags:** `arquitetura` · `politicas` · `limites`
+**Tags:** [`deep-learning`](../tags.md#deep-learning) · [`governance`](../tags.md#governance) · [`safety`](../tags.md#safety)
 
 ---
 

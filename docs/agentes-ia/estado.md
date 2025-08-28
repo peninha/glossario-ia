@@ -5,7 +5,7 @@
 Representação do que é relevante no momento para decidir. Pode ser o próprio contexto de um [LLM](../ia-generativa/modelos-de-linguagem-grande-porte.md), uma memória de curto prazo ou um "estado oculto" quando parte do [ambiente](../agentes-ia/ambiente.md) não é observável.
 
 
-**Tags:** `representacao` · `decisao` · `memoria`
+**Tags:** [`agents`](../tags.md#agents) · [`generative-ai`](../tags.md#generative-ai)
 
 ---
 

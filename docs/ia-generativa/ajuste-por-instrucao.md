@@ -5,7 +5,7 @@
 Técnica para treinar [modelos](../conceitos-fundamentais/modelo.md) a seguirem melhor instruções dadas em linguagem natural.
 
 
-**Tags:** `instruction-tuning` · `treinamento` · `instrucoes`
+**Tags:** [`training`](../tags.md#training)
 
 ---
 

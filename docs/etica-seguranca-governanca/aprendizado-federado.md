@@ -5,7 +5,7 @@
 [Treinamento](../conceitos-fundamentais/treinamento.md) de IA descentralizado para preservar a privacidade dos [dados](../conceitos-fundamentais/dados.md) (ver [anonimização](../etica-seguranca-governanca/anonimizacao.md)).
 
 
-**Tags:** `descentralizacao` · `privacidade` · `federado`
+**Tags:** [`security`](../tags.md#security)
 
 ---
 

@@ -5,7 +5,7 @@
 Identificação e mitigação de preconceitos nos [modelos](../conceitos-fundamentais/modelo.md) de IA.
 
 
-**Tags:** `preconceitos` · `mitigacao` · `equidade`
+**Tags:** [`ethics`](../tags.md#ethics)
 
 ---
 

@@ -5,7 +5,7 @@
 Método onde um [agente](../agentes-ia/agente.md) aprende através de tentativa e erro, recebendo recompensas ou penalidades baseadas em suas ações. O agente interage com um [ambiente](../agentes-ia/ambiente.md) e aprende a maximizar recompensas ao longo do tempo.
 
 
-**Tags:** `machine-learning` · `aprendizado` · `reforco`
+**Tags:** [`machine-learning`](../tags.md#machine-learning) · [`reinforcement-learning`](../tags.md#reinforcement-learning)
 
 ---
 

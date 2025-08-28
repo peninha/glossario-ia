@@ -5,7 +5,7 @@
 Uma Inteligência Artificial específica, implementada/configurada para uso.
 
 
-**Tags:** `machine-learning` · `conceitos-basicos`
+**Tags:** [`machine-learning`](../tags.md#machine-learning)
 
 ---
 

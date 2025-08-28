@@ -5,7 +5,7 @@
 Técnica que treina uma IA aluna menor a imitar uma IA professor maior, usando os [dados sintéticos](../ia-generativa/dados-sinteticos.md) gerados pela IA professor. Resultado: [modelo](../conceitos-fundamentais/modelo.md) mais leve e rápido, com boa parte do desempenho preservado.
 
 
-**Tags:** `otimizacao` · `compressao` · `destilacao`
+**Tags:** [`training`](../tags.md#training)
 
 ---
 

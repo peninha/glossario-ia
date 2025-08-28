@@ -5,7 +5,7 @@
 Sinal (geralmente numérico) que indica sucesso parcial ou total — comum em [aprendizado por reforço](../conceitos-fundamentais/aprendizado-por-reforco.md). Exemplo: nota ao concluir uma tarefa.
 
 
-**Tags:** `feedback` · `sucesso` · `avaliacao`
+**Tags:** [`reinforcement-learning`](../tags.md#reinforcement-learning)
 
 ---
 

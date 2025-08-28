@@ -5,7 +5,7 @@
 Abordagem multiagente inspirada em inteligência de enxame (formigas, abelhas, cardumes), em que muitos [agentes](../agentes-ia/agente.md) simples cooperam com regras locais para resolver problemas. Utiliza mecanismos como votação, leilão de tarefas, sinais/"feromônios" virtuais e difusão de mensagens para convergência.
 
 
-**Tags:** `swarm` · `cooperacao` · `emergencia`
+**Tags:** [`multiagents`](../tags.md#multiagents)
 
 ---
 

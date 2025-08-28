@@ -5,7 +5,7 @@
 Método de alinhar [modelos](../conceitos-fundamentais/modelo.md) generativos às preferências humanas, usando reforço baseado em feedback de avaliadores.
 
 
-**Tags:** `rlhf` · `alinhamento` · `feedback-humano`
+**Tags:** [`reinforcement-learning`](../tags.md#reinforcement-learning) · [`safety`](../tags.md#safety)
 
 ---
 

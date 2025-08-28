@@ -38,52 +38,52 @@ Escolha uma das formas de explorar o conteúdo:
 
 ## 📚 Categorias
 
-### [Conceitos Fundamentais de IA](conceitos-fundamentais/index.md)
+### [Conceitos Fundamentais](conceitos-fundamentais/index.md)
 
-Conceitos básicos e fundamentais para compreender Inteligência Artificial
+Conceitos relacionados a conceitos fundamentais
 
-**22 termos**
+**23 termos**
 
-### [Conceitos Relacionados à IA Generativa](ia-generativa/index.md)
+### [IA Generativa](ia-generativa/index.md)
 
-Conceitos específicos da inteligência artificial generativa e modelos de linguagem
+Conceitos relacionados a ia generativa
 
 **25 termos**
 
 ### [Agentes de IA](agentes-ia/index.md)
 
-Conceitos relacionados a sistemas de IA que atuam como agentes autônomos
+Conceitos relacionados a agentes de ia
 
-**18 termos**
+**19 termos**
 
 ### [Escopo das IAs](escopo-ias/index.md)
 
-Classificação dos diferentes níveis e tipos de inteligência artificial
+Conceitos relacionados a escopo das ias
 
 **3 termos**
 
-### [Conceitos Éticos, de Segurança e de Governança](etica-seguranca-governanca/index.md)
+### [Ética, Segurança e Governança](etica-seguranca-governanca/index.md)
 
-Princípios, práticas e regulamentações para uso responsável de IA
+Conceitos relacionados a ética, segurança e governança
 
 **26 termos**
 
-### [Habilidades e Práticas para Profissionais de IA](habilidades-praticas/index.md)
+### [Habilidades e Práticas](habilidades-praticas/index.md)
 
-Competências e técnicas essenciais para trabalhar efetivamente com IA
+Conceitos relacionados a habilidades e práticas
 
 **11 termos**
 
 ### [Infraestrutura e Processos](infraestrutura-processos/index.md)
 
-Tecnologias e metodologias para implementação e operação de sistemas de IA
+Conceitos relacionados a infraestrutura e processos
 
 **6 termos**
 
 
 ## 📊 Estatísticas
 
-- **111** termos totais
+- **112** termos totais
 - **7** categorias
 - **Última atualização:** 2025-01-27
 

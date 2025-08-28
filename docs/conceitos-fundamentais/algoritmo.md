@@ -5,7 +5,7 @@
 Conjunto de instruções ou regras que o computador segue para resolver um problema ou executar uma tarefa.
 
 
-**Tags:** `conceitos-basicos` · `computacao`
+**Tags:** [`machine-learning`](../tags.md#machine-learning) · [`workflow`](../tags.md#workflow)
 
 ---
 

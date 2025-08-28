@@ -5,7 +5,7 @@
 Tecnologia que converte texto escrito em fala natural, permitindo que sistemas de IA "falem" com entonação, ritmo e pronúncia humanas. Usada em assistentes virtuais, audiobooks e acessibilidade.
 
 
-**Tags:** `texto` · `fala` · `sintese`
+**Tags:** [`generative-ai`](../tags.md#generative-ai)
 
 ---
 

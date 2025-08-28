@@ -5,7 +5,7 @@
 Define o que o [agente](../agentes-ia/agente.md) busca e orienta suas decisões e [ações](../agentes-ia/acoes.md). Exemplos: "responder ao cliente", "navegar até um destino", "resolver um problema matemático". O objetivo serve como bússola para o comportamento do agente.
 
 
-**Tags:** `meta` · `orientacao` · `proposito`
+**Tags:** [`agents`](../tags.md#agents)
 
 ---
 

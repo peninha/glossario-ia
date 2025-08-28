@@ -5,7 +5,7 @@
 Duas fontes de erro em [modelos](../conceitos-fundamentais/modelo.md): viés é simplificação exagerada, variância é excesso de sensibilidade aos [dados](../conceitos-fundamentais/dados.md). O ideal é equilibrar ambos.
 
 
-**Tags:** `machine-learning` · `avaliacao` · `estatistica`
+**Tags:** [`machine-learning`](../tags.md#machine-learning) · [`reinforcement-learning`](../tags.md#reinforcement-learning)
 
 ---
 

@@ -5,7 +5,7 @@
 Processo de remover ou alterar informações identificáveis de [dados](../conceitos-fundamentais/dados.md) para proteger a identidade dos indivíduos, garantindo a privacidade em tráfego, análises e armazenamento.
 
 
-**Tags:** `privacidade` · `protecao` · `identidade`
+**Tags:** [`security`](../tags.md#security)
 
 ---
 

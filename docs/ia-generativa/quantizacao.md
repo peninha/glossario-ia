@@ -5,7 +5,7 @@
 Reduz a precisão numérica de [pesos](../conceitos-fundamentais/pesos-e-vieses.md)/ativações (ex.: 16→8→4 bits) para economizar **memória, custo e tempo de [inferência](../conceitos-fundamentais/inferencia.md)**. Pequena perda de acurácia é comum.
 
 
-**Tags:** `otimizacao` · `compressao` · `eficiencia`
+**Tags:** [`training`](../tags.md#training)
 
 ---
 

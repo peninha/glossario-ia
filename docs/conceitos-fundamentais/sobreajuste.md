@@ -5,7 +5,7 @@
 Quando o [modelo](../conceitos-fundamentais/modelo.md) "decorou" demais os [dados](../conceitos-fundamentais/dados.md) de treino e não consegue lidar bem com exemplos novos.
 
 
-**Tags:** `machine-learning` · `avaliacao` · `problemas`
+**Tags:** [`generative-ai`](../tags.md#generative-ai) · [`machine-learning`](../tags.md#machine-learning) · [`reinforcement-learning`](../tags.md#reinforcement-learning)
 
 ---
 

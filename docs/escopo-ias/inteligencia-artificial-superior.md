@@ -5,8 +5,6 @@
 Sistemas que excedem amplamente o desempenho humano em praticamente todas as tarefas cognitivas relevantes. Podem realizar auto-aperfeiçoamento e apresentar capacidades estratégicas elevadas. Trazem desafios de [alinhamento](../etica-seguranca-governanca/alinhamento-em-ia.md), governança e segurança substanciais.
 
 
-**Tags:** `superioridade` · `auto-aperfeicoamento` · `desafios`
-
 ---
 
 [:material-arrow-left: Voltar para Escopo das IAs](index.md){ .md-button }

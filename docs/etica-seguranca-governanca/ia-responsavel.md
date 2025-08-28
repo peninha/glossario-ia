@@ -5,7 +5,7 @@
 Conjunto de princípios e práticas para projetar, treinar, avaliar e operar sistemas de IA de forma segura, ética e justa.
 
 
-**Tags:** `responsabilidade` · `principios` · `praticas`
+**Tags:** [`ethics`](../tags.md#ethics) · [`prompt-engineering`](../tags.md#prompt-engineering)
 
 ---
 

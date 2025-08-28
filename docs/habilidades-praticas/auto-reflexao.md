@@ -5,7 +5,7 @@
 Padrão onde o [modelo](../conceitos-fundamentais/modelo.md) analisa a própria saída, identifica falhas e propõe correções ("critique, depois revise"). Aumenta qualidade em tarefas complexas.
 
 
-**Tags:** `reflexao` · `autocritica` · `melhoria`
+**Tags:** [`prompt-engineering`](../tags.md#prompt-engineering)
 
 ---
 

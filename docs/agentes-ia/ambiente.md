@@ -5,7 +5,7 @@
 O contexto onde o [agente](../agentes-ia/agente.md) atua (tudo que está "fora" dele). Pode ser totalmente ou parcialmente observável, determinístico ou estocástico, estático ou dinâmico.
 
 
-**Tags:** `contexto` · `observabilidade` · `dinamismo`
+**Tags:** [`agents`](../tags.md#agents) · [`generative-ai`](../tags.md#generative-ai) · [`safety`](../tags.md#safety)
 
 ---
 

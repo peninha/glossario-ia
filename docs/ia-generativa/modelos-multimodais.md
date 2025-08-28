@@ -5,7 +5,7 @@
 Sistemas de IA capazes de processar e gerar múltiplos tipos de [dados](../conceitos-fundamentais/dados.md) simultaneamente (texto, imagem, áudio, vídeo). Permitem tarefas como descrição de imagens, geração de conteúdo baseado em diferentes mídias e compreensão contextual rica.
 
 
-**Tags:** `multimodal` · `multiplos-tipos` · `integracao`
+**Tags:** [`generative-ai`](../tags.md#generative-ai) · [`workflow`](../tags.md#workflow)
 
 ---
 

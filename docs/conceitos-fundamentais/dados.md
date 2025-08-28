@@ -5,7 +5,7 @@
 A matéria-prima da IA. Quanto mais numerosos, variados e de qualidade forem os dados, melhor tende a ser o desempenho do [modelo](../conceitos-fundamentais/modelo.md).
 
 
-**Tags:** `dados` · `conceitos-basicos`
+**Tags:** [`machine-learning`](../tags.md#machine-learning)
 
 ---
 

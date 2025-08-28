@@ -5,7 +5,7 @@
 Configuração que define estilo, tom, personalidade e características de um [agente](../agentes-ia/agente.md). (ex.: "tutor paciente", "analista jurídico cauteloso").
 
 
-**Tags:** `personalidade` · `caracteristicas` · `comportamento`
+**Tags:** [`agents`](../tags.md#agents) · [`safety`](../tags.md#safety)
 
 ---
 

@@ -20,9 +20,27 @@ def load_glossary(file_path: str = "glossario.yaml") -> Dict[str, Any]:
 def build_term_map(glossary: Dict[str, Any]) -> Dict[str, str]:
     """Constrói um mapa de slug -> caminho completo para todos os termos"""
     term_map = {}
-    for category in glossary['categories']:
-        for term in category['terms']:
-            term_map[term['slug']] = f"../{category['id']}/{term['slug']}.md"
+    # Adaptado para novo formato YAML
+    if 'categories' in glossary and isinstance(glossary['categories'], list):
+        # Formato antigo
+        for category in glossary['categories']:
+            for term in category['terms']:
+                term_map[term['slug']] = f"../{category['id']}/{term['slug']}.md"
+    elif 'categorias' in glossary and 'termos' in glossary:
+        # Formato novo
+        categoria_mapping = {
+            'fundamentos': 'conceitos-fundamentais',
+            'generative': 'ia-generativa', 
+            'agents': 'agentes-ia',
+            'scope': 'escopo-ias',
+            'ethics': 'etica-seguranca-governanca',
+            'skills': 'habilidades-praticas',
+            'infrastructure': 'infraestrutura-processos'
+        }
+        for term_id, term_data in glossary['termos'].items():
+            if term_id != '.template':  # Skip template
+                categoria_slug = categoria_mapping.get(term_data['categoria'], term_data['categoria'])
+                term_map[term_id] = f"../{categoria_slug}/{term_id}.md"
     return term_map
 
 def fix_internal_links(text: str, glossary: Dict[str, Any]) -> str:
@@ -85,8 +103,14 @@ def create_term_page(term: Dict[str, Any], category_id: str, glossary: Dict[str,
     # Tags
     if 'tags' in term:
         content += "**Tags:** "
-        tags = [f"`{tag}`" for tag in term['tags']]
-        content += " · ".join(tags) + "\n\n"
+        # Create clickable links to tags page with anchors
+        tag_links = []
+        for tag in term['tags']:
+            # MkDocs creates anchors by converting to lowercase
+            # Our tags are already in lowercase with hyphens, perfect for anchors
+            anchor = tag.lower()
+            tag_links.append(f"[`{tag}`](../tags.md#{anchor})")
+        content += " · ".join(tag_links) + "\n\n"
     
     # Links de navegação
     content += "---\n\n"
@@ -189,19 +213,50 @@ Escolha uma das formas de explorar o conteúdo:
 """
     
     # Lista das categorias
-    for category in glossary['categories']:
-        content += f"### [{category['title']}]({category['id']}/index.md)\n\n"
-        content += f"{category['description']}\n\n"
-        content += f"**{len(category['terms'])} termos**\n\n"
+    if 'categories' in glossary and isinstance(glossary['categories'], list):
+        # Formato antigo
+        for category in glossary['categories']:
+            content += f"### [{category['title']}]({category['id']}/index.md)\n\n"
+            content += f"{category['description']}\n\n"
+            content += f"**{len(category['terms'])} termos**\n\n"
+    elif 'categorias' in glossary and 'termos' in glossary:
+        # Formato novo
+        categoria_mapping = {
+            'fundamentos': 'conceitos-fundamentais',
+            'generative': 'ia-generativa', 
+            'agents': 'agentes-ia',
+            'scope': 'escopo-ias',
+            'ethics': 'etica-seguranca-governanca',
+            'skills': 'habilidades-praticas',
+            'infrastructure': 'infraestrutura-processos'
+        }
+        
+        # Contar termos por categoria
+        termo_count = {}
+        for term_data in glossary['termos'].values():
+            if isinstance(term_data, dict) and 'categoria' in term_data:
+                cat = term_data['categoria']
+                termo_count[cat] = termo_count.get(cat, 0) + 1
+        
+        for cat_id, cat_name in glossary['categorias'].items():
+            if cat_id in categoria_mapping:
+                cat_slug = categoria_mapping[cat_id]
+                count = termo_count.get(cat_id, 0)
+                content += f"### [{cat_name}]({cat_slug}/index.md)\n\n"
+                content += f"Conceitos relacionados a {cat_name.lower()}\n\n"
+                content += f"**{count} termos**\n\n"
     
     # Estatísticas gerais
-    total_terms = sum(len(cat['terms']) for cat in glossary['categories'])
+    if 'categories' in glossary and isinstance(glossary['categories'], list):
+        total_terms = sum(len(cat['terms']) for cat in glossary['categories'])
+    else:
+        total_terms = len([t for t in glossary['termos'].keys() if t != '.template'])
     content += f"""
 ## 📊 Estatísticas
 
 - **{total_terms}** termos totais
-- **{len(glossary['categories'])}** categorias
-- **Última atualização:** {glossary['metadata']['created']}
+- **{len(glossary.get('categorias', glossary.get('categories', [])))}** categorias
+- **Última atualização:** {glossary.get('metadata', {}).get('ultima_atualizacao', '2025-01-27')}
 
 ## 🤝 Contribuindo
 
@@ -226,12 +281,37 @@ def create_alphabetical_index(glossary: Dict[str, Any]) -> str:
     
     # Coleta todos os termos
     all_terms = []
-    for category in glossary['categories']:
-        for term in category['terms']:
-            term_with_category = term.copy()
-            term_with_category['category_id'] = category['id']
-            term_with_category['category_title'] = category['title']
-            all_terms.append(term_with_category)
+    if 'categories' in glossary and isinstance(glossary['categories'], list):
+        # Formato antigo
+        for category in glossary['categories']:
+            for term in category['terms']:
+                term_with_category = term.copy()
+                term_with_category['category_id'] = category['id']
+                term_with_category['category_title'] = category['title']
+                all_terms.append(term_with_category)
+    elif 'categorias' in glossary and 'termos' in glossary:
+        # Formato novo
+        categoria_mapping = {
+            'fundamentos': 'conceitos-fundamentais',
+            'generative': 'ia-generativa', 
+            'agents': 'agentes-ia',
+            'scope': 'escopo-ias',
+            'ethics': 'etica-seguranca-governanca',
+            'skills': 'habilidades-praticas',
+            'infrastructure': 'infraestrutura-processos'
+        }
+        for term_id, term_data in glossary['termos'].items():
+            if term_id != '.template' and isinstance(term_data, dict):
+                term_with_category = {
+                    'name': term_data.get('nome', term_id),
+                    'title_pt': term_data.get('nome', term_id),  # Compatibilidade
+                    'slug': term_id,
+                    'definition': term_data.get('definicao', ''),
+                    'tags': term_data.get('tags', []),
+                    'category_id': categoria_mapping.get(term_data['categoria'], term_data['categoria']),
+                    'category_title': glossary['categorias'].get(term_data['categoria'], term_data['categoria'])
+                }
+                all_terms.append(term_with_category)
     
     # Ordena alfabeticamente
     all_terms.sort(key=lambda x: x['title_pt'].lower())
@@ -262,17 +342,48 @@ def create_tags_page(glossary: Dict[str, Any]) -> str:
     
     # Coleta todas as tags
     all_tags = {}
-    for category in glossary['categories']:
-        for term in category['terms']:
-            if 'tags' in term:
-                for tag in term['tags']:
-                    if tag not in all_tags:
-                        all_tags[tag] = []
-                    all_tags[tag].append({
-                        'term': term,
-                        'category_id': category['id'],
-                        'category_title': category['title']
-                    })
+    if 'categories' in glossary and isinstance(glossary['categories'], list):
+        # Formato antigo
+        for category in glossary['categories']:
+            for term in category['terms']:
+                if 'tags' in term:
+                    for tag in term['tags']:
+                        if tag not in all_tags:
+                            all_tags[tag] = []
+                        all_tags[tag].append({
+                            'term': term,
+                            'category_id': category['id'],
+                            'category_title': category['title']
+                        })
+    elif 'categorias' in glossary and 'termos' in glossary:
+        # Formato novo
+        categoria_mapping = {
+            'fundamentos': 'conceitos-fundamentais',
+            'generative': 'ia-generativa', 
+            'agents': 'agentes-ia',
+            'scope': 'escopo-ias',
+            'ethics': 'etica-seguranca-governanca',
+            'skills': 'habilidades-praticas',
+            'infrastructure': 'infraestrutura-processos'
+        }
+        for term_id, term_data in glossary['termos'].items():
+            if term_id != '.template' and isinstance(term_data, dict):
+                if 'tags' in term_data:
+                    for tag in term_data['tags']:
+                        if tag not in all_tags:
+                            all_tags[tag] = []
+                        # Criar objeto term compatível
+                        term_obj = {
+                            'name': term_data.get('nome', term_id),
+                            'title_pt': term_data.get('nome', term_id),  # Compatibilidade
+                            'slug': term_id,
+                            'definition': term_data.get('definicao', '')
+                        }
+                        all_tags[tag].append({
+                            'term': term_obj,
+                            'category_id': categoria_mapping.get(term_data['categoria'], term_data['categoria']),
+                            'category_title': glossary['categorias'].get(term_data['categoria'], term_data['categoria'])
+                        })
     
     # Ordena tags alfabeticamente
     sorted_tags = sorted(all_tags.keys())
@@ -489,18 +600,45 @@ def generate_all_docs():
     
     # Páginas das categorias
     print("📚 Criando páginas de categorias...")
-    for category in glossary['categories']:
-        category_dir = f"docs/{category['id']}"
+    if 'categories' in glossary and isinstance(glossary['categories'], list):
+        # Formato antigo
+        for category in glossary['categories']:
+            category_dir = f"docs/{category['id']}"
+            
+            # Página índice da categoria
+            with open(f"{category_dir}/index.md", "w", encoding="utf-8") as f:
+                f.write(create_category_index(category, glossary))
+            
+            # Páginas individuais dos termos
+            print(f"  📖 Criando {len(category['terms'])} termos da categoria {category['title']}")
+            for term in category['terms']:
+                with open(f"{category_dir}/{term['slug']}.md", "w", encoding="utf-8") as f:
+                    f.write(create_term_page(term, category['id'], glossary))
+    elif 'categorias' in glossary and 'termos' in glossary:
+        # Formato novo - apenas skip por enquanto, os arquivos já existem
+        print("  ℹ️ Usando arquivos MD existentes (novo formato)")
         
-        # Página índice da categoria
-        with open(f"{category_dir}/index.md", "w", encoding="utf-8") as f:
-            f.write(create_category_index(category, glossary))
+        # Contar termos por categoria para mostrar estatísticas
+        categoria_mapping = {
+            'fundamentos': 'conceitos-fundamentais',
+            'generative': 'ia-generativa', 
+            'agents': 'agentes-ia',
+            'scope': 'escopo-ias',
+            'ethics': 'etica-seguranca-governanca',
+            'skills': 'habilidades-praticas',
+            'infrastructure': 'infraestrutura-processos'
+        }
         
-        # Páginas individuais dos termos
-        print(f"  📖 Criando {len(category['terms'])} termos da categoria {category['title']}")
-        for term in category['terms']:
-            with open(f"{category_dir}/{term['slug']}.md", "w", encoding="utf-8") as f:
-                f.write(create_term_page(term, category['id'], glossary))
+        termo_count = {}
+        for term_data in glossary['termos'].values():
+            if isinstance(term_data, dict) and 'categoria' in term_data:
+                cat = term_data['categoria']
+                termo_count[cat] = termo_count.get(cat, 0) + 1
+        
+        for cat_id, cat_name in glossary['categorias'].items():
+            if cat_id in categoria_mapping:
+                count = termo_count.get(cat_id, 0)
+                print(f"  📖 {count} termos da categoria {cat_name}")
     
     # Página de tags
     print("🏷️ Criando página de tags...")

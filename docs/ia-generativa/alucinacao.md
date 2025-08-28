@@ -5,7 +5,7 @@
 Quando um [modelo](../conceitos-fundamentais/modelo.md) generativo cria informações falsas ou inventadas que parecem plausíveis.
 
 
-**Tags:** `problemas` · `qualidade` · `veracidade`
+**Tags:** [`generative-ai`](../tags.md#generative-ai)
 
 ---
 

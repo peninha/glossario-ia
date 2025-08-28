@@ -5,7 +5,7 @@
 Técnicas para indicar que um conteúdo foi gerado por IA (ex.: marcas d'água, assinaturas criptográficas, padrões de proveniência). Auxiliam no combate a *deepfakes* e desinformação.
 
 
-**Tags:** `marcacao` · `identificacao` · `desinformacao`
+**Tags:** [`governance`](../tags.md#governance)
 
 ---
 

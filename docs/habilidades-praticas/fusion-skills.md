@@ -5,7 +5,7 @@
 Combinação integrada de expertise humana (domínio, criatividade, julgamento) com capacidades da IA (geração, busca, análise). O profissional alterna papéis: orquestra, critica e complementa a IA.
 
 
-**Tags:** `integracao` · `expertise` · `complementaridade`
+**Tags:** [`workflow`](../tags.md#workflow)
 
 ---
 

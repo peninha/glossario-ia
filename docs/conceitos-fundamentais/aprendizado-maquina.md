@@ -5,7 +5,7 @@
 Subárea da IA em que os computadores "aprendem" a partir de [dados](../conceitos-fundamentais/dados.md), sem serem explicitamente programados para cada tarefa.
 
 
-**Tags:** `machine-learning` · `aprendizado`
+**Tags:** [`machine-learning`](../tags.md#machine-learning)
 
 ---
 

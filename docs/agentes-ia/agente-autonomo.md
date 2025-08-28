@@ -5,7 +5,7 @@
 Sistema de IA que opera independentemente com mínima supervisão humana, tomando decisões e executando [ações](../agentes-ia/acoes.md) baseadas em seus [objetivos](../agentes-ia/objetivo.md) e percepções do [ambiente](../agentes-ia/ambiente.md). Pode aprender e adaptar-se a mudanças, mas mantém limites de segurança e conformidade definidos por humanos.
 
 
-**Tags:** `autonomia` · `independencia` · `adaptacao`
+**Tags:** [`agents`](../tags.md#agents)
 
 ---
 

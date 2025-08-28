@@ -5,7 +5,7 @@
 [Modelos](../conceitos-fundamentais/modelo.md) inspirados no cérebro humano, compostos por "neurônios artificiais" conectados, capazes de reconhecer padrões complexos em [dados](../conceitos-fundamentais/dados.md).
 
 
-**Tags:** `redes-neurais` · `deep-learning`
+**Tags:** [`deep-learning`](../tags.md#deep-learning)
 
 ---
 

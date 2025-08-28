@@ -5,7 +5,7 @@
 Capacidade de um sistema de IA de manter desempenho confiável mesmo em condições adversas ou com [dados](../conceitos-fundamentais/dados.md) inesperados. Inclui resistência a falhas, ruído e variações nos dados de entrada.
 
 
-**Tags:** `confiabilidade` · `resistencia` · `estabilidade`
+**Tags:** [`safety`](../tags.md#safety)
 
 ---
 

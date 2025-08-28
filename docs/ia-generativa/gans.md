@@ -5,7 +5,7 @@
 [Modelos](../conceitos-fundamentais/modelo.md) que usam duas [redes neurais](../conceitos-fundamentais/redes-neurais-artificiais.md) em competição (gerador e discriminador) para criar conteúdos melhores.
 
 
-**Tags:** `gans` · `geracao` · `adversarial`
+**Tags:** [`generative-ai`](../tags.md#generative-ai)
 
 ---
 

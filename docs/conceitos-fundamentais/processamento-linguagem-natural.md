@@ -5,7 +5,7 @@
 Campo da IA que desenvolve sistemas capazes de entender, interpretar e gerar linguagem humana. Inclui tarefas como tradução automática, análise de sentimentos, chatbots, sumarização de textos e compreensão de perguntas.
 
 
-**Tags:** `nlp` · `linguagem` · `texto`
+**Tags:** [`generative-ai`](../tags.md#generative-ai)
 
 ---
 

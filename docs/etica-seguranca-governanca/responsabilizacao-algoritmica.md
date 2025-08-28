@@ -5,7 +5,7 @@
 Responsabilidade pelos impactos das decisões automatizadas.
 
 
-**Tags:** `responsabilidade` · `impactos` · `decisoes`
+**Tags:** [`ethics`](../tags.md#ethics)
 
 ---
 

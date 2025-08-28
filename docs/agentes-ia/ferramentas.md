@@ -5,7 +5,7 @@
 Conectores e interfaces externas que um [agente](../agentes-ia/agente.md) pode acionar para ampliar suas capacidades: calculadora, navegação e busca web, [RAG](../ia-generativa/rag.md)/bases de conhecimento, planilhas e bancos de dados, interpretador/execução de código, automações e serviços de terceiros, além de atuadores físicos (robótica).
 
 
-**Tags:** `extensoes` · `capacidades` · `integracao`
+**Tags:** [`agents`](../tags.md#agents) · [`workflow`](../tags.md#workflow)
 
 ---
 

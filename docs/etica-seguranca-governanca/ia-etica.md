@@ -5,7 +5,7 @@
 O mesmo que [IA Responsável](../etica-seguranca-governanca/ia-responsavel.md), mas com um foco maior na ética.
 
 
-**Tags:** `etica` · `responsabilidade` · `principios`
+**Tags:** [`ethics`](../tags.md#ethics)
 
 ---
 

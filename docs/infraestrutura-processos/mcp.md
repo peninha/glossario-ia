@@ -5,7 +5,7 @@
 Protocolo que permite que [agentes](../agentes-ia/agente.md) de IA se comuniquem entre si e com outros sistemas.
 
 
-**Tags:** `protocolo` · `comunicacao` · `agentes`
+**Tags:** [`agents`](../tags.md#agents)
 
 ---
 

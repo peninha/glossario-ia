@@ -5,7 +5,7 @@
 Área de pesquisa que busca compreender os mecanismos internos de um [modelo](../conceitos-fundamentais/modelo.md) que geram uma determinada saída ou decisão.
 
 
-**Tags:** `compreensao` · `mecanismos` · `pesquisa`
+**Tags:** [`ethics`](../tags.md#ethics)
 
 ---
 

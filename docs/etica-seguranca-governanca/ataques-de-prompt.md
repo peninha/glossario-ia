@@ -5,7 +5,7 @@
 Técnicas que induzem o [modelo](../conceitos-fundamentais/modelo.md) a ignorar instruções/limites e gerar saídas indesejadas.
 
 
-**Tags:** `ataques` · `seguranca` · `manipulacao`
+**Tags:** [`safety`](../tags.md#safety) · [`security`](../tags.md#security)
 
 ---
 

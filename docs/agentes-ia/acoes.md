@@ -5,7 +5,7 @@
 O que o [agente](../agentes-ia/agente.md) pode fazer: responder em texto, clicar/navegar, chamar ferramentas (APIs), executar código, mover atuadores (no caso de robôs).
 
 
-**Tags:** `agentes` · `capacidades` · `interacao`
+**Tags:** [`agents`](../tags.md#agents)
 
 ---
 

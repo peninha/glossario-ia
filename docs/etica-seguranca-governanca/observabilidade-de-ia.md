@@ -5,7 +5,7 @@
 Monitoramento em tempo real sobre o comportamento de sistemas de IA, facilitando a detecção de anomalias.
 
 
-**Tags:** `tempo-real` · `comportamento` · `anomalias`
+**Tags:** [`safety`](../tags.md#safety)
 
 ---
 

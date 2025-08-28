@@ -5,8 +5,6 @@
 Sistemas especializados em tarefas específicas. Excelentes dentro de um domínio, mas não generalizam sozinhos para outros. Exemplos: filtros de spam, recomendação de conteúdo, reconhecimento de fala, jogar xadrez, condução assistida.
 
 
-**Tags:** `especializacao` · `limitacao` · `dominio`
-
 ---
 
 [:material-arrow-left: Voltar para Escopo das IAs](index.md){ .md-button }

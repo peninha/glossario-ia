@@ -5,7 +5,7 @@
 Coordenação de múltiplos [agentes](../agentes-ia/agente.md) ou componentes com papéis especializados: planejadores que definem estratégias, executores que realizam [ações](../agentes-ia/acoes.md), críticos que avaliam resultados e supervisores que mantêm controle geral.
 
 
-**Tags:** `coordenacao` · `especializacao` · `controle`
+**Tags:** [`agents`](../tags.md#agents) · [`multiagents`](../tags.md#multiagents)
 
 ---
 

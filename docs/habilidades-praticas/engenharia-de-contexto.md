@@ -5,7 +5,7 @@
 Gestão da [janela de contexto](../ia-generativa/janela-de-contexto.md): seleção, compressão e ordenação de informações relevantes; uso de *prefill*, *system prompts*, anotações e memória para aumentar qualidade e consistência.
 
 
-**Tags:** `gestao` · `contexto` · `qualidade`
+**Tags:** [`generative-ai`](../tags.md#generative-ai) · [`prompt-engineering`](../tags.md#prompt-engineering)
 
 ---
 

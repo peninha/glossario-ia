@@ -5,7 +5,7 @@
 Mudanças na distribuição dos [dados](../conceitos-fundamentais/dados.md) de entrada ao longo do tempo que podem degradar o desempenho do [modelo](../conceitos-fundamentais/modelo.md). Exige [monitoramento contínuo](../etica-seguranca-governanca/monitoramento-continuo.md) e estratégias de adaptação.
 
 
-**Tags:** `degradacao` · `mudanca` · `adaptacao`
+**Tags:** [`agents`](../tags.md#agents) · [`safety`](../tags.md#safety)
 
 ---
 

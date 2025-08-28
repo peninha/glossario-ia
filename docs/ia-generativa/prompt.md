@@ -5,7 +5,7 @@
 A entrada (pergunta, instrução ou comando) que o usuário fornece para que o [modelo](../conceitos-fundamentais/modelo.md) generativo produza uma resposta.
 
 
-**Tags:** `entrada` · `instrucao` · `comando`
+**Tags:** [`agents`](../tags.md#agents) · [`prompt-engineering`](../tags.md#prompt-engineering)
 
 ---
 

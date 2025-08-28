@@ -5,7 +5,7 @@
 Proteção de sistemas de IA contra ataques, vazamentos de [dados](../conceitos-fundamentais/dados.md) e uso malicioso. Inclui resistência a [ataques de prompt](../etica-seguranca-governanca/ataques-de-prompt.md), defesa contra [exemplos adversariais](../etica-seguranca-governanca/exemplos-adversariais.md) e prevenção de [jailbreaks](../etica-seguranca-governanca/jailbreak.md).
 
 
-**Tags:** `protecao` · `ataques` · `prevencao`
+**Tags:** [`security`](../tags.md#security)
 
 ---
 

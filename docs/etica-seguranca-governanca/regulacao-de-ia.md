@@ -5,7 +5,7 @@
 Marco legal e normativo que estabelece regras para o desenvolvimento, uso e comercialização de sistemas de IA. Define responsabilidades, limites e requisitos de segurança para diferentes aplicações.
 
 
-**Tags:** `legal` · `regras` · `responsabilidades`
+**Tags:** [`governance`](../tags.md#governance)
 
 ---
 

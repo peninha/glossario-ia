@@ -5,7 +5,7 @@
 Busca padrões, estruturas ou agrupamentos em [dados](../conceitos-fundamentais/dados.md) sem rótulos. Exemplos: agrupar clientes similares.
 
 
-**Tags:** `machine-learning` · `aprendizado` · `clustering`
+**Tags:** [`machine-learning`](../tags.md#machine-learning)
 
 ---
 

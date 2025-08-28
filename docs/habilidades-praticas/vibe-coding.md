@@ -5,8 +5,6 @@
 Prática exploratória de criar programas/apps/sites/etc. utilizando IA sem a necessidade de conhecimentos prévios de programação, priorizando fluxo criativo, testes curtos e aprendizagem pelo fazer.
 
 
-**Tags:** `exploracao` · `criatividade` · `aprendizagem`
-
 ---
 
 [:material-arrow-left: Voltar para Habilidades e Práticas](index.md){ .md-button }

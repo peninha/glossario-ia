@@ -5,7 +5,7 @@
 Técnica que combina geração de texto com recuperação de informações em bases externas (ex.: documentos, web, bancos de dados), aumentando a precisão das respostas.
 
 
-**Tags:** `rag` · `recuperacao` · `precisao`
+**Tags:** [`generative-ai`](../tags.md#generative-ai) · [`governance`](../tags.md#governance)
 
 ---
 

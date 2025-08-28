@@ -5,7 +5,7 @@
 [Parâmetros](../conceitos-fundamentais/parametro.md) ajustáveis em [modelos](../conceitos-fundamentais/modelo.md) de IA: os **pesos (weights)** multiplicam entradas/ativação nas camadas, enquanto os **vieses (biases)** deslocam a função de ativação, permitindo ajustes finos. Juntos, determinam como o modelo transforma entradas em saídas durante [treinamento](../conceitos-fundamentais/treinamento.md) e [inferência](../conceitos-fundamentais/inferencia.md).
 
 
-**Tags:** `machine-learning` · `parametros` · `redes-neurais`
+**Tags:** [`deep-learning`](../tags.md#deep-learning) · [`machine-learning`](../tags.md#machine-learning)
 
 ---
 

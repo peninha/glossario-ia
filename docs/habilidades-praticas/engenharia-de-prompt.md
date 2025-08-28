@@ -5,7 +5,7 @@
 Técnicas para criar [prompts](../ia-generativa/prompt.md) eficazes: papéis, [objetivos](../agentes-ia/objetivo.md) claros, restrições, exemplos, formatos de saída e critérios de qualidade/teste.
 
 
-**Tags:** `tecnicas` · `eficacia` · `criterios`
+**Tags:** [`prompt-engineering`](../tags.md#prompt-engineering)
 
 ---
 

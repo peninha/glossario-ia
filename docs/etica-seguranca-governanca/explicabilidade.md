@@ -5,7 +5,7 @@
 Capacidade de um [modelo](../conceitos-fundamentais/modelo.md) em explicar, de maneira confiável, como chegou a uma determinada decisão.
 
 
-**Tags:** `transparencia` · `explicacao` · `decisao`
+**Tags:** [`agents`](../tags.md#agents) · [`ethics`](../tags.md#ethics)
 
 ---
 

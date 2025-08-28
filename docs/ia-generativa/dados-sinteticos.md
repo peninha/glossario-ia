@@ -5,7 +5,7 @@
 [Dados](../conceitos-fundamentais/dados.md) gerados artificialmente a partir de [modelos](../conceitos-fundamentais/modelo.md) de IA, diferentes de dados gerados por humanos.
 
 
-**Tags:** `dados` · `sinteticos` · `geracao`
+**Tags:** [`generative-ai`](../tags.md#generative-ai) · [`machine-learning`](../tags.md#machine-learning)
 
 ---
 

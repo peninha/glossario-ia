@@ -5,7 +5,7 @@
 Tarefa em que o [modelo](../conceitos-fundamentais/modelo.md) aprende a prever valores numéricos contínuos. Exemplos: prever o preço de uma casa baseado em suas características, estimar a temperatura de amanhã, calcular o tempo de entrega de um produto.
 
 
-**Tags:** `machine-learning` · `regressao` · `tarefas`
+**Tags:** [`machine-learning`](../tags.md#machine-learning)
 
 ---
 

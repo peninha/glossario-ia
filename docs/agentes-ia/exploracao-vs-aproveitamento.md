@@ -5,7 +5,7 @@
 Dilema fundamental em [aprendizado por reforço](../conceitos-fundamentais/aprendizado-por-reforco.md): explorar novas [ações](../agentes-ia/acoes.md) para descobrir melhores [recompensas](../agentes-ia/recompensa.md) ou aproveitar o conhecimento atual para maximizar o retorno conhecido.
 
 
-**Tags:** `dilema` · `exploracao` · `aproveitamento`
+**Tags:** [`reinforcement-learning`](../tags.md#reinforcement-learning)
 
 ---
 

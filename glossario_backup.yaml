@@ -1,0 +1,3098 @@
+metadata:
+  versao: '2.0'
+  ultima_atualizacao: '2025-01-27'
+  total_termos: 113
+  fonte: Sincronizado a partir dos arquivos MD
+categorias:
+  fundamentos: Conceitos Fundamentais
+  generative: IA Generativa
+  agents: Agentes de IA
+  scope: Escopo das IAs
+  ethics: Ética, Segurança e Governança
+  skills: Habilidades e Práticas
+  infrastructure: Infraestrutura e Processos
+termos:
+  .template:
+    nome: Novo Termo
+    categoria: fundamentos
+    definicao: '**Definição curta e clara do termo em uma frase.**...'
+    explicacao: "**Definição curta e clara do termo em uma frase.**\n\n## Explicação\
+      \ Detalhada\n\nExplicação mais completa do conceito, incluindo:\n\n- Como funciona\n\
+      - Por que é importante\n- Onde é usado\n- Exemplos práticos\n\n## Exemplos\n\
+      \n### Exemplo 1\nDescrição de um exemplo prático.\n\n### Exemplo 2 \nOutro exemplo\
+      \ relevante.\n\n## Termos Relacionados\n\n- [Termo Relacionado 1](link-do-termo.md)\n\
+      - [Termo Relacionado 2](outro-link.md)\n\n## Referências\n\n- Fonte 1\n- Fonte\
+      \ 2\n\n---\n\n**Tags:** `tag1`, `tag2`, `tag3`  \n**Categoria:** Nome da Categoria\
+      \  \n**Última atualização:** YYYY-MM-DD"
+    tags:
+    - fundamentos
+    relacionados: []
+  acoes:
+    nome: Ações
+    categoria: agents
+    definicao: '**Actions**...'
+    explicacao: '**Actions**
+
+
+      O que o [agente](../agentes-ia/agente.md) pode fazer: responder em texto, clicar/navegar,
+      chamar ferramentas (APIs), executar código, mover atuadores (no caso de robôs).
+
+
+
+      **Tags:** `agents`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Agentes de IA](index.md){ .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - nlp
+    - agents
+    relacionados: []
+  agente-autonomo:
+    nome: Agente Autônomo
+    categoria: agents
+    definicao: '**Autonomous Agent**...'
+    explicacao: '**Autonomous Agent**
+
+
+      Sistema de IA que opera independentemente com mínima supervisão humana, tomando
+      decisões e executando [ações](../agentes-ia/acoes.md) baseadas em seus [objetivos](../agentes-ia/objetivo.md)
+      e percepções do [ambiente](../agentes-ia/ambiente.md). Pode aprender e adaptar-se
+      a mudanças, mas mantém limites de segurança e conformidade definidos por humanos.
+
+
+
+      **Tags:** `agents`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Agentes de IA](index.md){ .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - agents
+    - ethics
+    relacionados: []
+  agente-de-ia:
+    nome: Agente de IA
+    categoria: agents
+    definicao: '**AI Agent**...'
+    explicacao: '**AI Agent**
+
+
+      Sistema que percebe o [ambiente](../agentes-ia/ambiente.md), decide e age para
+      atingir [objetivos](../agentes-ia/objetivo.md). Pode ser puramente digital (bot,
+      assistente) ou físico (robô). Opera no ciclo *perceber → decidir → agir*.
+
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Agentes de IA](index.md){ .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - agents
+    relacionados: []
+  agente:
+    nome: Agente
+    categoria: agents
+    definicao: '**Agent**...'
+    explicacao: '**Agent**
+
+
+      Sistema que percebe o [ambiente](../agentes-ia/ambiente.md), decide e age para
+      atingir [objetivos](../agentes-ia/objetivo.md). Pode ser puramente digital (bot,
+      assistente) ou físico (robô). Opera no ciclo *perceber → decidir → agir*.
+
+
+
+      **Tags:** `agents`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Agentes de IA](index.md){ .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - agents
+    relacionados: []
+  ambiente:
+    nome: Ambiente
+    categoria: agents
+    definicao: '**Environment**...'
+    explicacao: '**Environment**
+
+
+      O contexto onde o [agente](../agentes-ia/agente.md) atua (tudo que está "fora"
+      dele). Pode ser totalmente ou parcialmente observável, determinístico ou estocástico,
+      estático ou dinâmico.
+
+
+
+      **Tags:** `agents`, `generative-ai`, `safety`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Agentes de IA](index.md){ .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - nlp
+    - agents
+    relacionados: []
+  autonomia-e-supervisao-humana:
+    nome: Autonomia e Supervisão Humana
+    categoria: agents
+    definicao: '**Human-in-the-Loop** · *HITL*...'
+    explicacao: '**Human-in-the-Loop** · *HITL*
+
+
+      Definição de níveis de autonomia, checkpoints de aprovação, trilhas de auditoria
+      e limites de escopo para segurança, conformidade e alinhamento com [objetivos](../agentes-ia/objetivo.md)
+      humanos.
+
+
+
+      **Tags:** `agents`, `safety`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Agentes de IA](index.md){ .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - agents
+    - ethics
+    relacionados: []
+  enxame:
+    nome: Enxame
+    categoria: agents
+    definicao: '**Swarm**...'
+    explicacao: '**Swarm**
+
+
+      Abordagem multiagente inspirada em inteligência de enxame (formigas, abelhas,
+      cardumes), em que muitos [agentes](../agentes-ia/agente.md) simples cooperam
+      com regras locais para resolver problemas. Utiliza mecanismos como votação,
+      leilão de tarefas, sinais/"feromônios" virtuais e difusão de mensagens para
+      convergência.
+
+
+
+      **Tags:** `multiagents`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Agentes de IA](index.md){ .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - agents
+    relacionados: []
+  estado:
+    nome: Estado
+    categoria: agents
+    definicao: '**State**...'
+    explicacao: '**State**
+
+
+      Representação do que é relevante no momento para decidir. Pode ser o próprio
+      contexto de um [LLM](../ia-generativa/modelos-de-linguagem-grande-porte.md),
+      uma memória de curto prazo ou um "estado oculto" quando parte do [ambiente](../agentes-ia/ambiente.md)
+      não é observável.
+
+
+
+      **Tags:** `agents`, `generative-ai`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Agentes de IA](index.md){ .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - ml
+    - nlp
+    - agents
+    relacionados: []
+  exploracao-vs-aproveitamento:
+    nome: Exploração vs. Aproveitamento
+    categoria: agents
+    definicao: '**Exploration vs. Exploitation**...'
+    explicacao: '**Exploration vs. Exploitation**
+
+
+      Dilema fundamental em [aprendizado por reforço](../conceitos-fundamentais/aprendizado-por-reforco.md):
+      explorar novas [ações](../agentes-ia/acoes.md) para descobrir melhores [recompensas](../agentes-ia/recompensa.md)
+      ou aproveitar o conhecimento atual para maximizar o retorno conhecido.
+
+
+
+      **Tags:** `reinforcement-learning`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Agentes de IA](index.md){ .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ml
+    - agents
+    relacionados: []
+  ferramentas:
+    nome: Ferramentas
+    categoria: agents
+    definicao: '**Tools**...'
+    explicacao: '**Tools**
+
+
+      Conectores e interfaces externas que um [agente](../agentes-ia/agente.md) pode
+      acionar para ampliar suas capacidades: calculadora, navegação e busca web, [RAG](../ia-generativa/rag.md)/bases
+      de conhecimento, planilhas e bancos de dados, interpretador/execução de código,
+      automações e serviços de terceiros, além de atuadores físicos (robótica).
+
+
+
+      **Tags:** `agents`, `workflow`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Agentes de IA](index.md){ .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - agents
+    relacionados: []
+  memoria-e-contexto:
+    nome: Memória e Contexto
+    categoria: agents
+    definicao: '**Memory and Context**...'
+    explicacao: '**Memory and Context**
+
+
+      Mecanismos para manter continuidade: [janela de contexto](../ia-generativa/janela-de-contexto.md)
+      (curto prazo), memória vetorial/BD (longo prazo) e logs. Ajudam a não "recomeçar
+      do zero" a cada passo.
+
+
+
+      **Tags:** `safety`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Agentes de IA](index.md){ .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - nlp
+    - agents
+    relacionados: []
+  objetivo:
+    nome: Objetivo
+    categoria: agents
+    definicao: '**Goal**...'
+    explicacao: '**Goal**
+
+
+      Define o que o [agente](../agentes-ia/agente.md) busca e orienta suas decisões
+      e [ações](../agentes-ia/acoes.md). Exemplos: "responder ao cliente", "navegar
+      até um destino", "resolver um problema matemático". O objetivo serve como bússola
+      para o comportamento do agente.
+
+
+
+      **Tags:** `agents`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Agentes de IA](index.md){ .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - agents
+    relacionados: []
+  observacoes:
+    nome: Observações
+    categoria: agents
+    definicao: '**Observations** · *Percepção*...'
+    explicacao: '**Observations** · *Percepção*
+
+
+      Informações que o [agente](../agentes-ia/agente.md) recebe do [ambiente](../agentes-ia/ambiente.md):
+      texto de usuários, páginas web, leituras de sensores, respostas de APIs etc.
+      Servem de base para decidir a próxima [ação](../agentes-ia/acoes.md).
+
+
+
+      **Tags:** `agents`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Agentes de IA](index.md){ .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - nlp
+    - agents
+    relacionados: []
+  orquestracao:
+    nome: Orquestração
+    categoria: agents
+    definicao: '**Orchestration** · *Planner-Executor, Críticos, Supervisores*...'
+    explicacao: '**Orchestration** · *Planner-Executor, Críticos, Supervisores*
+
+
+      Coordenação de múltiplos [agentes](../agentes-ia/agente.md) ou componentes com
+      papéis especializados: planejadores que definem estratégias, executores que
+      realizam [ações](../agentes-ia/acoes.md), críticos que avaliam resultados e
+      supervisores que mantêm controle geral.
+
+
+
+      **Tags:** `agents`, `multiagents`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Agentes de IA](index.md){ .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - agents
+    - business
+    relacionados: []
+  persona-ou-papel:
+    nome: Persona ou Papel
+    categoria: agents
+    definicao: '**Role**...'
+    explicacao: '**Role**
+
+
+      Configuração que define estilo, tom, personalidade e características de um [agente](../agentes-ia/agente.md).
+      (ex.: "tutor paciente", "analista jurídico cauteloso").
+
+
+
+      **Tags:** `agents`, `safety`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Agentes de IA](index.md){ .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - agents
+    relacionados: []
+  planejamento:
+    nome: Planejamento
+    categoria: agents
+    definicao: '**Planning**...'
+    explicacao: '**Planning**
+
+
+      Escolha de sequências de [ações](../agentes-ia/acoes.md) para alcançar [objetivos](../agentes-ia/objetivo.md).
+
+
+
+      **Tags:** `agents`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Agentes de IA](index.md){ .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - agents
+    relacionados: []
+  politica:
+    nome: Política
+    categoria: agents
+    definicao: '**Policy**...'
+    explicacao: '**Policy**
+
+
+      Regra que mapeia [estados](../agentes-ia/estado.md)/[observações](../agentes-ia/observacoes.md)
+      em [ações](../agentes-ia/acoes.md). Pode ser uma [rede neural](../conceitos-fundamentais/redes-neurais-artificiais.md)
+      treinada, um conjunto de regras ou um [prompt](../ia-generativa/prompt.md) que
+      orienta decisões de um [LLM](../ia-generativa/modelos-de-linguagem-grande-porte.md)-agente.
+
+
+
+      **Tags:** `agents`, `reinforcement-learning`, `safety`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Agentes de IA](index.md){ .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ml
+    - deep-learning
+    - agents
+    relacionados: []
+  recompensa:
+    nome: Recompensa
+    categoria: agents
+    definicao: '**Reward**...'
+    explicacao: '**Reward**
+
+
+      Sinal (geralmente numérico) que indica sucesso parcial ou total — comum em [aprendizado
+      por reforço](../conceitos-fundamentais/aprendizado-por-reforco.md). Exemplo:
+      nota ao concluir uma tarefa.
+
+
+
+      **Tags:** `reinforcement-learning`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Agentes de IA](index.md){ .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ml
+    - agents
+    relacionados: []
+  sistemas-multiagentes:
+    nome: Sistemas Multiagentes
+    categoria: agents
+    definicao: '**Multi-Agent Systems** · *MAS*...'
+    explicacao: '**Multi-Agent Systems** · *MAS*
+
+
+      Vários [agentes](../agentes-ia/agente.md) cooperando com papéis complementares
+      (ex.: pesquisador, redator, revisor). Exigem protocolos de comunicação e estratégias
+      de coordenação.
+
+
+
+      **Tags:** `agents`, `multiagents`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Agentes de IA](index.md){ .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - agents
+    - business
+    relacionados: []
+  algoritmo:
+    nome: Algoritmo
+    categoria: fundamentos
+    definicao: '**Algorithm**...'
+    explicacao: '**Algorithm**
+
+
+      Conjunto de instruções ou regras que o computador segue para resolver um problema
+      ou executar uma tarefa.
+
+
+
+      **Tags:** `machine-learning`, `workflow`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Conceitos Fundamentais](index.md){ .md-button
+      }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    relacionados: []
+  aprendizado-maquina:
+    nome: Aprendizado de Máquina
+    categoria: fundamentos
+    definicao: '**Machine Learning**...'
+    explicacao: '**Machine Learning**
+
+
+      Subárea da IA em que os computadores "aprendem" a partir de [dados](../conceitos-fundamentais/dados.md),
+      sem serem explicitamente programados para cada tarefa.
+
+
+
+      **Tags:** `machine-learning`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Conceitos Fundamentais](index.md){ .md-button
+      }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ml
+    relacionados: []
+  aprendizado-nao-supervisionado:
+    nome: Aprendizado Não Supervisionado
+    categoria: fundamentos
+    definicao: '**Unsupervised Learning**...'
+    explicacao: '**Unsupervised Learning**
+
+
+      Busca padrões, estruturas ou agrupamentos em [dados](../conceitos-fundamentais/dados.md)
+      sem rótulos. Exemplos: agrupar clientes similares.
+
+
+
+      **Tags:** `machine-learning`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Conceitos Fundamentais](index.md){ .md-button
+      }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    relacionados: []
+  aprendizado-por-reforco:
+    nome: Aprendizado por Reforço
+    categoria: fundamentos
+    definicao: '**Reinforcement Learning**...'
+    explicacao: '**Reinforcement Learning**
+
+
+      Método onde um [agente](../agentes-ia/agente.md) aprende através de tentativa
+      e erro, recebendo recompensas ou penalidades baseadas em suas ações. O agente
+      interage com um [ambiente](../agentes-ia/ambiente.md) e aprende a maximizar
+      recompensas ao longo do tempo.
+
+
+
+      **Tags:** `machine-learning`, `reinforcement-learning`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Conceitos Fundamentais](index.md){ .md-button
+      }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - agents
+    relacionados: []
+  aprendizado-profundo:
+    nome: Aprendizado Profundo
+    categoria: fundamentos
+    definicao: '**Deep Learning**...'
+    explicacao: '**Deep Learning**
+
+
+      Subárea do [machine learning](../conceitos-fundamentais/aprendizado-maquina.md)
+      que utiliza [redes neurais artificiais](../conceitos-fundamentais/redes-neurais-artificiais.md)
+      com múltiplas camadas para aprender representações hierárquicas e complexas
+      de dados, permitindo tarefas como reconhecimento de imagens e [processamento
+      de linguagem natural](../conceitos-fundamentais/processamento-linguagem-natural.md).
+
+
+
+      **Tags:** `deep-learning`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Conceitos Fundamentais](index.md){ .md-button
+      }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ml
+    - deep-learning
+    - nlp
+    relacionados: []
+  aprendizado-supervisionado:
+    nome: Aprendizado Supervisionado
+    categoria: fundamentos
+    definicao: '**Supervised Learning**...'
+    explicacao: '**Supervised Learning**
+
+
+      Usa [dados](../conceitos-fundamentais/dados.md) rotulados (já identificados
+      previamente) para ensinar o [modelo](../conceitos-fundamentais/modelo.md) a
+      realizar uma tarefa.
+
+
+
+      **Tags:** `machine-learning`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Conceitos Fundamentais](index.md){ .md-button
+      }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ml
+    relacionados: []
+  classificacao:
+    nome: Classificação
+    categoria: fundamentos
+    definicao: '**Classification**...'
+    explicacao: '**Classification**
+
+
+      Tarefa em que o [modelo](../conceitos-fundamentais/modelo.md) aprende a colocar
+      [dados](../conceitos-fundamentais/dados.md) em categorias ou classes específicas.
+      Exemplos: identificar se um email é spam ou não spam, classificar imagens como
+      gato ou cachorro, categorizar sentimentos como positivo, negativo ou neutro.
+
+
+
+      **Tags:** `machine-learning`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Conceitos Fundamentais](index.md){ .md-button
+      }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ml
+    relacionados: []
+  dados:
+    nome: Dados
+    categoria: fundamentos
+    definicao: '**Data**...'
+    explicacao: '**Data**
+
+
+      A matéria-prima da IA. Quanto mais numerosos, variados e de qualidade forem
+      os dados, melhor tende a ser o desempenho do [modelo](../conceitos-fundamentais/modelo.md).
+
+
+
+      **Tags:** `machine-learning`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Conceitos Fundamentais](index.md){ .md-button
+      }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ml
+    relacionados: []
+  generalizacao:
+    nome: Generalização
+    categoria: fundamentos
+    definicao: '**Generalization**...'
+    explicacao: '**Generalization**
+
+
+      Capacidade do [modelo](../conceitos-fundamentais/modelo.md) de aplicar o que
+      aprendeu no [treinamento](../conceitos-fundamentais/treinamento.md) para situações
+      novas, diferentes dos exemplos originais.
+
+
+
+      **Tags:** `machine-learning`, `reinforcement-learning`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Conceitos Fundamentais](index.md){ .md-button
+      }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ml
+    relacionados: []
+  inferencia:
+    nome: Inferência
+    categoria: fundamentos
+    definicao: '**Inference**...'
+    explicacao: '**Inference**
+
+
+      Etapa em que o [modelo](../conceitos-fundamentais/modelo.md) já treinado aplica
+      o que aprendeu para analisar novos [dados](../conceitos-fundamentais/dados.md)
+      e dar respostas ou previsões.
+
+
+
+      **Tags:** `machine-learning`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Conceitos Fundamentais](index.md){ .md-button
+      }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ml
+    relacionados: []
+  inteligencia-artificial:
+    nome: Inteligência Artificial
+    categoria: fundamentos
+    definicao: '**Artificial Intelligence** · *IA, AI*...'
+    explicacao: '**Artificial Intelligence** · *IA, AI*
+
+
+      Campo da ciência da computação que busca criar sistemas capazes de realizar
+      tarefas que normalmente exigem inteligência humana, como reconhecer imagens,
+      compreender linguagem ou tomar decisões.
+
+
+
+      **Tags:** `machine-learning`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Conceitos Fundamentais](index.md){ .md-button
+      }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    relacionados: []
+  modelo:
+    nome: Modelo
+    categoria: fundamentos
+    definicao: '**Model**...'
+    explicacao: '**Model**
+
+
+      Uma Inteligência Artificial específica, implementada/configurada para uso.
+
+
+
+      **Tags:** `machine-learning`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Conceitos Fundamentais](index.md){ .md-button
+      }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    relacionados: []
+  parametro:
+    nome: Parâmetro
+    categoria: fundamentos
+    definicao: '**Parameter**...'
+    explicacao: '**Parameter**
+
+
+      Variável ajustável em um [modelo](../conceitos-fundamentais/modelo.md) de IA
+      que é otimizada durante o [treinamento](../conceitos-fundamentais/treinamento.md)
+      para melhorar o desempenho e a precisão das previsões.
+
+
+
+      **Tags:** `machine-learning`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Conceitos Fundamentais](index.md){ .md-button
+      }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ml
+    relacionados: []
+  pesos-e-vieses:
+    nome: Pesos e Vieses
+    categoria: fundamentos
+    definicao: '**Weights and Biases** · *W&B*...'
+    explicacao: '**Weights and Biases** · *W&B*
+
+
+      [Parâmetros](../conceitos-fundamentais/parametro.md) ajustáveis em [modelos](../conceitos-fundamentais/modelo.md)
+      de IA: os **pesos (weights)** multiplicam entradas/ativação nas camadas, enquanto
+      os **vieses (biases)** deslocam a função de ativação, permitindo ajustes finos.
+      Juntos, determinam como o modelo transforma entradas em saídas durante [treinamento](../conceitos-fundamentais/treinamento.md)
+      e [inferência](../conceitos-fundamentais/inferencia.md).
+
+
+
+      **Tags:** `deep-learning`, `machine-learning`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Conceitos Fundamentais](index.md){ .md-button
+      }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ml
+    relacionados: []
+  processamento-linguagem-natural:
+    nome: Processamento de Linguagem Natural
+    categoria: fundamentos
+    definicao: '**Natural Language Processing** · *PLN, NLP*...'
+    explicacao: '**Natural Language Processing** · *PLN, NLP*
+
+
+      Campo da IA que desenvolve sistemas capazes de entender, interpretar e gerar
+      linguagem humana. Inclui tarefas como tradução automática, análise de sentimentos,
+      chatbots, sumarização de textos e compreensão de perguntas.
+
+
+
+      **Tags:** `generative-ai`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Conceitos Fundamentais](index.md){ .md-button
+      }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - nlp
+    relacionados: []
+  redes-neurais-artificiais:
+    nome: Redes Neurais Artificiais
+    categoria: fundamentos
+    definicao: '**Artificial Neural Networks**...'
+    explicacao: '**Artificial Neural Networks**
+
+
+      [Modelos](../conceitos-fundamentais/modelo.md) inspirados no cérebro humano,
+      compostos por "neurônios artificiais" conectados, capazes de reconhecer padrões
+      complexos em [dados](../conceitos-fundamentais/dados.md).
+
+
+
+      **Tags:** `deep-learning`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Conceitos Fundamentais](index.md){ .md-button
+      }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ml
+    - deep-learning
+    relacionados: []
+  regressao:
+    nome: Regressão
+    categoria: fundamentos
+    definicao: '**Regression**...'
+    explicacao: '**Regression**
+
+
+      Tarefa em que o [modelo](../conceitos-fundamentais/modelo.md) aprende a prever
+      valores numéricos contínuos. Exemplos: prever o preço de uma casa baseado em
+      suas características, estimar a temperatura de amanhã, calcular o tempo de entrega
+      de um produto.
+
+
+
+      **Tags:** `machine-learning`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Conceitos Fundamentais](index.md){ .md-button
+      }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ml
+    relacionados: []
+  sobreajuste:
+    nome: Sobreajuste
+    categoria: fundamentos
+    definicao: '**Overfitting**...'
+    explicacao: '**Overfitting**
+
+
+      Quando o [modelo](../conceitos-fundamentais/modelo.md) "decorou" demais os [dados](../conceitos-fundamentais/dados.md)
+      de treino e não consegue lidar bem com exemplos novos.
+
+
+
+      **Tags:** `generative-ai`, `machine-learning`, `reinforcement-learning`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Conceitos Fundamentais](index.md){ .md-button
+      }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ml
+    relacionados: []
+  subajuste:
+    nome: Subajuste
+    categoria: fundamentos
+    definicao: '**Underfitting**...'
+    explicacao: '**Underfitting**
+
+
+      Quando o [modelo](../conceitos-fundamentais/modelo.md) é simples ou pouco treinado
+      e não consegue nem aprender direito os [dados](../conceitos-fundamentais/dados.md)
+      de treino.
+
+
+
+      **Tags:** `generative-ai`, `machine-learning`, `reinforcement-learning`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Conceitos Fundamentais](index.md){ .md-button
+      }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ml
+    relacionados: []
+  treinamento:
+    nome: Treinamento
+    categoria: fundamentos
+    definicao: '**Training**...'
+    explicacao: '**Training**
+
+
+      Processo de ajustar os [parâmetros](../conceitos-fundamentais/parametro.md)
+      de um [modelo](../conceitos-fundamentais/modelo.md) de IA até que ele aprenda
+      a realizar bem determinada tarefa.
+
+
+
+      **Tags:** `machine-learning`, `training`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Conceitos Fundamentais](index.md){ .md-button
+      }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ml
+    relacionados: []
+  vies-e-variancia:
+    nome: Viés e Variância
+    categoria: fundamentos
+    definicao: '**Bias and Variance**...'
+    explicacao: '**Bias and Variance**
+
+
+      Duas fontes de erro em [modelos](../conceitos-fundamentais/modelo.md): viés
+      é simplificação exagerada, variância é excesso de sensibilidade aos [dados](../conceitos-fundamentais/dados.md).
+      O ideal é equilibrar ambos.
+
+
+
+      **Tags:** `machine-learning`, `reinforcement-learning`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Conceitos Fundamentais](index.md){ .md-button
+      }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ml
+    - ethics
+    relacionados: []
+  visao-computacional:
+    nome: Visão Computacional
+    categoria: fundamentos
+    definicao: '**Computer Vision**...'
+    explicacao: '**Computer Vision**
+
+
+      Campo da IA que permite que computadores "vejam" e interpretem imagens e vídeos,
+      realizando tarefas como reconhecimento de objetos, detecção de faces, segmentação
+      de imagens e análise de movimento. Fundamental para aplicações como carros autônomos,
+      sistemas de segurança e diagnóstico médico.
+
+
+
+      **Tags:** `generative-ai`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Conceitos Fundamentais](index.md){ .md-button
+      }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - agents
+    - ethics
+    relacionados: []
+  inteligencia-artificial-geral:
+    nome: Inteligência Artificial Geral
+    categoria: scope
+    definicao: '**Artificial General Intelligence** · *IAG, AGI*...'
+    explicacao: '**Artificial General Intelligence** · *IAG, AGI*
+
+
+      Sistema capaz de desempenhar uma ampla variedade de tarefas, em nível comparável
+      ao humano, com raciocínio, [planejamento](../agentes-ia/planejamento.md) e adaptação
+      a contextos novos. Conceito ainda em debate e sem consenso. Uma definição possível
+      é de um "sistema capaz de executar qualquer tarefa cognitiva em um nível pelo
+      menos equivalente a qualquer ser humano".
+
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Escopo das IAs](index.md){ .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - nlp
+    - agents
+    relacionados: []
+  inteligencia-artificial-restrita:
+    nome: Inteligência Artificial Restrita
+    categoria: scope
+    definicao: '**Artificial Narrow Intelligence** · *IAR, ANI, IA estreita, IA fraca*...'
+    explicacao: '**Artificial Narrow Intelligence** · *IAR, ANI, IA estreita, IA fraca*
+
+
+      Sistemas especializados em tarefas específicas. Excelentes dentro de um domínio,
+      mas não generalizam sozinhos para outros. Exemplos: filtros de spam, recomendação
+      de conteúdo, reconhecimento de fala, jogar xadrez, condução assistida.
+
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Escopo das IAs](index.md){ .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags: []
+    relacionados: []
+  inteligencia-artificial-superior:
+    nome: Inteligência Artificial Superior
+    categoria: scope
+    definicao: '**Artificial Super Intelligence** · *IAS, ASI*...'
+    explicacao: '**Artificial Super Intelligence** · *IAS, ASI*
+
+
+      Sistemas que excedem amplamente o desempenho humano em praticamente todas as
+      tarefas cognitivas relevantes. Podem realizar auto-aperfeiçoamento e apresentar
+      capacidades estratégicas elevadas. Trazem desafios de [alinhamento](../etica-seguranca-governanca/alinhamento-em-ia.md),
+      governança e segurança substanciais.
+
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Escopo das IAs](index.md){ .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - ethics
+    relacionados: []
+  alinhamento-em-ia:
+    nome: Alinhamento em IA
+    categoria: ethics
+    definicao: '**AI Alignment**...'
+    explicacao: '**AI Alignment**
+
+
+      Área de pesquisa que busca garantir que sistemas de IA, mesmo aqueles super
+      inteligentes, ajam de forma alinhada aos valores e [objetivos](../agentes-ia/objetivo.md)
+      humanos.
+
+
+
+      **Tags:** `ethics`, `safety`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Ética, Segurança e Governança](index.md){
+      .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - agents
+    - ethics
+    relacionados: []
+  anonimizacao:
+    nome: Anonimização
+    categoria: ethics
+    definicao: '**Anonymization**...'
+    explicacao: '**Anonymization**
+
+
+      Processo de remover ou alterar informações identificáveis de [dados](../conceitos-fundamentais/dados.md)
+      para proteger a identidade dos indivíduos, garantindo a privacidade em tráfego,
+      análises e armazenamento.
+
+
+
+      **Tags:** `security`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Ética, Segurança e Governança](index.md){
+      .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ethics
+    relacionados: []
+  aprendizado-federado:
+    nome: Aprendizado Federado
+    categoria: ethics
+    definicao: '**Federated Learning**...'
+    explicacao: '**Federated Learning**
+
+
+      [Treinamento](../conceitos-fundamentais/treinamento.md) de IA descentralizado
+      para preservar a privacidade dos [dados](../conceitos-fundamentais/dados.md)
+      (ver [anonimização](../etica-seguranca-governanca/anonimizacao.md)).
+
+
+
+      **Tags:** `security`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Ética, Segurança e Governança](index.md){
+      .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ml
+    - ethics
+    relacionados: []
+  ataques-de-prompt:
+    nome: Ataques de Prompt
+    categoria: ethics
+    definicao: '**Prompt Injection**...'
+    explicacao: '**Prompt Injection**
+
+
+      Técnicas que induzem o [modelo](../conceitos-fundamentais/modelo.md) a ignorar
+      instruções/limites e gerar saídas indesejadas.
+
+
+
+      **Tags:** `safety`, `security`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Ética, Segurança e Governança](index.md){
+      .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ml
+    - ethics
+    - technical
+    relacionados: []
+  conformidade:
+    nome: Conformidade
+    categoria: ethics
+    definicao: '**Compliance**...'
+    explicacao: '**Compliance**
+
+
+      Adequação de sistemas de IA a marcos regulatórios, normas técnicas e políticas
+      internas. Inclui avaliações de risco/impacto, classificações por nível de risco
+      e requisitos de documentação.
+
+
+
+      **Tags:** `governance`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Ética, Segurança e Governança](index.md){
+      .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - ethics
+    - technical
+    relacionados: []
+  deriva-de-dados:
+    nome: Deriva de Dados
+    categoria: ethics
+    definicao: '**Data Drift**...'
+    explicacao: '**Data Drift**
+
+
+      Mudanças na distribuição dos [dados](../conceitos-fundamentais/dados.md) de
+      entrada ao longo do tempo que podem degradar o desempenho do [modelo](../conceitos-fundamentais/modelo.md).
+      Exige [monitoramento contínuo](../etica-seguranca-governanca/monitoramento-continuo.md)
+      e estratégias de adaptação.
+
+
+
+      **Tags:** `agents`, `safety`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Ética, Segurança e Governança](index.md){
+      .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ml
+    - ethics
+    - business
+    relacionados: []
+  deriva-de-modelo:
+    nome: Deriva de Modelo
+    categoria: ethics
+    definicao: '**Model Drift**...'
+    explicacao: '**Model Drift**
+
+
+      Degradação do desempenho do [modelo](../conceitos-fundamentais/modelo.md) devido
+      a mudanças no [ambiente](../agentes-ia/ambiente.md) ou nos [dados](../conceitos-fundamentais/dados.md).
+      Requer [treinamento](../conceitos-fundamentais/treinamento.md) periódico para
+      manutenção da qualidade.
+
+
+
+      **Tags:** `generative-ai`, `safety`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Ética, Segurança e Governança](index.md){
+      .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ml
+    - agents
+    - ethics
+    relacionados: []
+  exemplos-adversariais:
+    nome: Exemplos Adversariais
+    categoria: ethics
+    definicao: '**Adversarial Examples**...'
+    explicacao: '**Adversarial Examples**
+
+
+      Perturbações sutis em entradas (texto/imagem/áudio) que levam o [modelo](../conceitos-fundamentais/modelo.md)
+      ao erro. Defesas: *adversarial training*, regularização e detecção de anomalias.
+
+
+
+      **Tags:** `safety`, `security`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Ética, Segurança e Governança](index.md){
+      .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ml
+    - nlp
+    - ethics
+    relacionados: []
+  explicabilidade:
+    nome: Explicabilidade
+    categoria: ethics
+    definicao: '**Explainability** · *XAI*...'
+    explicacao: '**Explainability** · *XAI*
+
+
+      Capacidade de um [modelo](../conceitos-fundamentais/modelo.md) em explicar,
+      de maneira confiável, como chegou a uma determinada decisão.
+
+
+
+      **Tags:** `agents`, `ethics`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Ética, Segurança e Governança](index.md){
+      .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ml
+    - ethics
+    relacionados: []
+  gestao-de-incidentes:
+    nome: Gestão de Incidentes
+    categoria: ethics
+    definicao: '**Incident Management**...'
+    explicacao: '**Incident Management**
+
+
+      Processos estruturados para identificar, responder e resolver problemas em sistemas
+      de IA, incluindo protocolos de escalação, comunicação e recuperação.
+
+
+
+      **Tags:** `governance`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Ética, Segurança e Governança](index.md){
+      .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - ethics
+    relacionados: []
+  guard-rails:
+    nome: Guard Rails
+    categoria: ethics
+    definicao: '**Guardrails**...'
+    explicacao: '**Guardrails**
+
+
+      Conjuntos de restrições e limites implementados em sistemas de IA para possibilitar
+      operações seguras e éticas.
+
+
+
+      **Tags:** `safety`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Ética, Segurança e Governança](index.md){
+      .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - ethics
+    relacionados: []
+  guidelines:
+    nome: Guidelines
+    categoria: ethics
+    definicao: '**Guidelines**...'
+    explicacao: '**Guidelines**
+
+
+      Diretrizes que orientam o desenvolvimento e uso responsável de sistemas de IA.
+
+
+
+      **Tags:** `agents`, `ethics`, `governance`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Ética, Segurança e Governança](index.md){
+      .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - ethics
+    relacionados: []
+  ia-etica:
+    nome: IA Ética
+    categoria: ethics
+    definicao: '**Ethical AI**...'
+    explicacao: '**Ethical AI**
+
+
+      O mesmo que [IA Responsável](../etica-seguranca-governanca/ia-responsavel.md),
+      mas com um foco maior na ética.
+
+
+
+      **Tags:** `ethics`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Ética, Segurança e Governança](index.md){
+      .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - ethics
+    relacionados: []
+  ia-responsavel:
+    nome: IA Responsável
+    categoria: ethics
+    definicao: '**Responsible AI**...'
+    explicacao: '**Responsible AI**
+
+
+      Conjunto de princípios e práticas para projetar, treinar, avaliar e operar sistemas
+      de IA de forma segura, ética e justa.
+
+
+
+      **Tags:** `ethics`, `prompt-engineering`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Ética, Segurança e Governança](index.md){
+      .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - ethics
+    relacionados: []
+  interpretabilidade:
+    nome: Interpretabilidade
+    categoria: ethics
+    definicao: '**Interpretability**...'
+    explicacao: '**Interpretability**
+
+
+      Área de pesquisa que busca compreender os mecanismos internos de um [modelo](../conceitos-fundamentais/modelo.md)
+      que geram uma determinada saída ou decisão.
+
+
+
+      **Tags:** `ethics`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Ética, Segurança e Governança](index.md){
+      .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ml
+    - ethics
+    relacionados: []
+  jailbreak:
+    nome: Jailbreak
+    categoria: ethics
+    definicao: '**Jailbreak**...'
+    explicacao: '**Jailbreak**
+
+
+      Técnica que induz o [modelo](../conceitos-fundamentais/modelo.md) a ignorar
+      restrições e agir livremente, possivelmente de maneira maliciosa ou insegura.
+
+
+
+      **Tags:** `safety`, `security`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Ética, Segurança e Governança](index.md){
+      .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ml
+    - ethics
+    - technical
+    relacionados: []
+  marcacao-de-conteudo-sintetico:
+    nome: Marcação de Conteúdo Sintético
+    categoria: ethics
+    definicao: '**Synthetic Content Marking**...'
+    explicacao: '**Synthetic Content Marking**
+
+
+      Técnicas para indicar que um conteúdo foi gerado por IA (ex.: marcas d''água,
+      assinaturas criptográficas, padrões de proveniência). Auxiliam no combate a
+      *deepfakes* e desinformação.
+
+
+
+      **Tags:** `governance`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Ética, Segurança e Governança](index.md){
+      .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - ethics
+    - technical
+    relacionados: []
+  moderacao-de-conteudo:
+    nome: Moderação de Conteúdo
+    categoria: ethics
+    definicao: '**Content Moderation**...'
+    explicacao: '**Content Moderation**
+
+
+      Sistemas e processos para identificar, filtrar e remover conteúdo inadequado,
+      nocivo ou que violam políticas de uso.
+
+
+
+      **Tags:** `governance`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Ética, Segurança e Governança](index.md){
+      .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - ethics
+    relacionados: []
+  monitoramento-continuo:
+    nome: Monitoramento Contínuo
+    categoria: ethics
+    definicao: '**Continuous Monitoring**...'
+    explicacao: '**Continuous Monitoring**
+
+
+      Acompanhamento sistemático do desempenho e comportamento dos sistemas de IA
+      em produção, incluindo métricas, alertas e detecção de anomalias.
+
+
+
+      **Tags:** `safety`, `training`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Ética, Segurança e Governança](index.md){
+      .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - ethics
+    relacionados: []
+  observabilidade-de-ia:
+    nome: Observabilidade de IA
+    categoria: ethics
+    definicao: '**AI Observability**...'
+    explicacao: '**AI Observability**
+
+
+      Monitoramento em tempo real sobre o comportamento de sistemas de IA, facilitando
+      a detecção de anomalias.
+
+
+
+      **Tags:** `safety`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Ética, Segurança e Governança](index.md){
+      .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - ethics
+    relacionados: []
+  regulacao-de-ia:
+    nome: Regulação de IA
+    categoria: ethics
+    definicao: '**AI Regulation**...'
+    explicacao: '**AI Regulation**
+
+
+      Marco legal e normativo que estabelece regras para o desenvolvimento, uso e
+      comercialização de sistemas de IA. Define responsabilidades, limites e requisitos
+      de segurança para diferentes aplicações.
+
+
+
+      **Tags:** `governance`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Ética, Segurança e Governança](index.md){
+      .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - ethics
+    relacionados: []
+  responsabilizacao-algoritmica:
+    nome: Responsabilização Algorítmica
+    categoria: ethics
+    definicao: '**Algorithmic Accountability**...'
+    explicacao: '**Algorithmic Accountability**
+
+
+      Responsabilidade pelos impactos das decisões automatizadas.
+
+
+
+      **Tags:** `ethics`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Ética, Segurança e Governança](index.md){
+      .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - ethics
+    relacionados: []
+  robustez:
+    nome: Robustez
+    categoria: ethics
+    definicao: '**Robustness**...'
+    explicacao: '**Robustness**
+
+
+      Capacidade de um sistema de IA de manter desempenho confiável mesmo em condições
+      adversas ou com [dados](../conceitos-fundamentais/dados.md) inesperados. Inclui
+      resistência a falhas, ruído e variações nos dados de entrada.
+
+
+
+      **Tags:** `safety`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Ética, Segurança e Governança](index.md){
+      .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ethics
+    relacionados: []
+  seguranca-de-ia-safety:
+    nome: Segurança de IA
+    categoria: ethics
+    definicao: '**AI Safety**...'
+    explicacao: '**AI Safety**
+
+
+      Área focada em garantir que sistemas de IA funcionem de forma segura e alinhada
+      aos valores humanos. Aborda riscos como [alinhamento](../etica-seguranca-governanca/alinhamento-em-ia.md)
+      incorreto, comportamento inesperado e capacidades emergentes que podem representar
+      ameaças à humanidade.
+
+
+
+      **Tags:** `safety`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Ética, Segurança e Governança](index.md){
+      .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - ethics
+    relacionados: []
+  seguranca-de-ia-security:
+    nome: Segurança de IA
+    categoria: ethics
+    definicao: '**AI Security**...'
+    explicacao: '**AI Security**
+
+
+      Proteção de sistemas de IA contra ataques, vazamentos de [dados](../conceitos-fundamentais/dados.md)
+      e uso malicioso. Inclui resistência a [ataques de prompt](../etica-seguranca-governanca/ataques-de-prompt.md),
+      defesa contra [exemplos adversariais](../etica-seguranca-governanca/exemplos-adversariais.md)
+      e prevenção de [jailbreaks](../etica-seguranca-governanca/jailbreak.md).
+
+
+
+      **Tags:** `security`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Ética, Segurança e Governança](index.md){
+      .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ethics
+    relacionados: []
+  vies-e-equidade:
+    nome: Viés e Equidade
+    categoria: ethics
+    definicao: '**Bias and Fairness**...'
+    explicacao: '**Bias and Fairness**
+
+
+      Identificação e mitigação de preconceitos nos [modelos](../conceitos-fundamentais/modelo.md)
+      de IA.
+
+
+
+      **Tags:** `ethics`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Ética, Segurança e Governança](index.md){
+      .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ml
+    - ethics
+    relacionados: []
+  auto-consistencia:
+    nome: Auto-consistência
+    categoria: skills
+    definicao: '**Self-Consistency**...'
+    explicacao: '**Self-Consistency**
+
+
+      Executar múltiplas amostragens e escolher a resposta mais consistente/consensual.
+      Reduz [alucinações](../ia-generativa/alucinacao.md) e melhora raciocínio em
+      problemas abertos.
+
+
+
+      **Tags:** `generative-ai`, `prompt-engineering`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Habilidades e Práticas](index.md){ .md-button
+      }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags: []
+    relacionados: []
+  auto-reflexao:
+    nome: Auto-reflexão
+    categoria: skills
+    definicao: '**Self-Reflection**...'
+    explicacao: '**Self-Reflection**
+
+
+      Padrão onde o [modelo](../conceitos-fundamentais/modelo.md) analisa a própria
+      saída, identifica falhas e propõe correções ("critique, depois revise"). Aumenta
+      qualidade em tarefas complexas.
+
+
+
+      **Tags:** `prompt-engineering`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Habilidades e Práticas](index.md){ .md-button
+      }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ml
+    relacionados: []
+  cadeia-de-pensamento:
+    nome: Cadeia-de-Pensamento
+    categoria: skills
+    definicao: '**Chain-of-Thought** · *CoT*...'
+    explicacao: '**Chain-of-Thought** · *CoT*
+
+
+      Estratégias para induzir passos de raciocínio durante a geração de texto, com
+      o objetivo de melhorar a qualidade das respostas.
+
+
+
+      **Tags:** `generative-ai`, `prompt-engineering`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Habilidades e Práticas](index.md){ .md-button
+      }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - nlp
+    - generative
+    - business
+    relacionados: []
+  decomposicao-de-tarefas:
+    nome: Decomposição de Tarefas
+    categoria: skills
+    definicao: '**Task Decomposition**...'
+    explicacao: '**Task Decomposition**
+
+
+      Quebrar [objetivos](../agentes-ia/objetivo.md) amplos em etapas mensuráveis
+      (ex.: checklists).
+
+
+
+      **Tags:** `prompt-engineering`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Habilidades e Práticas](index.md){ .md-button
+      }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - agents
+    relacionados: []
+  design-de-guard-rails:
+    nome: Design de Guard-Rails
+    categoria: skills
+    definicao: '**Guard-Rails Design**...'
+    explicacao: '**Guard-Rails Design**
+
+
+      Arquitetar políticas, classificadores e checagens (pré/pós) para manter o sistema
+      dentro de limites de segurança, [conformidade](../etica-seguranca-governanca/conformidade.md)
+      e tom de marca.
+
+
+
+      **Tags:** `deep-learning`, `governance`, `safety`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Habilidades e Práticas](index.md){ .md-button
+      }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - ethics
+    relacionados: []
+  engenharia-de-contexto:
+    nome: Engenharia de Contexto
+    categoria: skills
+    definicao: '**Context Engineering**...'
+    explicacao: '**Context Engineering**
+
+
+      Gestão da [janela de contexto](../ia-generativa/janela-de-contexto.md): seleção,
+      compressão e ordenação de informações relevantes; uso de *prefill*, *system
+      prompts*, anotações e memória para aumentar qualidade e consistência.
+
+
+
+      **Tags:** `generative-ai`, `prompt-engineering`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Habilidades e Práticas](index.md){ .md-button
+      }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - nlp
+    relacionados: []
+  engenharia-de-prompt:
+    nome: Engenharia de Prompt
+    categoria: skills
+    definicao: '**Prompt Engineering**...'
+    explicacao: '**Prompt Engineering**
+
+
+      Técnicas para criar [prompts](../ia-generativa/prompt.md) eficazes: papéis,
+      [objetivos](../agentes-ia/objetivo.md) claros, restrições, exemplos, formatos
+      de saída e critérios de qualidade/teste.
+
+
+
+      **Tags:** `prompt-engineering`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Habilidades e Práticas](index.md){ .md-button
+      }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - agents
+    - technical
+    relacionados: []
+  fusion-skills:
+    nome: Fusion Skills
+    categoria: skills
+    definicao: '**Fusion Skills**...'
+    explicacao: '**Fusion Skills**
+
+
+      Combinação integrada de expertise humana (domínio, criatividade, julgamento)
+      com capacidades da IA (geração, busca, análise). O profissional alterna papéis:
+      orquestra, critica e complementa a IA.
+
+
+
+      **Tags:** `workflow`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Habilidades e Práticas](index.md){ .md-button
+      }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - generative
+    relacionados: []
+  red-teaming-de-ia:
+    nome: Red Teaming de IA
+    categoria: skills
+    definicao: '**AI Red Teaming**...'
+    explicacao: '**AI Red Teaming**
+
+
+      Testes ofensivos controlados para descobrir falhas, vieses e caminhos de abuso
+      ([ataques de prompt](../etica-seguranca-governanca/ataques-de-prompt.md), [jailbreak](../etica-seguranca-governanca/jailbreak.md),
+      fuga de [dados](../conceitos-fundamentais/dados.md)), com planos de correção.
+
+
+
+      **Tags:** `security`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Habilidades e Práticas](index.md){ .md-button
+      }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    relacionados: []
+  vibe-coding:
+    nome: Vibe Coding
+    categoria: skills
+    definicao: '**Vibe Coding**...'
+    explicacao: '**Vibe Coding**
+
+
+      Prática exploratória de criar programas/apps/sites/etc. utilizando IA sem a
+      necessidade de conhecimentos prévios de programação, priorizando fluxo criativo,
+      testes curtos e aprendizagem pelo fazer.
+
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Habilidades e Práticas](index.md){ .md-button
+      }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags: []
+    relacionados: []
+  zero-shot-e-few-shot:
+    nome: Zero-shot e Few-shot
+    categoria: skills
+    definicao: '**Zero-shot and Few-shot**...'
+    explicacao: '**Zero-shot and Few-shot**
+
+
+      Formas de orientar o [modelo](../conceitos-fundamentais/modelo.md) sem (zero)
+      ou com poucos exemplos (few). Úteis para ensinar formato, estilo e critérios
+      de avaliação dentro do próprio [prompt](../ia-generativa/prompt.md).
+
+
+
+      **Tags:** `agents`, `prompt-engineering`, `reinforcement-learning`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Habilidades e Práticas](index.md){ .md-button
+      }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ml
+    relacionados: []
+  ajuste-fino:
+    nome: Ajuste Fino
+    categoria: generative
+    definicao: '**Fine-Tuning**...'
+    explicacao: '**Fine-Tuning**
+
+
+      Etapa em que o [modelo](../conceitos-fundamentais/modelo.md) é refinado com
+      [dados](../conceitos-fundamentais/dados.md) específicos, adaptando-o a tarefas
+      ou contextos particulares.
+
+
+
+      **Tags:** `training`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para IA Generativa](index.md){ .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ml
+    - nlp
+    relacionados: []
+  ajuste-por-instrucao:
+    nome: Ajuste por Instrução
+    categoria: generative
+    definicao: '**Instruction Tuning**...'
+    explicacao: '**Instruction Tuning**
+
+
+      Técnica para treinar [modelos](../conceitos-fundamentais/modelo.md) a seguirem
+      melhor instruções dadas em linguagem natural.
+
+
+
+      **Tags:** `training`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para IA Generativa](index.md){ .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ml
+    - nlp
+    - technical
+    relacionados: []
+  alucinacao:
+    nome: Alucinação
+    categoria: generative
+    definicao: '**Hallucination**...'
+    explicacao: '**Hallucination**
+
+
+      Quando um [modelo](../conceitos-fundamentais/modelo.md) generativo cria informações
+      falsas ou inventadas que parecem plausíveis.
+
+
+
+      **Tags:** `generative-ai`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para IA Generativa](index.md){ .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ml
+    - generative
+    relacionados: []
+  aprendizado-por-reforco-com-feedback-humano:
+    nome: Aprendizado por Reforço com Feedback Humano
+    categoria: generative
+    definicao: '**Reinforcement Learning from Human Feedback** · *RLHF*...'
+    explicacao: '**Reinforcement Learning from Human Feedback** · *RLHF*
+
+
+      Método de alinhar [modelos](../conceitos-fundamentais/modelo.md) generativos
+      às preferências humanas, usando reforço baseado em feedback de avaliadores.
+
+
+
+      **Tags:** `reinforcement-learning`, `safety`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para IA Generativa](index.md){ .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ml
+    - generative
+    relacionados: []
+  dados-sinteticos:
+    nome: Dados Sintéticos
+    categoria: generative
+    definicao: '**Synthetic Data**...'
+    explicacao: '**Synthetic Data**
+
+
+      [Dados](../conceitos-fundamentais/dados.md) gerados artificialmente a partir
+      de [modelos](../conceitos-fundamentais/modelo.md) de IA, diferentes de dados
+      gerados por humanos.
+
+
+
+      **Tags:** `generative-ai`, `machine-learning`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para IA Generativa](index.md){ .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ml
+    relacionados: []
+  destilacao:
+    nome: Destilação
+    categoria: generative
+    definicao: '**Distillation**...'
+    explicacao: '**Distillation**
+
+
+      Técnica que treina uma IA aluna menor a imitar uma IA professor maior, usando
+      os [dados sintéticos](../ia-generativa/dados-sinteticos.md) gerados pela IA
+      professor. Resultado: [modelo](../conceitos-fundamentais/modelo.md) mais leve
+      e rápido, com boa parte do desempenho preservado.
+
+
+
+      **Tags:** `training`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para IA Generativa](index.md){ .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ml
+    - technical
+    relacionados: []
+  embeddings:
+    nome: Vetorização Semântica
+    categoria: generative
+    definicao: '**Embeddings**...'
+    explicacao: '**Embeddings**
+
+
+      Representação matemática de palavras, frases ou documentos em vetores, permitindo
+      que [modelos](../conceitos-fundamentais/modelo.md) entendam relações semânticas
+      entre eles.
+
+
+
+      **Tags:** `generative-ai`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para IA Generativa](index.md){ .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ml
+    relacionados: []
+  gans:
+    nome: Redes Adversárias Generativas
+    categoria: generative
+    definicao: '**Generative Adversarial Networks** · *GANs*...'
+    explicacao: '**Generative Adversarial Networks** · *GANs*
+
+
+      [Modelos](../conceitos-fundamentais/modelo.md) que usam duas [redes neurais](../conceitos-fundamentais/redes-neurais-artificiais.md)
+      em competição (gerador e discriminador) para criar conteúdos melhores.
+
+
+
+      **Tags:** `generative-ai`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para IA Generativa](index.md){ .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ml
+    relacionados: []
+  ia-generativa:
+    nome: IA Generativa
+    categoria: generative
+    definicao: '**Generative AI**...'
+    explicacao: '**Generative AI**
+
+
+      Área da IA voltada para a criação de novos conteúdos — textos, imagens, sons,
+      vídeos — a partir de padrões aprendidos em grandes volumes de [dados](../conceitos-fundamentais/dados.md).
+
+
+
+      **Tags:** `generative-ai`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para IA Generativa](index.md){ .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - nlp
+    - generative
+    relacionados: []
+  janela-de-contexto:
+    nome: Janela de Contexto
+    categoria: generative
+    definicao: '**Context Window**...'
+    explicacao: '**Context Window**
+
+
+      Limite máximo de [tokens](../ia-generativa/token.md) (palavras, caracteres)
+      que um [modelo de linguagem](../ia-generativa/modelos-de-linguagem.md) pode
+      processar em uma única interação. Determina quanto texto o modelo "lembra" durante
+      a conversa e afeta diretamente o custo computacional e a qualidade das respostas.
+
+
+
+      **Tags:** `generative-ai`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para IA Generativa](index.md){ .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - ml
+    - nlp
+    relacionados: []
+  mixture-of-experts:
+    nome: Mistura de Especialistas
+    categoria: generative
+    definicao: '**Mixture of Experts** · *MoE*...'
+    explicacao: '**Mixture of Experts** · *MoE*
+
+
+      Arquitetura em que vários "especialistas" (sub-redes) coexistem e um roteador
+      escolhe apenas alguns para cada entrada/[token](../ia-generativa/token.md).
+      Isso permite um [modelo](../conceitos-fundamentais/modelo.md) grande (com muitos
+      [parâmetros](../conceitos-fundamentais/parametro.md)) rodar com um custo de
+      computação menor.
+
+
+
+      **Tags:** `deep-learning`, `training`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para IA Generativa](index.md){ .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ml
+    relacionados: []
+  modelos-de-difusao:
+    nome: Modelos de Difusão
+    categoria: generative
+    definicao: '**Diffusion Models**...'
+    explicacao: '**Diffusion Models**
+
+
+      [Modelos](../conceitos-fundamentais/modelo.md) de IA usados na geração de imagens,
+      que criam figuras a partir de ruído, refinando-as progressivamente até se tornarem
+      claras. Recentemente, modelos de difusão começaram a ser usados para geração
+      de texto também.
+
+
+
+      **Tags:** `generative-ai`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para IA Generativa](index.md){ .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ml
+    - nlp
+    - generative
+    relacionados: []
+  modelos-de-linguagem-grande-porte:
+    nome: Modelos de Linguagem de Grande Porte
+    categoria: generative
+    definicao: '**Large Language Models** · *LLMs*...'
+    explicacao: '**Large Language Models** · *LLMs*
+
+
+      [Modelos de linguagem](../ia-generativa/modelos-de-linguagem.md) com bilhões
+      de [parâmetros](../conceitos-fundamentais/parametro.md), capazes de compreender
+      e gerar texto em linguagem natural com alta qualidade. Exemplos: GPT-4, Claude,
+      LLaMA. Requerem infraestrutura computacional significativa para [treinamento](../conceitos-fundamentais/treinamento.md)
+      e [inferência](../conceitos-fundamentais/inferencia.md).
+
+
+
+      **Tags:** `generative-ai`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para IA Generativa](index.md){ .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ml
+    - nlp
+    relacionados: []
+  modelos-de-linguagem-pequeno-porte:
+    nome: Modelos de Linguagem de Pequeno Porte
+    categoria: generative
+    definicao: '**Small Language Models** · *SLMs*...'
+    explicacao: '**Small Language Models** · *SLMs*
+
+
+      [Modelos de linguagem](../ia-generativa/modelos-de-linguagem.md) com menos [parâmetros](../conceitos-fundamentais/parametro.md)
+      (milhões a poucos bilhões), otimizados para eficiência computacional e execução
+      em dispositivos com recursos limitados. Equilibram qualidade e velocidade para
+      aplicações específicas.
+
+
+
+      **Tags:** `generative-ai`, `training`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para IA Generativa](index.md){ .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ml
+    relacionados: []
+  modelos-de-linguagem:
+    nome: Modelos de Linguagem
+    categoria: generative
+    definicao: '**Language Models** · *LMs*...'
+    explicacao: '**Language Models** · *LMs*
+
+
+      [Modelos](../conceitos-fundamentais/modelo.md) capazes de compreender e gerar
+      texto em linguagem natural.
+
+
+
+      **Tags:** `generative-ai`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para IA Generativa](index.md){ .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ml
+    - nlp
+    relacionados: []
+  modelos-de-raciocinio:
+    nome: Modelos de Raciocínio
+    categoria: generative
+    definicao: '**Reasoning Models**...'
+    explicacao: '**Reasoning Models**
+
+
+      [Modelos de linguagem](../ia-generativa/modelos-de-linguagem.md) que podem realizar
+      tarefas de raciocínio complexo por meio de técnicas como [cadeia-de-pensamento](../habilidades-praticas/cadeia-de-pensamento.md)
+      e [auto-reflexão](../habilidades-praticas/auto-reflexao.md) que produzem uma
+      série de [tokens](../ia-generativa/token.md) internos, que são então usados
+      para gerar a resposta final. O modelo utiliza mais tempo de computação para
+      gerar respostas mais precisas para tarefas complexas.
+
+
+
+      **Tags:** `prompt-engineering`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para IA Generativa](index.md){ .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - ml
+    - technical
+    relacionados: []
+  modelos-multimodais:
+    nome: Modelos Multimodais
+    categoria: generative
+    definicao: '**Multimodal Models**...'
+    explicacao: '**Multimodal Models**
+
+
+      Sistemas de IA capazes de processar e gerar múltiplos tipos de [dados](../conceitos-fundamentais/dados.md)
+      simultaneamente (texto, imagem, áudio, vídeo). Permitem tarefas como descrição
+      de imagens, geração de conteúdo baseado em diferentes mídias e compreensão contextual
+      rica.
+
+
+
+      **Tags:** `generative-ai`, `workflow`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para IA Generativa](index.md){ .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - nlp
+    - generative
+    relacionados: []
+  prompt:
+    nome: Prompt
+    categoria: generative
+    definicao: '**Prompt**...'
+    explicacao: '**Prompt**
+
+
+      A entrada (pergunta, instrução ou comando) que o usuário fornece para que o
+      [modelo](../conceitos-fundamentais/modelo.md) generativo produza uma resposta.
+
+
+
+      **Tags:** `agents`, `prompt-engineering`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para IA Generativa](index.md){ .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ml
+    - generative
+    relacionados: []
+  quantizacao:
+    nome: Quantização
+    categoria: generative
+    definicao: '**Quantization**...'
+    explicacao: '**Quantization**
+
+
+      Reduz a precisão numérica de [pesos](../conceitos-fundamentais/pesos-e-vieses.md)/ativações
+      (ex.: 16→8→4 bits) para economizar **memória, custo e tempo de [inferência](../conceitos-fundamentais/inferencia.md)**.
+      Pequena perda de acurácia é comum.
+
+
+
+      **Tags:** `training`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para IA Generativa](index.md){ .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    relacionados: []
+  rag:
+    nome: Geração Aumentada por Recuperação
+    categoria: generative
+    definicao: '**Retrieval-Augmented Generation** · *RAG*...'
+    explicacao: '**Retrieval-Augmented Generation** · *RAG*
+
+
+      Técnica que combina geração de texto com recuperação de informações em bases
+      externas (ex.: documentos, web, bancos de dados), aumentando a precisão das
+      respostas.
+
+
+
+      **Tags:** `generative-ai`, `governance`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para IA Generativa](index.md){ .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - nlp
+    - generative
+    - technical
+    relacionados: []
+  speech-to-text:
+    nome: Speech to Text
+    categoria: generative
+    definicao: '**Speech to Text** · *STT*...'
+    explicacao: '**Speech to Text** · *STT*
+
+
+      Tecnologia que converte fala humana em texto escrito, permitindo que sistemas
+      de IA compreendam comandos de voz, transcrevam conversas e facilitem a interação
+      por voz. Base da tecnologia de reconhecimento de fala.
+
+
+
+      **Tags:** `generative-ai`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para IA Generativa](index.md){ .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - nlp
+    relacionados: []
+  text-to-speech:
+    nome: Text to Speech
+    categoria: generative
+    definicao: '**Text to Speech** · *TTS*...'
+    explicacao: '**Text to Speech** · *TTS*
+
+
+      Tecnologia que converte texto escrito em fala natural, permitindo que sistemas
+      de IA "falem" com entonação, ritmo e pronúncia humanas. Usada em assistentes
+      virtuais, audiobooks e acessibilidade.
+
+
+
+      **Tags:** `generative-ai`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para IA Generativa](index.md){ .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - nlp
+    relacionados: []
+  token:
+    nome: Token
+    categoria: generative
+    definicao: '**Token**...'
+    explicacao: '**Token**
+
+
+      Unidade mínima em que o texto é dividido para processamento. Pode ser uma palavra,
+      parte dela ou até um caractere.
+
+
+
+      **Tags:** `generative-ai`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para IA Generativa](index.md){ .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - nlp
+    relacionados: []
+  transformer:
+    nome: Transformer
+    categoria: generative
+    definicao: '**Transformer**...'
+    explicacao: '**Transformer**
+
+
+      Arquitetura de [rede neural](../conceitos-fundamentais/redes-neurais-artificiais.md)
+      que revolucionou a [IA generativa](../ia-generativa/ia-generativa.md), permitindo
+      o processamento eficiente de sequências longas de [dados](../conceitos-fundamentais/dados.md).
+
+
+
+      **Tags:** `deep-learning`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para IA Generativa](index.md){ .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - deep-learning
+    relacionados: []
+  treinamento-previo:
+    nome: Treinamento Prévio
+    categoria: generative
+    definicao: '**Pretraining**...'
+    explicacao: '**Pretraining**
+
+
+      Fase inicial em que o [modelo](../conceitos-fundamentais/modelo.md) aprende
+      padrões gerais da linguagem ou de imagens a partir de enormes conjuntos de [dados](../conceitos-fundamentais/dados.md).
+
+
+
+      **Tags:** `training`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para IA Generativa](index.md){ .md-button }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ml
+    relacionados: []
+  api:
+    nome: API
+    categoria: infrastructure
+    definicao: '**Application Programming Interface**...'
+    explicacao: '**Application Programming Interface**
+
+
+      Interface que permite que programas se comuniquem entre si.
+
+
+
+      **Tags:** `agents`, `workflow`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Infraestrutura e Processos](index.md){ .md-button
+      }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags: []
+    relacionados: []
+  computacao-de-borda:
+    nome: Computação de Borda
+    categoria: infrastructure
+    definicao: '**Edge Computing**...'
+    explicacao: '**Edge Computing**
+
+
+      Execução de [modelos](../conceitos-fundamentais/modelo.md) **próxima da fonte
+      dos [dados](../conceitos-fundamentais/dados.md)** (celulares, IoT, veículos),
+      reduzindo latência e custo de tráfego e aumentando privacidade. Impõe restrições
+      de memória/energia; por isso, usa-se [quantização](../ia-generativa/quantizacao.md),
+      [destilação](../ia-generativa/destilacao.md) e operadores otimizados (NPUs,
+      DSPs).
+
+
+
+      **Tags:** `security`, `workflow`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Infraestrutura e Processos](index.md){ .md-button
+      }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ml
+    relacionados: []
+  mcp:
+    nome: MCP
+    categoria: infrastructure
+    definicao: '**Model Context Protocol**...'
+    explicacao: '**Model Context Protocol**
+
+
+      Protocolo que permite que [agentes](../agentes-ia/agente.md) de IA se comuniquem
+      entre si e com outros sistemas.
+
+
+
+      **Tags:** `agents`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Infraestrutura e Processos](index.md){ .md-button
+      }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - agents
+    relacionados: []
+  orquestracao-de-ia:
+    nome: Orquestração de IA
+    categoria: infrastructure
+    definicao: '**AI Orchestration**...'
+    explicacao: '**AI Orchestration**
+
+
+      Criar sinergia entre humanos e automação inteligente, coordenando sistemas,
+      [modelos](../conceitos-fundamentais/modelo.md) e fluxos de trabalho de forma
+      colaborativa. Vai além de tarefas — integra processos com inteligência adaptativa.
+
+
+
+      **Tags:** `multiagents`, `workflow`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Infraestrutura e Processos](index.md){ .md-button
+      }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ml
+    relacionados: []
+  pipeline-de-dados:
+    nome: Pipeline de Dados
+    categoria: infrastructure
+    definicao: '**Data Pipeline**...'
+    explicacao: '**Data Pipeline**
+
+
+      Cadeia de processamento e preparação de [dados](../conceitos-fundamentais/dados.md)
+      para alimentar [modelos](../conceitos-fundamentais/modelo.md) de IA.
+
+
+
+      **Tags:** `generative-ai`, `workflow`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Infraestrutura e Processos](index.md){ .md-button
+      }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - ml
+    relacionados: []
+  workflows-inteligentes:
+    nome: Workflows Inteligentes
+    categoria: infrastructure
+    definicao: '**Intelligent Workflows**...'
+    explicacao: '**Intelligent Workflows**
+
+
+      Processos automatizados com IA que tomam decisões, aprendem com [dados](../conceitos-fundamentais/dados.md)
+      e se adaptam ao contexto, integrando sistemas de forma dinâmica e responsiva
+      entre sistemas de IA e humanos.
+
+
+
+      **Tags:** `agents`, `workflow`
+
+
+      ---
+
+
+      [:material-arrow-left: Voltar para Infraestrutura e Processos](index.md){ .md-button
+      }
+
+      [📝 Editar este termo](https://github.com/seu-usuario/glossario-ia/edit/main/glossario.yaml){
+      .md-button .md-button--primary }'
+    tags:
+    - fundamentos
+    - nlp
+    relacionados: []

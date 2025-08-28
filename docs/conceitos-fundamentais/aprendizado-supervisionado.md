@@ -5,7 +5,7 @@
 Usa [dados](../conceitos-fundamentais/dados.md) rotulados (já identificados previamente) para ensinar o [modelo](../conceitos-fundamentais/modelo.md) a realizar uma tarefa.
 
 
-**Tags:** `machine-learning` · `aprendizado` · `supervisionado`
+**Tags:** [`machine-learning`](../tags.md#machine-learning)
 
 ---
 

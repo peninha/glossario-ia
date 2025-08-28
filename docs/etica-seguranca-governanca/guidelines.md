@@ -5,7 +5,7 @@
 Diretrizes que orientam o desenvolvimento e uso responsável de sistemas de IA.
 
 
-**Tags:** `diretrizes` · `orientacao` · `responsabilidade`
+**Tags:** [`agents`](../tags.md#agents) · [`ethics`](../tags.md#ethics) · [`governance`](../tags.md#governance)
 
 ---
 

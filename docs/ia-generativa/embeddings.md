@@ -5,7 +5,7 @@
 Representação matemática de palavras, frases ou documentos em vetores, permitindo que [modelos](../conceitos-fundamentais/modelo.md) entendam relações semânticas entre eles.
 
 
-**Tags:** `embeddings` · `vetores` · `semantica`
+**Tags:** [`generative-ai`](../tags.md#generative-ai)
 
 ---
 

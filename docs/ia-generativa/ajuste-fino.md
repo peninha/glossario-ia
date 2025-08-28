@@ -5,7 +5,7 @@
 Etapa em que o [modelo](../conceitos-fundamentais/modelo.md) é refinado com [dados](../conceitos-fundamentais/dados.md) específicos, adaptando-o a tarefas ou contextos particulares.
 
 
-**Tags:** `fine-tuning` · `treinamento` · `especializacao`
+**Tags:** [`training`](../tags.md#training)
 
 ---
 

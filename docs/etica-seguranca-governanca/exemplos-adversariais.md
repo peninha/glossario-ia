@@ -5,7 +5,7 @@
 Perturbações sutis em entradas (texto/imagem/áudio) que levam o [modelo](../conceitos-fundamentais/modelo.md) ao erro. Defesas: *adversarial training*, regularização e detecção de anomalias.
 
 
-**Tags:** `perturbacoes` · `erro` · `defesas`
+**Tags:** [`safety`](../tags.md#safety) · [`security`](../tags.md#security)
 
 ---
 

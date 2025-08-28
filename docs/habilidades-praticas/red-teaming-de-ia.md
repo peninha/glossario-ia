@@ -5,7 +5,7 @@
 Testes ofensivos controlados para descobrir falhas, vieses e caminhos de abuso ([ataques de prompt](../etica-seguranca-governanca/ataques-de-prompt.md), [jailbreak](../etica-seguranca-governanca/jailbreak.md), fuga de [dados](../conceitos-fundamentais/dados.md)), com planos de correção.
 
 
-**Tags:** `testes` · `falhas` · `abuso`
+**Tags:** [`security`](../tags.md#security)
 
 ---
 

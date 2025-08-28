@@ -5,7 +5,7 @@
 Cadeia de processamento e preparação de [dados](../conceitos-fundamentais/dados.md) para alimentar [modelos](../conceitos-fundamentais/modelo.md) de IA.
 
 
-**Tags:** `processamento` · `preparacao` · `cadeia`
+**Tags:** [`generative-ai`](../tags.md#generative-ai) · [`workflow`](../tags.md#workflow)
 
 ---
 

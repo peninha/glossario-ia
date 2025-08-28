@@ -5,7 +5,7 @@
 Área de pesquisa que busca garantir que sistemas de IA, mesmo aqueles super inteligentes, ajam de forma alinhada aos valores e [objetivos](../agentes-ia/objetivo.md) humanos.
 
 
-**Tags:** `alinhamento` · `valores` · `pesquisa`
+**Tags:** [`ethics`](../tags.md#ethics) · [`safety`](../tags.md#safety)
 
 ---
 

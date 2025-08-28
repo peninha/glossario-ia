@@ -5,7 +5,7 @@
 Unidade mínima em que o texto é dividido para processamento. Pode ser uma palavra, parte dela ou até um caractere.
 
 
-**Tags:** `processamento` · `unidade` · `texto`
+**Tags:** [`generative-ai`](../tags.md#generative-ai)
 
 ---
 

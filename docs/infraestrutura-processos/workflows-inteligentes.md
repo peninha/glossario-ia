@@ -5,7 +5,7 @@
 Processos automatizados com IA que tomam decisões, aprendem com [dados](../conceitos-fundamentais/dados.md) e se adaptam ao contexto, integrando sistemas de forma dinâmica e responsiva entre sistemas de IA e humanos.
 
 
-**Tags:** `processos` · `adaptacao` · `dinamismo`
+**Tags:** [`agents`](../tags.md#agents) · [`workflow`](../tags.md#workflow)
 
 ---
 

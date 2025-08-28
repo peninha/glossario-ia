@@ -5,7 +5,7 @@
 Processo de ajustar os [parâmetros](../conceitos-fundamentais/parametro.md) de um [modelo](../conceitos-fundamentais/modelo.md) de IA até que ele aprenda a realizar bem determinada tarefa.
 
 
-**Tags:** `machine-learning` · `treinamento`
+**Tags:** [`machine-learning`](../tags.md#machine-learning) · [`training`](../tags.md#training)
 
 ---
 

@@ -5,7 +5,7 @@
 Quebrar [objetivos](../agentes-ia/objetivo.md) amplos em etapas mensuráveis (ex.: checklists).
 
 
-**Tags:** `quebra` · `etapas` · `organizacao`
+**Tags:** [`prompt-engineering`](../tags.md#prompt-engineering)
 
 ---
 

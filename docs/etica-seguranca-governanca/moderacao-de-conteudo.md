@@ -5,7 +5,7 @@
 Sistemas e processos para identificar, filtrar e remover conteúdo inadequado, nocivo ou que violam políticas de uso.
 
 
-**Tags:** `filtragem` · `politicas` · `adequacao`
+**Tags:** [`governance`](../tags.md#governance)
 
 ---
 

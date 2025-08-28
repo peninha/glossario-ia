@@ -5,7 +5,7 @@
 Fase inicial em que o [modelo](../conceitos-fundamentais/modelo.md) aprende padrões gerais da linguagem ou de imagens a partir de enormes conjuntos de [dados](../conceitos-fundamentais/dados.md).
 
 
-**Tags:** `pretraining` · `fase-inicial` · `padroes`
+**Tags:** [`training`](../tags.md#training)
 
 ---
 

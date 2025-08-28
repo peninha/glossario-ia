@@ -5,7 +5,7 @@
 Campo da ciência da computação que busca criar sistemas capazes de realizar tarefas que normalmente exigem inteligência humana, como reconhecer imagens, compreender linguagem ou tomar decisões.
 
 
-**Tags:** `conceitos-basicos` · `ia`
+**Tags:** [`machine-learning`](../tags.md#machine-learning)
 
 ---
 

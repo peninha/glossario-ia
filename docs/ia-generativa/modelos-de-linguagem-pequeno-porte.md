@@ -5,7 +5,7 @@
 [Modelos de linguagem](../ia-generativa/modelos-de-linguagem.md) com menos [parâmetros](../conceitos-fundamentais/parametro.md) (milhões a poucos bilhões), otimizados para eficiência computacional e execução em dispositivos com recursos limitados. Equilibram qualidade e velocidade para aplicações específicas.
 
 
-**Tags:** `slms` · `eficiencia` · `dispositivos-limitados`
+**Tags:** [`generative-ai`](../tags.md#generative-ai) · [`training`](../tags.md#training)
 
 ---
 

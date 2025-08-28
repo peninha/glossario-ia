@@ -5,7 +5,7 @@
 Executar múltiplas amostragens e escolher a resposta mais consistente/consensual. Reduz [alucinações](../ia-generativa/alucinacao.md) e melhora raciocínio em problemas abertos.
 
 
-**Tags:** `consistencia` · `consenso` · `qualidade`
+**Tags:** [`generative-ai`](../tags.md#generative-ai) · [`prompt-engineering`](../tags.md#prompt-engineering)
 
 ---
 

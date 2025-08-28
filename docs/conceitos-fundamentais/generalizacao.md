@@ -5,7 +5,7 @@
 Capacidade do [modelo](../conceitos-fundamentais/modelo.md) de aplicar o que aprendeu no [treinamento](../conceitos-fundamentais/treinamento.md) para situações novas, diferentes dos exemplos originais.
 
 
-**Tags:** `machine-learning` · `avaliacao`
+**Tags:** [`machine-learning`](../tags.md#machine-learning) · [`reinforcement-learning`](../tags.md#reinforcement-learning)
 
 ---
 

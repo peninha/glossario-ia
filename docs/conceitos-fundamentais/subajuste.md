@@ -5,7 +5,7 @@
 Quando o [modelo](../conceitos-fundamentais/modelo.md) é simples ou pouco treinado e não consegue nem aprender direito os [dados](../conceitos-fundamentais/dados.md) de treino.
 
 
-**Tags:** `machine-learning` · `avaliacao` · `problemas`
+**Tags:** [`generative-ai`](../tags.md#generative-ai) · [`machine-learning`](../tags.md#machine-learning) · [`reinforcement-learning`](../tags.md#reinforcement-learning)
 
 ---
 

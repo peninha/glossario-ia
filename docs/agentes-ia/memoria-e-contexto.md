@@ -5,7 +5,7 @@
 Mecanismos para manter continuidade: [janela de contexto](../ia-generativa/janela-de-contexto.md) (curto prazo), memória vetorial/BD (longo prazo) e logs. Ajudam a não "recomeçar do zero" a cada passo.
 
 
-**Tags:** `continuidade` · `persistencia` · `historia`
+**Tags:** [`safety`](../tags.md#safety)
 
 ---
 

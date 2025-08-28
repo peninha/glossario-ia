@@ -5,7 +5,7 @@
 Tecnologia que converte fala humana em texto escrito, permitindo que sistemas de IA compreendam comandos de voz, transcrevam conversas e facilitem a interação por voz. Base da tecnologia de reconhecimento de fala.
 
 
-**Tags:** `fala` · `texto` · `reconhecimento`
+**Tags:** [`generative-ai`](../tags.md#generative-ai)
 
 ---
 

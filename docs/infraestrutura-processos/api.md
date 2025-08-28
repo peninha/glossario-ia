@@ -5,7 +5,7 @@
 Interface que permite que programas se comuniquem entre si.
 
 
-**Tags:** `interface` · `comunicacao` · `integracao`
+**Tags:** [`agents`](../tags.md#agents) · [`workflow`](../tags.md#workflow)
 
 ---
 

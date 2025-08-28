@@ -5,7 +5,7 @@
 Etapa em que o [modelo](../conceitos-fundamentais/modelo.md) já treinado aplica o que aprendeu para analisar novos [dados](../conceitos-fundamentais/dados.md) e dar respostas ou previsões.
 
 
-**Tags:** `machine-learning` · `inferencia`
+**Tags:** [`machine-learning`](../tags.md#machine-learning)
 
 ---
 

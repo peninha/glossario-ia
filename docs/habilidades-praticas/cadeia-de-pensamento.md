@@ -5,7 +5,7 @@
 Estratégias para induzir passos de raciocínio durante a geração de texto, com o objetivo de melhorar a qualidade das respostas.
 
 
-**Tags:** `raciocinio` · `passos` · `qualidade`
+**Tags:** [`generative-ai`](../tags.md#generative-ai) · [`prompt-engineering`](../tags.md#prompt-engineering)
 
 ---
 

@@ -5,7 +5,7 @@
 Adequação de sistemas de IA a marcos regulatórios, normas técnicas e políticas internas. Inclui avaliações de risco/impacto, classificações por nível de risco e requisitos de documentação.
 
 
-**Tags:** `regulamentacao` · `adequacao` · `normas`
+**Tags:** [`governance`](../tags.md#governance)
 
 ---
 

@@ -5,7 +5,7 @@
 Criar sinergia entre humanos e automação inteligente, coordenando sistemas, [modelos](../conceitos-fundamentais/modelo.md) e fluxos de trabalho de forma colaborativa. Vai além de tarefas — integra processos com inteligência adaptativa.
 
 
-**Tags:** `sinergia` · `coordenacao` · `inteligencia-adaptativa`
+**Tags:** [`multiagents`](../tags.md#multiagents) · [`workflow`](../tags.md#workflow)
 
 ---
 

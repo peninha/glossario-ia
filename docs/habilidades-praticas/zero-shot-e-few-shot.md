@@ -5,7 +5,7 @@
 Formas de orientar o [modelo](../conceitos-fundamentais/modelo.md) sem (zero) ou com poucos exemplos (few). Úteis para ensinar formato, estilo e critérios de avaliação dentro do próprio [prompt](../ia-generativa/prompt.md).
 
 
-**Tags:** `orientacao` · `exemplos` · `avaliacao`
+**Tags:** [`agents`](../tags.md#agents) · [`prompt-engineering`](../tags.md#prompt-engineering) · [`reinforcement-learning`](../tags.md#reinforcement-learning)
 
 ---
 

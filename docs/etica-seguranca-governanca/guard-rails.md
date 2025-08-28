@@ -5,7 +5,7 @@
 Conjuntos de restrições e limites implementados em sistemas de IA para possibilitar operações seguras e éticas.
 
 
-**Tags:** `restricoes` · `limites` · `seguranca`
+**Tags:** [`safety`](../tags.md#safety)
 
 ---
 

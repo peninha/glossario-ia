@@ -5,7 +5,7 @@
 Processos estruturados para identificar, responder e resolver problemas em sistemas de IA, incluindo protocolos de escalação, comunicação e recuperação.
 
 
-**Tags:** `incidentes` · `resposta` · `recuperacao`
+**Tags:** [`governance`](../tags.md#governance)
 
 ---
 

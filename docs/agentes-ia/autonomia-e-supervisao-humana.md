@@ -5,7 +5,7 @@
 Definição de níveis de autonomia, checkpoints de aprovação, trilhas de auditoria e limites de escopo para segurança, conformidade e alinhamento com [objetivos](../agentes-ia/objetivo.md) humanos.
 
 
-**Tags:** `supervisao` · `controle` · `seguranca`
+**Tags:** [`agents`](../tags.md#agents) · [`safety`](../tags.md#safety)
 
 ---
 

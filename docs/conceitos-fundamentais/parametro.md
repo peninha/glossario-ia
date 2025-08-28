@@ -5,7 +5,7 @@
 Variável ajustável em um [modelo](../conceitos-fundamentais/modelo.md) de IA que é otimizada durante o [treinamento](../conceitos-fundamentais/treinamento.md) para melhorar o desempenho e a precisão das previsões.
 
 
-**Tags:** `machine-learning` · `parametros`
+**Tags:** [`machine-learning`](../tags.md#machine-learning)
 
 ---
 

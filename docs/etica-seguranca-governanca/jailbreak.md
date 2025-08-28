@@ -5,7 +5,7 @@
 Técnica que induz o [modelo](../conceitos-fundamentais/modelo.md) a ignorar restrições e agir livremente, possivelmente de maneira maliciosa ou insegura.
 
 
-**Tags:** `restricoes` · `manipulacao` · `inseguranca`
+**Tags:** [`safety`](../tags.md#safety) · [`security`](../tags.md#security)
 
 ---
 

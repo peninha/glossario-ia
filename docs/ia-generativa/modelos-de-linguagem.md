@@ -5,7 +5,7 @@
 [Modelos](../conceitos-fundamentais/modelo.md) capazes de compreender e gerar texto em linguagem natural.
 
 
-**Tags:** `nlp` · `linguagem` · `texto`
+**Tags:** [`generative-ai`](../tags.md#generative-ai)
 
 ---
 
