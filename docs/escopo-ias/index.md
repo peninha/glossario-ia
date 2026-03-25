@@ -6,6 +6,12 @@ Classificação dos diferentes níveis e tipos de inteligência artificial
 
 <div class="grid cards" markdown>
 
+- **[IA Agêntica](ia-agentica.md)**
+
+    *Agentic AI*
+
+    Subcategoria de IA focada em sistemas que agem autonomamente, tomam decisões e executam tarefas multi-etapa sem validação humana a cada passo. Distingue-se de chatbots e da [IA generativa](../ia-generativa/ia-generativa.md) pura. Paradigma dominante em 2025-2026.
+
 - **[Inteligência Artificial Geral](inteligencia-artificial-geral.md)**
 
     *Artificial General Intelligence* · `IAG, AGI`
@@ -26,5 +32,5 @@ Classificação dos diferentes níveis e tipos de inteligência artificial
 
 </div>
 
-**Total de termos:** 3
+**Total de termos:** 4
 

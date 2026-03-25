@@ -24,6 +24,18 @@ Conceitos relacionados a sistemas de IA que atuam como agentes autônomos
 
     Sistema de IA que opera independentemente com mínima supervisão humana, tomando decisões e executando [ações](../agentes-ia/acoes.md) baseadas em seus [objetivos](../agentes-ia/objetivo.md) e percepções do [ambiente](../agentes-ia/ambiente.md). Pode aprender e adaptar-se a mudanças, mas mantém limites de segurança e conformidade definidos por humanos.
 
+- **[Agente de Código](agente-de-codigo.md)**
+
+    *Coding Agent* · `SWE Agent`
+
+    [Agente](../agentes-ia/agente.md) especializado em engenharia de software que autonomamente lê documentação, escreve código, executa testes e faz debug. Exemplos: Claude Code, GitHub Copilot Agent, Cursor Agent, Devin e OpenHands.
+
+- **[Agente de Navegador](agente-de-navegador.md)**
+
+    *Browser Agent*
+
+    [Agente](../agentes-ia/agente.md) de IA que automatiza a navegação web, compreendendo conteúdo de páginas e executando workflows multi-etapa. Exemplos: OpenAI Operator, Google Project Mariner, Perplexity Comet.
+
 - **[Ambiente](ambiente.md)**
 
     *Environment*
@@ -35,6 +47,12 @@ Conceitos relacionados a sistemas de IA que atuam como agentes autônomos
     *Human-in-the-Loop* · `HITL`
 
     Definição de níveis de autonomia, checkpoints de aprovação, trilhas de auditoria e limites de escopo para segurança, conformidade e alinhamento com [objetivos](../agentes-ia/objetivo.md) humanos.
+
+- **[Chamada de Ferramentas](chamada-de-ferramentas.md)**
+
+    *Tool Calling* · `Function Calling`
+
+    Mecanismo que permite a um [LLM](../ia-generativa/modelos-de-linguagem-grande-porte.md) propor [ações](../agentes-ia/acoes.md) estruturadas (JSON) em vez de apenas gerar texto. O modelo "escolhe" qual função chamar e com quais parâmetros.
 
 - **[Enxame](enxame.md)**
 
@@ -59,6 +77,24 @@ Conceitos relacionados a sistemas de IA que atuam como agentes autônomos
     *Tools*
 
     Conectores e interfaces externas que um [agente](../agentes-ia/agente.md) pode acionar para ampliar suas capacidades: calculadora, navegação e busca web, [RAG](../ia-generativa/rag.md)/bases de conhecimento, planilhas e bancos de dados, interpretador/execução de código, automações e serviços de terceiros, além de atuadores físicos (robótica).
+
+- **[Habilidades de Agente](habilidades-de-agente.md)**
+
+    *Agent Skills*
+
+    Capacidades reutilizáveis e instaláveis que estendem o repertório de um [agente](../agentes-ia/agente.md) além de suas [ferramentas](../agentes-ia/ferramentas.md) básicas, encapsulando comportamentos completos com instruções, contexto e lógica.
+
+- **[Handoff de Agentes](handoff-de-agentes.md)**
+
+    *Agent Handoff*
+
+    Transferência de controle entre [agentes](../agentes-ia/agente.md) especializados em [sistemas multiagentes](../agentes-ia/sistemas-multiagentes.md). Quando um agente determina que outra especialidade é necessária, ele passa a tarefa e o contexto para o agente adequado.
+
+- **[Loop de Agente](loop-de-agente.md)**
+
+    *Agent Loop*
+
+    Ciclo fundamental por trás de todo [agente](../agentes-ia/agente.md): enviar contexto ao modelo → verificar chamadas de [ferramentas](../agentes-ia/ferramentas.md) → executar → realimentar → repetir. É o padrão canônico de todos os frameworks agênticos.
 
 - **[Memória e Contexto](memoria-e-contexto.md)**
 
@@ -108,13 +144,25 @@ Conceitos relacionados a sistemas de IA que atuam como agentes autônomos
 
     Sinal (geralmente numérico) que indica sucesso parcial ou total — comum em [aprendizado por reforço](../conceitos-fundamentais/aprendizado-por-reforco.md). Exemplo: nota ao concluir uma tarefa.
 
+- **[Roteamento de Agentes](roteamento-de-agentes.md)**
+
+    *Agent Routing*
+
+    Lógica que decide qual [agente](../agentes-ia/agente.md) especializado deve lidar com cada tarefa em um [sistema multiagente](../agentes-ia/sistemas-multiagentes.md). Pode ser determinístico (regras/grafos) ou dinâmico (avaliado por LLM).
+
 - **[Sistemas Multiagentes](sistemas-multiagentes.md)**
 
     *Multi-Agent Systems* · `MAS`
 
     Vários [agentes](../agentes-ia/agente.md) cooperando com papéis complementares (ex.: pesquisador, redator, revisor). Exigem protocolos de comunicação e estratégias de coordenação.
 
+- **[Uso de Computador](uso-de-computador.md)**
+
+    *Computer Use*
+
+    Capacidade de [agentes](../agentes-ia/agente.md) de IA interagirem com interfaces gráficas como um humano: movendo o mouse, clicando, digitando e lendo a tela. Inaugurado pela Anthropic em outubro/2024.
+
 </div>
 
-**Total de termos:** 18
+**Total de termos:** 26
 

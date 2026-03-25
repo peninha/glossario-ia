@@ -1,7 +1,7 @@
 metadata:
   versao: '2.0'
   ultima_atualizacao: '2025-01-27'
-  total_termos: 113
+  total_termos: 130
   fonte: Sincronizado a partir dos arquivos MD
 categorias:
   fundamentos: Conceitos Fundamentais
@@ -3030,4 +3030,139 @@ termos:
     tags:
     - agents
     - workflow
+    relacionados: []
+  loop-de-agente:
+    nome: Loop de Agente
+    categoria: agents
+    definicao: '**Agent Loop**...'
+    tags:
+    - agents
+    - workflow
+    relacionados: []
+  chamada-de-ferramentas:
+    nome: Chamada de Ferramentas
+    categoria: agents
+    definicao: '**Tool Calling** · *Function Calling*...'
+    tags:
+    - agents
+    - workflow
+    relacionados: []
+  handoff-de-agentes:
+    nome: Handoff de Agentes
+    categoria: agents
+    definicao: '**Agent Handoff**...'
+    tags:
+    - agents
+    - multiagents
+    relacionados: []
+  agente-de-codigo:
+    nome: Agente de Código
+    categoria: agents
+    definicao: '**Coding Agent** · *SWE Agent*...'
+    tags:
+    - agents
+    - workflow
+    relacionados: []
+  agente-de-navegador:
+    nome: Agente de Navegador
+    categoria: agents
+    definicao: '**Browser Agent**...'
+    tags:
+    - agents
+    - workflow
+    relacionados: []
+  uso-de-computador:
+    nome: Uso de Computador
+    categoria: agents
+    definicao: '**Computer Use**...'
+    tags:
+    - agents
+    - workflow
+    relacionados: []
+  roteamento-de-agentes:
+    nome: Roteamento de Agentes
+    categoria: agents
+    definicao: '**Agent Routing**...'
+    tags:
+    - agents
+    - multiagents
+    relacionados: []
+  habilidades-de-agente:
+    nome: Habilidades de Agente
+    categoria: agents
+    definicao: '**Agent Skills**...'
+    tags:
+    - agents
+    - workflow
+    relacionados: []
+  protocolo-a2a:
+    nome: Protocolo A2A
+    categoria: infrastructure
+    definicao: '**Agent-to-Agent Protocol**...'
+    tags:
+    - agents
+    - multiagents
+    relacionados: []
+  openclaw:
+    nome: OpenClaw
+    categoria: infrastructure
+    definicao: '**OpenClaw**...'
+    tags:
+    - agents
+    - workflow
+    relacionados: []
+  frameworks-agenticos:
+    nome: Frameworks Agênticos
+    categoria: infrastructure
+    definicao: '**Agentic Frameworks**...'
+    tags:
+    - agents
+    - workflow
+    relacionados: []
+  computacao-em-tempo-de-inferencia:
+    nome: Computação em Tempo de Inferência
+    categoria: generative
+    definicao: '**Test-Time Compute** · *Inference-Time Compute*...'
+    tags:
+    - llm
+    - prompt-engineering
+    relacionados: []
+  saida-estruturada:
+    nome: Saída Estruturada
+    categoria: generative
+    definicao: '**Structured Output**...'
+    tags:
+    - llm
+    - agents
+    relacionados: []
+  fundamentacao:
+    nome: Fundamentação
+    categoria: generative
+    definicao: '**Grounding**...'
+    tags:
+    - llm
+    - prompt-engineering
+    relacionados: []
+  ia-agentica:
+    nome: IA Agêntica
+    categoria: scope
+    definicao: '**Agentic AI**...'
+    tags:
+    - agents
+    relacionados: []
+  engenharia-de-agentes:
+    nome: Engenharia de Agentes
+    categoria: skills
+    definicao: '**Agent Engineering**...'
+    tags:
+    - agents
+    - prompt-engineering
+    relacionados: []
+  protocolo-cap:
+    nome: Protocolo CAP
+    categoria: ethics
+    definicao: '**Context-Aware Policy** · *Agent-to-Governance*...'
+    tags:
+    - agents
+    - governanca
     relacionados: []

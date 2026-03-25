@@ -126,6 +126,12 @@ Princípios, práticas e regulamentações para uso responsável de IA
 
     Monitoramento em tempo real sobre o comportamento de sistemas de IA, facilitando a detecção de anomalias.
 
+- **[Protocolo CAP](protocolo-cap.md)**
+
+    *Context-Aware Policy* · `Agent-to-Governance`
+
+    Protocolo de governança para [agentes](../agentes-ia/agente.md) de IA: políticas antes da execução, aprovações human-in-the-loop e trilhas de auditoria. Terceira camada complementar ao [MCP](../infraestrutura-processos/mcp.md) e [A2A](../infraestrutura-processos/protocolo-a2a.md).
+
 - **[Regulação de IA](regulacao-de-ia.md)**
 
     *AI Regulation*
@@ -164,5 +170,5 @@ Princípios, práticas e regulamentações para uso responsável de IA
 
 </div>
 
-**Total de termos:** 26
+**Total de termos:** 27
 

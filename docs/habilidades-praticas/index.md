@@ -36,6 +36,12 @@ Competências e técnicas essenciais para trabalhar efetivamente com IA
 
     Arquitetar políticas, classificadores e checagens (pré/pós) para manter o sistema dentro de limites de segurança, [conformidade](../etica-seguranca-governanca/conformidade.md) e tom de marca.
 
+- **[Engenharia de Agentes](engenharia-de-agentes.md)**
+
+    *Agent Engineering*
+
+    Disciplina emergente que engloba o design, construção e otimização de sistemas agênticos completos: [loop de agente](../agentes-ia/loop-de-agente.md), [ferramentas](../agentes-ia/ferramentas.md), [memória](../agentes-ia/memoria-e-contexto.md), [roteamento](../agentes-ia/roteamento-de-agentes.md) e observabilidade.
+
 - **[Engenharia de Contexto](engenharia-de-contexto.md)**
 
     *Context Engineering*
@@ -74,5 +80,5 @@ Competências e técnicas essenciais para trabalhar efetivamente com IA
 
 </div>
 
-**Total de termos:** 11
+**Total de termos:** 12
 

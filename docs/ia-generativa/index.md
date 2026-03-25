@@ -30,6 +30,12 @@ Conceitos específicos da inteligência artificial generativa e modelos de lingu
 
     Método de alinhar [modelos](../conceitos-fundamentais/modelo.md) generativos às preferências humanas, usando reforço baseado em feedback de avaliadores.
 
+- **[Computação em Tempo de Inferência](computacao-em-tempo-de-inferencia.md)**
+
+    *Test-Time Compute* · `Inference-Time Compute`
+
+    Paradigma de escalonamento em que se investe mais computação no momento da [inferência](../conceitos-fundamentais/inferencia.md) para que o modelo "pense mais". Mecanismo central dos [modelos de raciocínio](../ia-generativa/modelos-de-raciocinio.md) como OpenAI o3, DeepSeek-R1 e Claude com *extended thinking*.
+
 - **[Dados Sintéticos](dados-sinteticos.md)**
 
     *Synthetic Data*
@@ -47,6 +53,12 @@ Conceitos específicos da inteligência artificial generativa e modelos de lingu
     *Embeddings*
 
     Representação matemática de palavras, frases ou documentos em vetores, permitindo que [modelos](../conceitos-fundamentais/modelo.md) entendam relações semânticas entre eles.
+
+- **[Fundamentação](fundamentacao.md)**
+
+    *Grounding*
+
+    Técnica de conectar as saídas do [modelo](../conceitos-fundamentais/modelo.md) a fontes verificáveis de informação para reduzir [alucinações](../ia-generativa/alucinacao.md). Inclui fundamentação via busca web, documentos internos e [ferramentas](../agentes-ia/ferramentas.md).
 
 - **[Redes Adversárias Generativas](gans.md)**
 
@@ -126,6 +138,12 @@ Conceitos específicos da inteligência artificial generativa e modelos de lingu
 
     Técnica que combina geração de texto com recuperação de informações em bases externas (ex.: documentos, web, bancos de dados), aumentando a precisão das respostas.
 
+- **[Saída Estruturada](saida-estruturada.md)**
+
+    *Structured Output*
+
+    Capacidade de [modelos de linguagem](../ia-generativa/modelos-de-linguagem.md) retornarem dados em formatos estruturados (JSON, XML, schemas) em vez de texto livre. Essencial para [chamada de ferramentas](../agentes-ia/chamada-de-ferramentas.md) e pipelines agênticos.
+
 - **[Speech to Text](speech-to-text.md)**
 
     *Speech to Text* · `STT`
@@ -158,5 +176,5 @@ Conceitos específicos da inteligência artificial generativa e modelos de lingu
 
 </div>
 
-**Total de termos:** 25
+**Total de termos:** 28
 

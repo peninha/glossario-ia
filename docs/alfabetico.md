@@ -6,7 +6,9 @@ Todos os termos do glossário em ordem alfabética:
 
 - **[Agente](agentes-ia/agente.md)** *(Agentes de IA)*
 - **[Agente Autônomo](agentes-ia/agente-autonomo.md)** *(Agentes de IA)*
+- **[Agente de Código](agentes-ia/agente-de-codigo.md)** *(Agentes de IA)*
 - **[Agente de IA](agentes-ia/agente-de-ia.md)** *(Agentes de IA)*
+- **[Agente de Navegador](agentes-ia/agente-de-navegador.md)** *(Agentes de IA)*
 - **[Ajuste Fino](ia-generativa/ajuste-fino.md)** *(IA Generativa)*
 - **[Ajuste por Instrução](ia-generativa/ajuste-por-instrucao.md)** *(IA Generativa)*
 - **[Algoritmo](conceitos-fundamentais/algoritmo.md)** *(Conceitos Fundamentais)*
@@ -31,8 +33,10 @@ Todos os termos do glossário em ordem alfabética:
 ## C
 
 - **[Cadeia-de-Pensamento](habilidades-praticas/cadeia-de-pensamento.md)** *(Habilidades e Práticas)*
+- **[Chamada de Ferramentas](agentes-ia/chamada-de-ferramentas.md)** *(Agentes de IA)*
 - **[Classificação](conceitos-fundamentais/classificacao.md)** *(Conceitos Fundamentais)*
 - **[Computação de Borda](infraestrutura-processos/computacao-de-borda.md)** *(Infraestrutura e Processos)*
+- **[Computação em Tempo de Inferência](ia-generativa/computacao-em-tempo-de-inferencia.md)** *(IA Generativa)*
 - **[Conformidade](etica-seguranca-governanca/conformidade.md)** *(Ética, Segurança e Governança)*
 
 ## D
@@ -47,6 +51,7 @@ Todos os termos do glossário em ordem alfabética:
 
 ## E
 
+- **[Engenharia de Agentes](habilidades-praticas/engenharia-de-agentes.md)** *(Habilidades e Práticas)*
 - **[Engenharia de Contexto](habilidades-praticas/engenharia-de-contexto.md)** *(Habilidades e Práticas)*
 - **[Engenharia de Prompt](habilidades-praticas/engenharia-de-prompt.md)** *(Habilidades e Práticas)*
 - **[Enxame](agentes-ia/enxame.md)** *(Agentes de IA)*
@@ -58,6 +63,8 @@ Todos os termos do glossário em ordem alfabética:
 ## F
 
 - **[Ferramentas](agentes-ia/ferramentas.md)** *(Agentes de IA)*
+- **[Frameworks Agênticos](infraestrutura-processos/frameworks-agenticos.md)** *(Infraestrutura e Processos)*
+- **[Fundamentação](ia-generativa/fundamentacao.md)** *(IA Generativa)*
 - **[Fusion Skills](habilidades-praticas/fusion-skills.md)** *(Habilidades e Práticas)*
 
 ## G
@@ -68,8 +75,14 @@ Todos os termos do glossário em ordem alfabética:
 - **[Guard Rails](etica-seguranca-governanca/guard-rails.md)** *(Ética, Segurança e Governança)*
 - **[Guidelines](etica-seguranca-governanca/guidelines.md)** *(Ética, Segurança e Governança)*
 
+## H
+
+- **[Habilidades de Agente](agentes-ia/habilidades-de-agente.md)** *(Agentes de IA)*
+- **[Handoff de Agentes](agentes-ia/handoff-de-agentes.md)** *(Agentes de IA)*
+
 ## I
 
+- **[IA Agêntica](escopo-ias/ia-agentica.md)** *(Escopo das IAs)*
 - **[IA Generativa](ia-generativa/ia-generativa.md)** *(IA Generativa)*
 - **[IA Responsável](etica-seguranca-governanca/ia-responsavel.md)** *(Ética, Segurança e Governança)*
 - **[IA Ética](etica-seguranca-governanca/ia-etica.md)** *(Ética, Segurança e Governança)*
@@ -84,6 +97,10 @@ Todos os termos do glossário em ordem alfabética:
 
 - **[Jailbreak](etica-seguranca-governanca/jailbreak.md)** *(Ética, Segurança e Governança)*
 - **[Janela de Contexto](ia-generativa/janela-de-contexto.md)** *(IA Generativa)*
+
+## L
+
+- **[Loop de Agente](agentes-ia/loop-de-agente.md)** *(Agentes de IA)*
 
 ## M
 
@@ -106,6 +123,7 @@ Todos os termos do glossário em ordem alfabética:
 - **[Objetivo](agentes-ia/objetivo.md)** *(Agentes de IA)*
 - **[Observabilidade de IA](etica-seguranca-governanca/observabilidade-de-ia.md)** *(Ética, Segurança e Governança)*
 - **[Observações](agentes-ia/observacoes.md)** *(Agentes de IA)*
+- **[OpenClaw](infraestrutura-processos/openclaw.md)** *(Infraestrutura e Processos)*
 - **[Orquestração](agentes-ia/orquestracao.md)** *(Agentes de IA)*
 - **[Orquestração de IA](infraestrutura-processos/orquestracao-de-ia.md)** *(Infraestrutura e Processos)*
 
@@ -119,6 +137,8 @@ Todos os termos do glossário em ordem alfabética:
 - **[Política](agentes-ia/politica.md)** *(Agentes de IA)*
 - **[Processamento de Linguagem Natural](conceitos-fundamentais/processamento-linguagem-natural.md)** *(Conceitos Fundamentais)*
 - **[Prompt](ia-generativa/prompt.md)** *(IA Generativa)*
+- **[Protocolo A2A](infraestrutura-processos/protocolo-a2a.md)** *(Infraestrutura e Processos)*
+- **[Protocolo CAP](etica-seguranca-governanca/protocolo-cap.md)** *(Ética, Segurança e Governança)*
 
 ## Q
 
@@ -134,9 +154,11 @@ Todos os termos do glossário em ordem alfabética:
 - **[Regulação de IA](etica-seguranca-governanca/regulacao-de-ia.md)** *(Ética, Segurança e Governança)*
 - **[Responsabilização Algorítmica](etica-seguranca-governanca/responsabilizacao-algoritmica.md)** *(Ética, Segurança e Governança)*
 - **[Robustez](etica-seguranca-governanca/robustez.md)** *(Ética, Segurança e Governança)*
+- **[Roteamento de Agentes](agentes-ia/roteamento-de-agentes.md)** *(Agentes de IA)*
 
 ## S
 
+- **[Saída Estruturada](ia-generativa/saida-estruturada.md)** *(IA Generativa)*
 - **[Segurança de IA](etica-seguranca-governanca/seguranca-de-ia-safety.md)** *(Ética, Segurança e Governança)*
 - **[Segurança de IA](etica-seguranca-governanca/seguranca-de-ia-security.md)** *(Ética, Segurança e Governança)*
 - **[Sistemas Multiagentes](agentes-ia/sistemas-multiagentes.md)** *(Agentes de IA)*
@@ -151,6 +173,10 @@ Todos os termos do glossário em ordem alfabética:
 - **[Transformer](ia-generativa/transformer.md)** *(IA Generativa)*
 - **[Treinamento](conceitos-fundamentais/treinamento.md)** *(Conceitos Fundamentais)*
 - **[Treinamento Prévio](ia-generativa/treinamento-previo.md)** *(IA Generativa)*
+
+## U
+
+- **[Uso de Computador](agentes-ia/uso-de-computador.md)** *(Agentes de IA)*
 
 ## V
 
